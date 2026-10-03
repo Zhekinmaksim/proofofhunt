@@ -1,0 +1,17 @@
+{
+  "sharedGeometry": true,
+  "headerPages": 2,
+  "faviconSizes": [
+    16,
+    32,
+    48
+  ],
+  "transparentPng": true,
+  "ogSize": [
+    1200,
+    630
+  ],
+  "clientTests": 14,
+  "videoTypescript": "passed",
+  "videoSeconds": "60.011000"
+}

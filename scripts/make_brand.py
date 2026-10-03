@@ -1,25 +1,18 @@
-"""
-Generate the Proof of Hunt brand set.
+"""Generate the route/check H mark, site headers, favicons and social card.
 
-The mark is a control point that has been punched.
+The single silhouette combines Hunt's H with a descending then rising course
+leg: a check made by completing the route. Geometry lives in mark.geometry.json
+and is also imported by the video. Run from the repository root:
 
-The ring is the map symbol for a control: on every orienteering map in the
-world, a control is a circle drawn in magenta over the terrain, with the legs
-of the course stopping at its edge rather than crossing it. The dots inside are
-the pin pattern a control punch leaves in a runner's card - the thing that
-proves you stood there, as opposed to merely finishing. One glyph, both halves
-of the name: the place an answer was hidden, and the evidence you found it.
-
-The pin arrangement is deliberately asymmetric. Real punches are, because a
-symmetric pattern would be unreadable when the card is turned over, and because
-distinguishing one control's punch from another's is the entire point.
-
+    pip install -r scripts/requirements-brand.txt
     python3 scripts/make_brand.py
 """
 
 import io
 import os
-import math
+import json
+from functools import lru_cache
+from pathlib import Path
 import struct
 import sys
 from PIL import Image, ImageDraw, ImageFont
@@ -28,20 +21,15 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import course as C
 
 OUT = "web/brand"
-# Fonts are resolved from a local directory if present, so a checkout with the
-# TTFs dropped in renders identically to the original. Without them Pillow falls
-# back to whatever fontconfig offers, which changes the card but not the icons.
-FONTS = os.environ.get("POH_FONTS", "fonts")
-
-# Night course. The daylight palette was ISOM on paper: magenta overprint on a
-# cool white sheet. This is the same map read under a headlamp - terrain drops
-# to near black and the course changes to a lime that survives it. The rule is
-# unchanged: everything belonging to the race is the overprint colour, and
-# nothing else is.
-# The palette is quoted from ISOM, the IOF printing standard for orienteering
-# maps: purple is the course overprint, yellow is open land, brown is landform,
-# blue is water, black is paths and rock. Yellow is a ground colour and purple
-# is the only accent, which is the same rule the page runs on.
+# Use the licensed, checked-in web fonts; never depend on host font settings.
+FONTS = Path(os.environ.get("POH_FONTS", "web/fonts"))
+FONT_FILES = {
+    "SofiaSansExtraCondensed": "sofia-sans-extra-condensed",
+    "SofiaSans": "sofia-sans",
+    "MartianMono": "martian-mono",
+}
+GEOMETRY = json.loads(Path(f"{OUT}/mark.geometry.json").read_text())
+# ISOM paper colours: purple course, yellow open land, brown contours.
 PAPER = (255, 255, 255)
 WASH = (255, 196, 46)        # ISOM open land, the brand field
 INK = (20, 20, 15)
@@ -55,71 +43,46 @@ VEG = (171, 218, 168)
 SS = 4  # supersampling factor
 
 
+@lru_cache(maxsize=3)
+def font_bytes(name):
+    from fontTools.ttLib import TTFont
+    path = FONTS / f"{name}.ttf"
+    if not path.exists():
+        path = FONTS / f"{FONT_FILES[name]}.woff2"
+    face = TTFont(path)
+    face.flavor = None
+    buf = io.BytesIO()
+    face.save(buf)
+    return buf.getvalue()
+
+
 def font(name, size, wght=400, wdth=None):
-    path = f"{FONTS}/{name}.ttf"
-    if not os.path.exists(path):
-        path = name.replace("SofiaSansExtraCondensed", "Sofia Sans Extra Condensed") \
-                   .replace("SofiaSans", "Sofia Sans") \
-                   .replace("MartianMono", "Martian Mono")
-    f = ImageFont.truetype(path, size)
-    try:
-        axes = [wght] if wdth is None else [wdth, wght]
-        f.set_variation_by_axes(axes)
-    except Exception:
-        pass
-    return f
+    face = ImageFont.truetype(io.BytesIO(font_bytes(name)), size)
+    if face.get_variation_axes():
+        axes = [wght if axis["name"] == b"Weight" else
+                (wdth if wdth is not None else axis["default"])
+                for axis in face.get_variation_axes()]
+        face.set_variation_by_axes(axes)
+    return face
 
 
-# ---------------------------------------------------------------------------
-# The mark
-# ---------------------------------------------------------------------------
-
-# Pin lattice inside the ring, as offsets on a 3x3 grid. Five pins, no axis of
-# symmetry, which is what makes a punch pattern identifiable.
-PINS = [(0, 0), (2, 0), (1, 1), (0, 2), (1, 2)]
-
-# Below about twenty pixels five pins stop being five pins and become a smudge.
-# Three survive, keep the asymmetry, and still read as holes rather than as a
-# filled dot, which is the only thing the mark needs to say at that size.
-PINS_SMALL = [(0, 0), (2, 0), (1, 2)]
+def mark_svg(color="#d5006d", label=True):
+    accessibility = ' role="img" aria-label="Proof of Hunt"' if label else ''
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{GEOMETRY["viewBox"]}" '
+            f'width="32" height="32"{accessibility}>'
+            f'<path fill="{color}" d="{GEOMETRY["path"]}"/></svg>\n')
 
 
-def draw_mark(d, cx, cy, r, stroke, pin_r, pitch, legs=True, ring=OVERPRINT, pin=INK,
-              pins=None):
-    if legs:
-        # The course arrives from the lower left and leaves to the upper right,
-        # stopping at the circle the way a printed leg does.
-        k = math.sqrt(0.5)
-        for sx, sy in ((-1, 1), (1, -1)):
-            x0, y0 = cx + sx * r * k, cy + sy * r * k
-            x1, y1 = cx + sx * r * 1.62 * k, cy + sy * r * 1.62 * k
-            d.line([x0, y0, x1, y1], fill=ring, width=stroke)
-
-    d.ellipse([cx - r, cy - r, cx + r, cy + r], outline=ring, width=stroke)
-
-    ox = cx - pitch
-    oy = cy - pitch
-    for gx, gy in (pins or PINS):
-        px, py = ox + gx * pitch, oy + gy * pitch
-        d.ellipse([px - pin_r, py - pin_r, px + pin_r, py + pin_r], fill=pin)
-
-
-def mark_image(size, legs=True, bg=None, ring=OVERPRINT, pin=INK, pad=0.14):
-    im = Image.new("RGBA", (size * SS, size * SS), bg or (0, 0, 0, 0))
-    d = ImageDraw.Draw(im)
-    s = size * SS
-    cx = cy = s / 2
-    r = s * (0.5 - pad) * (0.78 if legs else 0.92)
-    small = size <= 20
-    draw_mark(
-        d, cx, cy, r,
-        stroke=max(SS, int(round(s * (0.075 if small else 0.062)))),
-        pin_r=s * (0.045 if small else 0.032),
-        pitch=r * (0.54 if small else 0.47),
-        legs=legs, ring=ring, pin=pin,
-        pins=PINS_SMALL if small else None,
-    )
-    return im.resize((size, size), Image.LANCZOS)
+def mark_image(size, bg=None, color="#d5006d", pad=0):
+    import cairosvg
+    inset = round(size * pad)
+    extent = size - inset * 2
+    data = cairosvg.svg2png(bytestring=mark_svg(color).encode(),
+                           output_width=extent * SS, output_height=extent * SS)
+    mark = Image.open(io.BytesIO(data)).convert("RGBA")
+    image = Image.new("RGBA", (size * SS, size * SS), bg or (0, 0, 0, 0))
+    image.alpha_composite(mark, (inset * SS, inset * SS))
+    return image.resize((size, size), Image.Resampling.LANCZOS)
 
 
 # ---------------------------------------------------------------------------
@@ -182,7 +145,7 @@ def make_og(path, W=1200, H=630):
 
     # ---- left hand column -------------------------------------------------
     M = 96
-    mk = mark_image(76, legs=True)
+    mk = mark_image(76)
     im.paste(mk, (M, 82), mk)
     d.text((M + 96, 120), "PROOF OF HUNT",
            font=font("SofiaSansExtraCondensed", 50, 800), fill=INK, anchor="lm")
@@ -192,7 +155,7 @@ def make_og(path, W=1200, H=630):
     # with the next: the first render of this card put the full stop of
     # "STORED." across the divider and onto the map.
     col = int(w * 0.52) - M - 40          # left column width, with a margin
-    lines = ("TWELVE CLUES. NO", "ANSWER IS STORED.")
+    lines = ("TWELVE CLUES. NO", "ANSWER KEY IS STORED.")
     size = 210
     while size > 80:
         head = font("SofiaSansExtraCondensed", size, 800)
@@ -203,8 +166,8 @@ def make_og(path, W=1200, H=630):
     y = 236
     d.text((M, y), lines[0], font=head, fill=INK)
     y += lead
-    d.text((M, y), "ANSWER IS ", font=head, fill=INK)
-    wid = d.textlength("ANSWER IS ", font=head)
+    d.text((M, y), "ANSWER KEY IS ", font=head, fill=INK)
+    wid = d.textlength("ANSWER KEY IS ", font=head)
     d.text((M + wid, y), "STORED.", font=head, fill=OVERPRINT)
     y += size + 34
 
@@ -226,60 +189,47 @@ def make_og(path, W=1200, H=630):
 # SVG
 # ---------------------------------------------------------------------------
 
-def pin_svg(cx, cy, pitch, r, fill=None, pins=None):
-    """The punched pins, in ink. White pins on a white page vanish and leave the
-    mark as a bare ring, which is what it silently was after the palette moved
-    from dark to paper."""
-    fill = fill or "#%02x%02x%02x" % INK
-    out = []
-    for gx, gy in (pins or PINS):
-        out.append(
-            f'<circle cx="{cx - pitch + gx * pitch:.2f}" cy="{cy - pitch + gy * pitch:.2f}" '
-            f'r="{r:.2f}" fill="{fill}"/>'
-        )
-    return "".join(out)
-
-
 def write_svgs():
-    RING = "#%02x%02x%02x" % OVERPRINT
-    PIN = "#%02x%02x%02x" % INK
-    TYPE = "#%02x%02x%02x" % INK
+    Path(f"{OUT}/mark.svg").write_text(mark_svg())
+    Path(f"{OUT}/mark-on-dark.svg").write_text(mark_svg("#ffffff"))
+    Path(f"{OUT}/favicon.svg").write_text(mark_svg(label=False))
 
-    k = math.sqrt(0.5)
-    r, cx, cy = 11.0, 16.0, 16.0
-    legs = "".join(
-        f'<path d="M{cx + sx * r * k:.2f} {cy + sy * r * k:.2f} '
-        f'L{cx + sx * r * 1.62 * k:.2f} {cy + sy * r * 1.62 * k:.2f}"/>'
-        for sx, sy in ((-1, 1), (1, -1))
-    )
+    # Outline the wordmark: the exported lockup has no external font dependency.
+    from fontTools.ttLib import TTFont
+    from fontTools.varLib.instancer import instantiateVariableFont
+    from fontTools.pens.svgPathPen import SVGPathPen
+    from fontTools.pens.transformPen import TransformPen
+    face = instantiateVariableFont(TTFont(io.BytesIO(font_bytes("SofiaSansExtraCondensed"))),
+                                   {"wght": 800}, inplace=False)
+    glyphs = face.getGlyphSet()
+    cmap = face.getBestCmap()
+    scale = 23 / face["head"].unitsPerEm
+    x = 42.0
+    paths = []
+    for char in "PROOF OF HUNT":
+        glyph = glyphs[cmap[ord(char)]]
+        pen = SVGPathPen(glyphs)
+        glyph.draw(TransformPen(pen, (scale, 0, 0, -scale, x, 24)))
+        paths.append(pen.getCommands())
+        x += glyph.width * scale + .3
+    lockup = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {x:.2f} 32" '
+              f'width="{x:.2f}" height="32" role="img" aria-label="Proof of Hunt">'
+              f'<path fill="#d5006d" d="{GEOMETRY["path"]}"/>'
+              f'<path fill="#14140f" d="{" ".join(paths)}"/></svg>\n')
+    Path(f"{OUT}/logo-lockup.svg").write_text(lockup)
 
-    mark = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Proof of Hunt">
-  <g stroke="{RING}" stroke-width="2" stroke-linecap="round" fill="none">{legs}</g>
-  <circle cx="16" cy="16" r="11" fill="none" stroke="{RING}" stroke-width="2"/>
-  {pin_svg(16, 16, r * 0.47, 1.05)}
-</svg>
-'''
-    open(f"{OUT}/mark.svg", "w").write(mark)
-
-    # The favicon drops the legs and grows the ring. At 16 pixels a leg is two
-    # stray dots that read as a slash through the circle, which is the one thing
-    # this mark must never look like.
-    fav = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <circle cx="16" cy="16" r="12.4" fill="none" stroke="{RING}" stroke-width="3.4"/>
-  {pin_svg(16, 16, 6.4, 2.0, pins=PINS_SMALL)}
-</svg>
-'''
-    open(f"{OUT}/favicon.svg", "w").write(fav)
-
-    lock = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 32" width="250" height="32" role="img" aria-label="Proof of Hunt">
-  <g stroke="{RING}" stroke-width="2" stroke-linecap="round" fill="none">{legs}</g>
-  <circle cx="16" cy="16" r="11" fill="none" stroke="{RING}" stroke-width="2"/>
-  {pin_svg(16, 16, r * 0.47, 1.05)}
-  <text x="42" y="22.5" font-family="Sofia Sans Extra Condensed, Arial Narrow, sans-serif"
-        font-size="23" font-weight="800" letter-spacing="0.3" fill="{TYPE}">PROOF OF HUNT</text>
-</svg>
-'''
-    open(f"{OUT}/logo-lockup.svg", "w").write(lock)
+    # Replace only the nav mark; page structure, copy and accessibility stay put.
+    for name in ("index", "play"):
+        page = Path(f"web/{name}.html")
+        html = page.read_text()
+        inline = (f'<svg viewBox="{GEOMETRY["viewBox"]}" aria-hidden="true">'
+                  f'<path fill="#d5006d" d="{GEOMETRY["path"]}"/></svg>')
+        import re
+        html, count = re.subn(r'<svg viewBox="0 0 32 32" aria-hidden="true">.*?</svg>',
+                             inline, html, flags=re.S)
+        if count != 1:
+            raise ValueError(f"Expected exactly one brand mark in {page}, found {count}")
+        page.write_text(html)
 
 
 # ---------------------------------------------------------------------------
@@ -315,27 +265,40 @@ def write_ico(path, images):
         f.write(header + entries + payload)
 
 
+def make_preview(path):
+    image = Image.new("RGB", (1200, 520), PAPER)
+    draw = ImageDraw.Draw(image)
+    draw.rectangle((800, 0, 1200, 520), fill=INK)
+    for size, position, color in (
+        (240, (66, 58), "#d5006d"), (150, (920, 60), "#ffffff"),
+        (16, (58, 419), "#d5006d"), (24, (104, 415), "#d5006d"),
+        (32, (161, 411), "#d5006d"), (48, (230, 403), "#d5006d"),
+    ):
+        mark = mark_image(size, color=color)
+        image.paste(mark, position, mark)
+    draw.text((360, 112), "PROOF\nOF HUNT",
+              font=font("SofiaSansExtraCondensed", 76, 800), fill=INK, spacing=0)
+    draw.text((61, 332), "HUNT / ROUTE / PROOF",
+              font=font("MartianMono", 15, 600), fill=INK_SOFT)
+    draw.text((857, 330), "ONE MARK.\nEVERY SCALE.",
+              font=font("SofiaSansExtraCondensed", 38, 800), fill=PAPER, spacing=2)
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    image.save(path)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     write_svgs()
 
-    # favicon.ico carries three sizes, each drawn at its own size rather than
-    # resampled from one master. Pillow can only do the latter, and it shows:
-    # a 16 pixel icon downsampled from 48 turns the pin pattern into grey mush,
-    # and the pin pattern is the only thing that distinguishes this mark from
-    # any other circle. So the container is written by hand.
-    write_ico(f"{OUT}/favicon.ico", [
-        mark_image(s, legs=False, bg=PAPER + (255,), pad=0.06).convert("RGBA")
-        for s in (16, 32, 48)
-    ])
+    write_ico(f"{OUT}/favicon.ico", [mark_image(size) for size in (16, 32, 48)])
+    for size, name in ((32, "favicon-32.png"), (180, "apple-touch-icon.png"),
+                       (512, "icon-512.png")):
+        mark_image(size, bg=PAPER + (255,) if size >= 180 else None,
+                   pad=.12 if size >= 180 else 0).save(f"{OUT}/{name}")
 
-    for s in (32, 180, 512):
-        name = {32: "favicon-32.png", 180: "apple-touch-icon.png", 512: "icon-512.png"}[s]
-        legs = s >= 180
-        bg = PAPER + (255,)
-        mark_image(s, legs=legs, bg=bg, pad=0.16 if s >= 180 else 0.06).save(f"{OUT}/{name}")
-
+    mark_image(512).save(f"{OUT}/mark-512.png")
     make_og(f"{OUT}/og.png")
+    make_preview("verification/brand/logo-preview.png")
 
     for f in sorted(os.listdir(OUT)):
         print(" ", f, os.path.getsize(f"{OUT}/{f}"), "bytes")

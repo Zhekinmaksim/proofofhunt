@@ -72,7 +72,7 @@ opening the HTML with `file://` is not the supported workflow.
 - Outbound network access for `dryrun_clues.py` (it fetches the clue sources)
 - Node 20+, Docker, and GenLayer CLI for real Studio tests. Run
   `npm --prefix scripts ci` for the pinned integration SDK (`genlayer-js 1.1.8`).
-- `pip install pillow cairosvg` only if you want to regenerate brand assets.
+- `pip install -r scripts/requirements-brand.txt` only if you want to regenerate brand assets.
   Neither is needed to run the contract, the tests or the site.
 
 ---
@@ -545,40 +545,27 @@ for the soundtrack; it may remain in the published render.
 ## Brand assets
 
 ```
-pip install pillow cairosvg
+pip install -r scripts/requirements-brand.txt
 python3 scripts/make_brand.py
 ```
 
-Needs the three TTFs in a `fonts/` directory beside `scripts/`, or set
-`POH_FONTS` to wherever they live: Sofia Sans Extra Condensed, Sofia Sans and
-Martian Mono, all from the google/fonts repository. The headline on the social
-card is fitted to its column by measurement rather than set at a fixed size,
-because the first render with the new face ran the full stop of "STORED."
-across the divider and onto the map.
+The mark combines an H for Hunt with the descending and rising leg of a course,
+which forms a check. Its solid silhouette uses the same geometry at 16px and
+512px. Purple is the course overprint on the site's white paper; a white
+version is supplied for dark backgrounds.
 
-The mark's pins are ink. They were white for a while after the palette moved
-from dark to paper, which on a white page left the mark as a bare ring with no
-punch pattern, the one thing it is about. It went unnoticed at nav size and was
-caught at 120px on the video's end card.
+`web/brand/mark.geometry.json` is the source for the SVG/PNG/ICO exports, both
+page headers and the Remotion mark. The generator also produces an outlined
+`logo-lockup.svg` with no external font dependency, a transparent `mark-512.png`
+and the social card `og.png`.
+It reads the licensed WOFF2 fonts already in `web/fonts/`; the optional
+`POH_FONTS` override can point to equivalent TTF files. No system font
+installation is needed. The social headline is measured to fit its column.
 
-Regenerates the mark, `favicon.ico` (16/32/48, each drawn at its own size rather
-than resampled), `favicon.svg`, `apple-touch-icon.png`, `icon-512.png`,
-`logo-lockup.svg` and `og.png`. Fonts are resolved through fontconfig; install
-Bricolage Grotesque, Familjen Grotesk and Martian Mono locally or the card falls
-back to whatever is available.
-
-The mark is a control point that has been punched. The ring is the map symbol
-for a control; the dots are the pin pattern a control punch leaves in a runner's
-card. One glyph, both halves of the name: the place an answer was hidden, and
-the evidence you found it. Below about twenty pixels it drops to three pins and
-loses its legs, because five pins at 16px are a smudge and two legs read as a
-slash through the circle.
-
-The design is a night orienteering course: near-black terrain, a lime overprint
-that reads under a headlamp. One rule governs it - everything belonging to the
-race is the overprint colour and nothing else is. The map on the page and the
-map on the social card are the same SVG rendered twice, not two drawings that
-resemble each other.
+The map uses the ISOM paper palette: purple course, yellow open land, brown
+contours. The social card and landing page share `scripts/course.py` so their
+terrain and course stay aligned. `verification/brand/logo-preview.png` shows
+the mark on light/dark backgrounds and at favicon sizes.
 
 ---
 

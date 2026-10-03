@@ -68,6 +68,8 @@ The same system as the site: the ISOM map palette, Sofia Sans Extra Condensed
 in capitals for headings and figures, Sofia Sans for sentences, Martian Mono
 only for machine values. Purple is the course overprint and marks only what
 belongs to the race.
+The route/check H mark imports `web/brand/mark.geometry.json`, the same source
+used by the site headers and favicons.
 
 One bold device runs the whole minute: a course along the bottom of the frame,
 a start, six controls and a finish, one per scene. The leg into each scene inks

@@ -1,3 +1,4 @@
+import markGeometry from "../../web/brand/mark.geometry.json";
 import React from 'react';
 import {Easing, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, F} from './theme';
@@ -118,28 +119,13 @@ export const Stamp: React.FC<{
   );
 };
 
-/** The punched control: the project's mark, the same geometry as the site. */
-// The pins are ink. On paper a punched hole shows what is behind the card, and
-// white pins on a white page leave the mark as a bare ring, which is what it
-// silently was for a while.
-export const Mark: React.FC<{size: number; color?: string; holes?: string}> = ({
+/** The route/check H; shared with every site and brand export. */
+export const Mark: React.FC<{size: number; color?: string}> = ({
   size,
   color = C.purple,
-  holes = C.ink,
 }) => (
-  <svg width={size} height={size} viewBox="0 0 32 32" style={{overflow: 'visible'}}>
-    <g stroke={color} strokeWidth={2} strokeLinecap="round" fill="none">
-      <path d="M8.22 23.78 L3.40 28.60" />
-      <path d="M23.78 8.22 L28.60 3.40" />
-    </g>
-    <circle cx={16} cy={16} r={11} fill="none" stroke={color} strokeWidth={2} />
-    <g fill={holes}>
-      <circle cx={10.83} cy={10.83} r={1.05} />
-      <circle cx={21.17} cy={10.83} r={1.05} />
-      <circle cx={16} cy={16} r={1.05} />
-      <circle cx={10.83} cy={21.17} r={1.05} />
-      <circle cx={16} cy={21.17} r={1.05} />
-    </g>
+  <svg width={size} height={size} viewBox={markGeometry.viewBox} aria-hidden="true">
+    <path fill={color} d={markGeometry.path} />
   </svg>
 );
 
