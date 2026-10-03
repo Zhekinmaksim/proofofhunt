@@ -816,6 +816,9 @@ both commitment deadlines are capped by race closure.
 | Studionet two-clue v2 prototype | `stout` and `256`: CORRECT; race FINAL, winner cid 1 | `verification/studionet-beta-prototype.json` |
 | Actual EIP-1193 provider path | join → commit → reveal → judge finalized; `stout` CORRECT, position 1 | `verification/wallet-provider-live.json` |
 | Browser recovery | Chrome read local v2 state and recovered the same saved answer, salt and hash after reload | `web/client-verification.png` |
+| Local full v2 course | 12/12 CORRECT, FINAL; 12 attempts, winner cid 12 with a second player present | `verification/local-beta-full.json` |
+| Studionet full v2 course | 12/12 CORRECT, FINAL; 12 attempts, winner cid 11 | `verification/studionet-beta-full.json` |
+| Public HTTPS client | OPEN v2, 0 runners, 12 clues loaded from the live RPC; no browser console errors | `verification/beta-public-play.png` |
 
 Local prototype: `0x7C813e45431DFE405e0e5C43A7f4f22Fc1a5212e`.
 Studionet prototype: `0x897F3ffcBDaeC00B3b90dbBf10ba438e5Daa1850`.
@@ -840,10 +843,31 @@ receipts: `verification/judge-cost-beta.json`; pricing sources checked on
 2026-10-03: [GPT-5.4](https://openrouter.ai/openai/gpt-5.4) and
 [Claude Sonnet 4.6](https://openrouter.ai/anthropic/claude-sonnet-4.6/pricing).
 
-The new twelve-clue trace, controlled-source failure/recovery, final public race
-address and HTTPS deployment must be recorded separately when verified. The
-prototype results above do not establish those pending checks. V1 evidence
-below remains historical and must not be counted as a v2 release pass.
+The public race is `0x3C5F4Ac99d5FDDc09d4435fEaaE7abF416f0DCAa`,
+OPEN with 12 pinned clues and no players at release verification. Play at
+[proofofhunt-rouge.vercel.app](https://proofofhunt-rouge.vercel.app).
+`proofofhunt.quest` is configured separately by the owner. The repository is
+[Zhekinmaksim/proofofhunt](https://github.com/Zhekinmaksim/proofofhunt).
+
+**Controlled-source recovery passed in both environments:** changed text returned
+UNDETERMINED/DRIFTED, removing the page returned UNDETERMINED/UNREACHABLE,
+and restoring the page let the same commitment return CORRECT. The two
+undetermined judgments left attempts and position unchanged; successful recovery
+advanced to position 1 and charged exactly one attempt. The disposable page is
+restored. Evidence: `verification/report-beta.json` and both `*-beta-source.json`
+checkpoints.
+
+Deployed code matches the current source on all three local and all four hosted
+contracts (`*-beta-code-parity.json`). The clean public race monitor is healthy;
+five serial RPC reads passed, p50 1.208 s and p95 1.228 s. This is a read latency
+smoke, not a concurrent-player capacity test. GitHub verification and the first
+manually dispatched hourly health workflow both passed. Vercel production is
+READY and follows `main`.
+
+The updated Remotion video retains the licensed soundtrack: 60 seconds,
+1920×1080, H.264/yuv420p, AAC stereo. It shows the v2 public address, deadline
+recovery and measured v2 judge. `proof-of-hunt-execution.mp4` remains explicitly
+historical v1 footage. V1 evidence below remains historical.
 
 ### Historical v1 local evidence — obsolete deployments
 

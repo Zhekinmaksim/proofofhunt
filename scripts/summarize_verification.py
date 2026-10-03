@@ -23,8 +23,8 @@ for network in ("local", "studionet"):
         if name in ("prototype", "full"):
             expected = 2 if name == "prototype" else 12
             plays = data.get("plays", [])
-            item["answers"] = [{"idx": p["idx"], "answer": p["answer"], "verdict": p.get("result", {}).get("verdict")} for p in plays]
-            item["correctCount"] = sum(p.get("result", {}).get("verdict") == 1 for p in plays)
+            item["answers"] = [{"idx": p["idx"], "answer": p["answer"], "verdict": p.get("finalResult", {}).get("verdict")} for p in plays]
+            item["correctCount"] = sum(p.get("finalResult", {}).get("verdict") == 1 for p in plays)
             item["complete"] = item["correctCount"] == expected and data.get("race", {}).get("state") == 3
         else:
             rows = {c["label"]: c for c in data["calls"]}
@@ -36,7 +36,7 @@ for network in ("local", "studionet"):
                     row = rows.get("unreachable", {})
                 snapshot = row.get("snapshot", {})
                 commit, player = snapshot.get("commit", {}), snapshot.get("player", {})
-                passed = commit.get("verdict") == verdict and commit.get("pin_status") == pin
+                passed = row.get("status") == "FINALIZED" and row.get("execution") == "SUCCESS" and commit.get("verdict") == verdict and commit.get("pin_status") == pin
                 if verdict == 3:
                     passed = passed and all(player.get(k) == baseline.get(k) for k in ("attempts_used", "total_attempts", "position", "cleared"))
                 else:

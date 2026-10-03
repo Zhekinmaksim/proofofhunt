@@ -13378,6 +13378,21 @@
         "pending_cid": -1,
         "position": 1,
         "total_attempts": 1
+      },
+      "finalResult": {
+        "answer": "stout",
+        "chain_version": 2,
+        "cid": 0,
+        "clue_idx": 0,
+        "commitment": "b69a3049bec10b247fcc2a4e5de95500043d30dec768f19b2081a4b9bbde41b2",
+        "judge_deadline": 1791621215,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "087d553f6d7594f1cfaf3bce9c6d2f9b8f7dc9f8234eeb000e60d21078a1710f",
+        "reveal_deadline": 1791102815,
+        "revealed": true,
+        "source_digest": "0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52",
+        "verdict": 1
       }
     },
     {
@@ -13413,6 +13428,21 @@
         "pending_cid": -1,
         "position": 2,
         "total_attempts": 2
+      },
+      "finalResult": {
+        "answer": "256",
+        "chain_version": 2,
+        "cid": 1,
+        "clue_idx": 1,
+        "commitment": "b7e2cbaaaec8ab377211026ab6a99b6daf6863769b6ef62f8305e50555983ea2",
+        "judge_deadline": 1791621257,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "c119bb451f4d36244fd429c0d74c94b8d48a48a50ce499e49ee7bbb7477d3450",
+        "reveal_deadline": 1791102857,
+        "revealed": true,
+        "source_digest": "bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c",
+        "verdict": 1
       }
     },
     {
@@ -13448,6 +13478,21 @@
         "pending_cid": -1,
         "position": 3,
         "total_attempts": 3
+      },
+      "finalResult": {
+        "answer": "crocker",
+        "chain_version": 2,
+        "cid": 2,
+        "clue_idx": 2,
+        "commitment": "5a4ab4c0d373368d280f3bf97ed738ab3f5cf5a682507e7bedb36c6914c7aaaf",
+        "judge_deadline": 1791621291,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "dd924a440f804ba30924b7e92325ac90baa56cd0c988fb2539604d55d509a7f3",
+        "reveal_deadline": 1791102891,
+        "revealed": true,
+        "source_digest": "0cd3784a112006b04ff925ad94eef8babbae59c359ae9f23b83caa5c48700d9e",
+        "verdict": 1
       }
     },
     {
@@ -13483,6 +13528,21 @@
         "pending_cid": -1,
         "position": 4,
         "total_attempts": 4
+      },
+      "finalResult": {
+        "answer": "hypermedia",
+        "chain_version": 2,
+        "cid": 3,
+        "clue_idx": 3,
+        "commitment": "d49925762bebe3047cba819c8d0c268527090c0549025d05f4f2080447c70474",
+        "judge_deadline": 1791621327,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "267484b836333760b13b98093118fbd980e242c166b67892360b2ec153ad0532",
+        "reveal_deadline": 1791102927,
+        "revealed": true,
+        "source_digest": "031ec8468db196d79cd15648557d6dac0769302f970ad5cec67cfc74385acf7c",
+        "verdict": 1
       }
     },
     {
@@ -13518,6 +13578,21 @@
         "pending_cid": -1,
         "position": 5,
         "total_attempts": 5
+      },
+      "finalResult": {
+        "answer": "hypertext",
+        "chain_version": 2,
+        "cid": 4,
+        "clue_idx": 4,
+        "commitment": "174ab94f25bcb0ff583dd529197bbb9f117e5cd9100b47f4bb245a7ec392ccfd",
+        "judge_deadline": 1791621368,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "510541284e3878ff685b02c83a100fafc7e101659d8153c89f7e220accd1ddec",
+        "reveal_deadline": 1791102968,
+        "revealed": true,
+        "source_digest": "d464822874481c5c06ecf5e706da3152c82e328b5d2d5325f3d6a9360850f8ac",
+        "verdict": 1
       }
     },
     {
@@ -13553,6 +13628,21 @@
         "pending_cid": -1,
         "position": 6,
         "total_attempts": 6
+      },
+      "finalResult": {
+        "answer": "2606",
+        "chain_version": 2,
+        "cid": 5,
+        "clue_idx": 5,
+        "commitment": "2306edca32853719490de3ba2f36ee726c77fdd6618e5f09ee2db5c0fd6cad89",
+        "judge_deadline": 1791621409,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "e7b098b7a126f141797c7a09c59097958ddcb3ed72cdef07da01fdb84e9b92ad",
+        "reveal_deadline": 1791103009,
+        "revealed": true,
+        "source_digest": "834b1f46723a74732820eecb39bcacadd7dafbe5a43f43fb86d4fa1e3fcb90d0",
+        "verdict": 1
       }
     },
     {
@@ -13588,6 +13678,21 @@
         "pending_cid": -1,
         "position": 7,
         "total_attempts": 7
+      },
+      "finalResult": {
+        "answer": "utf-8",
+        "chain_version": 2,
+        "cid": 6,
+        "clue_idx": 6,
+        "commitment": "a1e95ba48933c394b4f6bcb316c52a3d1a730900feabc07510b9d2834c2e5425",
+        "judge_deadline": 1791621470,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "1a294d99727eec4f7a124c6f9db747686b82ffece278b078fb85143d967561ce",
+        "reveal_deadline": 1791103070,
+        "revealed": true,
+        "source_digest": "50c3328037cd55ea7a09c30c05d053fa67efd010633847ccaa58fe896be38862",
+        "verdict": 1
       }
     },
     {
@@ -13623,6 +13728,21 @@
         "pending_cid": -1,
         "position": 8,
         "total_attempts": 8
+      },
+      "finalResult": {
+        "answer": "2",
+        "chain_version": 2,
+        "cid": 7,
+        "clue_idx": 7,
+        "commitment": "09d7f1784657947dfdc96dd00fc32d93de2d42fd365bf4619c413900acd7c98e",
+        "judge_deadline": 1791621512,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "75eef40032648f8074ce4f49f9ccb469cefc1ad8f656b6a49771db1cb12e617f",
+        "reveal_deadline": 1791103112,
+        "revealed": true,
+        "source_digest": "6fef1a8a0b1563ad613e3cba12dabdb476591c30f2828d0eab46d13e39c35c23",
+        "verdict": 1
       }
     },
     {
@@ -13658,6 +13778,21 @@
         "pending_cid": -1,
         "position": 9,
         "total_attempts": 9
+      },
+      "finalResult": {
+        "answer": "decimals",
+        "chain_version": 2,
+        "cid": 8,
+        "clue_idx": 8,
+        "commitment": "9f2b9a13326a4f92e63b85d3a6e0dc1d294157b2757f88b2873bf84c8640ceed",
+        "judge_deadline": 1791621568,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "0e9e2330a5567cee10d1bf20bcfbb16d14488ed557ed64a6d9f310b2caba4a34",
+        "reveal_deadline": 1791103168,
+        "revealed": true,
+        "source_digest": "839c47b4b3f25fc64f62a541c1ca9d6710146895ce9ba6471b943342f79bd0e4",
+        "verdict": 1
       }
     },
     {
@@ -13693,6 +13828,21 @@
         "pending_cid": -1,
         "position": 10,
         "total_attempts": 10
+      },
+      "finalResult": {
+        "answer": "keccak256",
+        "chain_version": 2,
+        "cid": 9,
+        "clue_idx": 9,
+        "commitment": "3767fe35c4046549117db87f3966739bdbbd15e9519d35edc55f44cc020ad9fb",
+        "judge_deadline": 1791621622,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "e5f9cf91ef86e221b050102cae1a1d995ce453b4cebab33438b9a89b02321a04",
+        "reveal_deadline": 1791103222,
+        "revealed": true,
+        "source_digest": "c359f37371deb68ae791abcad311a9a3d01fb990f3702c34c3053fcc32cb8f50",
+        "verdict": 1
       }
     },
     {
@@ -13728,6 +13878,21 @@
         "pending_cid": -1,
         "position": 11,
         "total_attempts": 11
+      },
+      "finalResult": {
+        "answer": "2047",
+        "chain_version": 2,
+        "cid": 10,
+        "clue_idx": 10,
+        "commitment": "30640d91d62dd7fabcec7c80fd60de6da002c5f39ba15988ebde8972dc53d0c1",
+        "judge_deadline": 1791621679,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "d1b1c8d49d30e60c63b3ed5281625d5e728829bb7ceb5ed25496b251f332d4da",
+        "reveal_deadline": 1791103279,
+        "revealed": true,
+        "source_digest": "3e0be47d31152551a61a76b654210c8ea8544d289b062190ab1e5b269c614209",
+        "verdict": 1
       }
     },
     {
@@ -13763,6 +13928,21 @@
         "pending_cid": -1,
         "position": 12,
         "total_attempts": 12
+      },
+      "finalResult": {
+        "answer": "treemap",
+        "chain_version": 2,
+        "cid": 11,
+        "clue_idx": 11,
+        "commitment": "b5be8298d8cfeda650f53eb62dc476f308d07b2889679a34263e13afa64cc9fb",
+        "judge_deadline": 1791621734,
+        "pin_status": 0,
+        "player": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+        "reasoning_digest": "93332d09ebc0f098c471112a44a697bbe4315f5ebe55f2c605fa0762c49cf3dc",
+        "reveal_deadline": 1791103334,
+        "revealed": true,
+        "source_digest": "a0270405675fda3289682313f77b578237ae78a68313985393f0ec300cafb7ed",
+        "verdict": 1
       }
     }
   ],
@@ -13777,19 +13957,30 @@
     "chain_version": 2,
     "closes_at": 1793608335,
     "clue_count": 12,
-    "commit_count": 0,
+    "commit_count": 12,
     "hash_algo": "sha256",
     "judge_seconds": 604800,
     "max_attempts_per_clue": 6,
     "max_commits": 8192,
     "max_players": 128,
     "owner": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
-    "player_count": 0,
+    "player_count": 1,
     "protocol_version": 2,
     "reveal_seconds": 86400,
-    "state": 1,
+    "state": 3,
     "title": "Proof of Hunt 01 - Paper Trail",
-    "winner": "",
-    "winner_cid": -1
-  }
+    "winner": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+    "winner_cid": 11
+  },
+  "leaderboard": [
+    {
+      "addr": "0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a",
+      "cleared": 12,
+      "finished": true,
+      "handle": "verification-studionet",
+      "last_correct_cid": 11,
+      "position": 12,
+      "total_attempts": 12
+    }
+  ]
 }

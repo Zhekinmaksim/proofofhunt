@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-03T08:44:26.359Z",
+  "network": "studionet",
+  "endpoint": "https://studio.genlayer.com/api",
+  "chainId": 61999,
+  "address": "0x3C5F4Ac99d5FDDc09d4435fEaaE7abF416f0DCAa",
+  "race": {
+    "chain_version": 2,
+    "closes_at": 1793608738,
+    "clue_count": 12,
+    "commit_count": 0,
+    "hash_algo": "sha256",
+    "judge_seconds": 604800,
+    "max_attempts_per_clue": 6,
+    "max_commits": 8192,
+    "max_players": 128,
+    "owner": "0xCA5c20B714Bc335259375905C9077073D028bd68",
+    "player_count": 0,
+    "protocol_version": 2,
+    "reveal_seconds": 86400,
+    "state": 1,
+    "title": "Proof of Hunt 01 - Paper Trail",
+    "winner": "",
+    "winner_cid": -1
+  },
+  "scan": {
+    "start": 0,
+    "count": 0,
+    "total": 0,
+    "complete": true
+  },
+  "commits": [],
+  "healthy": true,
+  "findings": [],
+  "exitCode": 0,
+  "sourceStatusScope": "Last recorded pending judge outcomes only; no live source fetch or write is performed."
+}

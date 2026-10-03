@@ -1,0 +1,51 @@
+{
+  "checkedDeployment": "proofofhunt-fu30ntetw-zhekinmaksim-8919s-projects.vercel.app",
+  "sourceCommit": "874e67a",
+  "note": "Initial Git-connected deployment; subsequent UI patch increases button hit areas.",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytesMatch": true,
+      "sha256": "5e0bafc2cdd8dd863c51a50588ffefb1f1b5ba2f344860f2150464ef78240da1",
+      "nosniff": "nosniff"
+    },
+    {
+      "path": "play.html",
+      "status": 200,
+      "bytesMatch": true,
+      "sha256": "bfa2edb0a9217738b9e5861a4f939aae238403f5b620096cee09268a6e1417f1",
+      "nosniff": "nosniff"
+    },
+    {
+      "path": "config.js",
+      "status": 200,
+      "bytesMatch": true,
+      "sha256": "34f77b0ca6613d396a1d7aaa08047ac762b897df67589f741962dbe54c31a29d",
+      "nosniff": "nosniff"
+    },
+    {
+      "path": "client.bundle.js",
+      "status": 200,
+      "bytesMatch": true,
+      "sha256": "a313e7774565f80a7c491b1d6e46a5e7eb09c6efcfe0e0d99770efd6933db9c3",
+      "nosniff": "nosniff",
+      "note": "Matched after npm ci installed the pinned esbuild version; removed fallback to video dependencies."
+    },
+    {
+      "path": "contracts/proof_of_hunt.py",
+      "status": 404,
+      "excluded": true
+    },
+    {
+      "path": "verification/private/",
+      "status": 404,
+      "excluded": true
+    },
+    {
+      "path": "web/client.js",
+      "status": 404,
+      "excluded": true
+    }
+  ]
+}

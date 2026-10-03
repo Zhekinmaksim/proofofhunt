@@ -1,0 +1,14 @@
+{
+  "protocolVersion": 2,
+  "contract": "0x3C5F4Ac99d5FDDc09d4435fEaaE7abF416f0DCAa",
+  "site": "https://proofofhunt-rouge.vercel.app",
+  "repository": "https://github.com/Zhekinmaksim/proofofhunt",
+  "contractSha256": "95f3bb804d2f831a63c7f29647d06bccebbc139b86179f598c53e8de3f0dd8d0",
+  "localAndStudionetPassed": true,
+  "contractChecks": 81,
+  "clientTests": 14,
+  "walletTest": "Real EIP-1193 SDK route with isolated Node signer; browser extension approval UI not tested.",
+  "ciRun": 37110696396,
+  "healthWorkflowRun": 37110749209,
+  "videoSha256": "33056810c0abc20c1a05935a7b30e4822dba6b9d00f80fa1e4959122aea43c94"
+}

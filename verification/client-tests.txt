@@ -6,72 +6,72 @@ TAP version 13
 # Subtest: recovery distinguishes networks with identical chain IDs
 ok 1 - recovery distinguishes networks with identical chain IDs
   ---
-  duration_ms: 0.578125
+  duration_ms: 0.493458
   ...
 # Subtest: valid export round trips; wrong account/network rejected
 ok 2 - valid export round trips; wrong account/network rejected
   ---
-  duration_ms: 4.659375
+  duration_ms: 4.470291
   ...
 # Subtest: tampered answer or commitment rejected
 ok 3 - tampered answer or commitment rejected
   ---
-  duration_ms: 0.460833
+  duration_ms: 0.31
   ...
 # Subtest: duplicate records rejected; merge preserves submitted metadata
 ok 4 - duplicate records rejected; merge preserves submitted metadata
   ---
-  duration_ms: 0.357417
+  duration_ms: 0.332917
   ...
 # Subtest: unsafe source URLs never become hrefs
 ok 5 - unsafe source URLs never become hrefs
   ---
-  duration_ms: 0.086125
+  duration_ms: 0.071708
   ...
 # Subtest: finalized without accepted consensus is failure
 ok 6 - finalized without accepted consensus is failure
   ---
-  duration_ms: 0.080959
+  duration_ms: 0.071208
   ...
 # Subtest: same chain ID but different contract state blocks wallet writes
 ok 7 - same chain ID but different contract state blocks wallet writes
   ---
-  duration_ms: 0.210458
+  duration_ms: 0.10775
   ...
 # Subtest: matching wallet RPC and account accepted
 ok 8 - matching wallet RPC and account accepted
   ---
-  duration_ms: 0.08175
+  duration_ms: 0.067875
   ...
 # Subtest: a failed send cannot automatically trigger a second signature
 ok 9 - a failed send cannot automatically trigger a second signature
   ---
-  duration_ms: 0.23075
+  duration_ms: 0.13625
   ...
 # Subtest: WON permits earlier controls but not a new final commitment
 ok 10 - WON permits earlier controls but not a new final commitment
   ---
-  duration_ms: 0.136958
+  duration_ms: 0.109917
   ...
 # Subtest: reload always restores non-commit transaction journal
 ok 11 - reload always restores non-commit transaction journal
   ---
-  duration_ms: 0.078292
+  duration_ms: 0.068041
   ...
 # Subtest: backup rejects answers over the contract limit
 ok 12 - backup rejects answers over the contract limit
   ---
-  duration_ms: 1.776375
+  duration_ms: 1.346291
   ...
 # Subtest: concurrent send attempts cannot request two signatures
 ok 13 - concurrent send attempts cannot request two signatures
   ---
-  duration_ms: 0.173917
+  duration_ms: 0.339958
   ...
 # Subtest: missing final execution proof keeps transaction unresolved
 ok 14 - missing final execution proof keeps transaction unresolved
   ---
-  duration_ms: 0.105584
+  duration_ms: 0.11725
   ...
 1..14
 # tests 14
@@ -81,4 +81,4 @@ ok 14 - missing final execution proof keeps transaction unresolved
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 50.073125
+# duration_ms 42.745083

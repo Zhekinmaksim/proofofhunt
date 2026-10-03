@@ -2319,6 +2319,265 @@
           "total_attempts": 0
         }
       }
+    },
+    {
+      "label": "restored",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x6860ee318d6cc66c1a0793e726b397ade946c3a26b973e088919b6928cb6e266",
+      "submittedAt": "2026-10-03T08:47:54.652Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 42.06,
+      "status": "FINALIZED",
+      "finalizedSeconds": 74.426,
+      "address": "0x4E674534632e2C2ACdC039c318B9d509b8E4A266",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+          "provider": "llm-router",
+          "model": "policy:prd-gemini",
+          "vote": null,
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0x3E5ee2507cc167C9925Bf10c67D7986581112024/policy:prd-gemini": {
+              "input": 485,
+              "total": 617,
+              "output": 132
+            }
+          }
+        },
+        {
+          "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-5-4",
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100/policy:prd-gpt-5-4": {
+              "input": 1058,
+              "total": 1297,
+              "output": 239
+            }
+          }
+        },
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "provider": "openrouter",
+          "model": "google/gemini-3-flash-preview",
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 999,
+              "total": 1066,
+              "output": 67
+            }
+          }
+        }
+      ],
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+        "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "idle",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is cobalt. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable",
+        "1": {
+          "reasoning": "Source states the verification color is cobalt, matching the player's answer.",
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": "correct"
+        }
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 2,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "3f1357e5707114aef0189fffb2a12b5ddbdd7e6ec2ea1ee35c5504d79ea37a48",
+          "judge_deadline": 1791620923,
+          "pin_status": 0,
+          "player": "0x30cf71084B650F87d8329e9179f6387FA958fa38",
+          "reasoning_digest": "cf6b9a86b638f70d62ef265e333cae1bae8315375088186535d0531efb52a31d",
+          "reveal_deadline": 1791102523,
+          "revealed": true,
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": 1
+        },
+        "player": {
+          "addr": "0x30cf71084B650F87d8329e9179f6387FA958fa38",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 1,
+          "finished": false,
+          "handle": "verification-studionet",
+          "joined": true,
+          "pending_cid": -1,
+          "position": 1,
+          "total_attempts": 1
+        }
+      }
     }
   ],
   "plays": [
@@ -2376,24 +2635,24 @@
     "clue_idx": 0,
     "commitment": "3f1357e5707114aef0189fffb2a12b5ddbdd7e6ec2ea1ee35c5504d79ea37a48",
     "judge_deadline": 1791620923,
-    "pin_status": 2,
+    "pin_status": 0,
     "player": "0x30cf71084B650F87d8329e9179f6387FA958fa38",
-    "reasoning_digest": "f1c9e8b95211b55f2ee64b04feaf08443ced349384c4afbd398220f4c7c7b7d4",
+    "reasoning_digest": "cf6b9a86b638f70d62ef265e333cae1bae8315375088186535d0531efb52a31d",
     "reveal_deadline": 1791102523,
     "revealed": true,
-    "source_digest": "",
-    "verdict": 3
+    "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+    "verdict": 1
   },
   "lastPlayer": {
     "addr": "0x30cf71084B650F87d8329e9179f6387FA958fa38",
     "attempts_left": 6,
     "attempts_used": 0,
-    "cleared": 0,
+    "cleared": 1,
     "finished": false,
     "handle": "verification-studionet",
     "joined": true,
-    "pending_cid": 0,
-    "position": 0,
-    "total_attempts": 0
+    "pending_cid": -1,
+    "position": 1,
+    "total_attempts": 1
   }
 }

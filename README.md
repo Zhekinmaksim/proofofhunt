@@ -52,8 +52,10 @@ players and 8,192 commitments. Recovery is deterministic; the owner cannot
 selectively discard claims or replace sealed sources.
 
 [Operations and recovery procedures](verification/production-ops.md) include
-read-only monitoring and a bounded RPC latency smoke. New verification uses
-`beta-*` checkpoint names so v1 results are not counted as v2 results.
+read-only monitoring and a bounded RPC latency smoke. Both local Studio and Studionet passed 12/12 correct answers and the controlled
+DRIFTED → UNREACHABLE → restored-source path. See
+[`verification/report-beta.json`](verification/report-beta.json). New verification
+uses `beta-*` checkpoint names so v1 results are not counted as v2 results.
 
 Configured source repository: [Zhekinmaksim/proofofhunt](https://github.com/Zhekinmaksim/proofofhunt).
 Live beta: [proofofhunt-rouge.vercel.app](https://proofofhunt-rouge.vercel.app).

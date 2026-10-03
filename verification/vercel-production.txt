@@ -1,0 +1,25 @@
+Fetching deployment "proofofhunt-fu30ntetw-zhekinmaksim-8919s-projects.vercel.app" in zhekinmaksim-8919s-projects
+> Fetched deployment "proofofhunt-fu30ntetw-zhekinmaksim-8919s-projects.vercel.app" in zhekinmaksim-8919s-projects [488ms]
+
+  General
+
+    id		dpl_5NwsskGsB2zVZnhnP2Ub7hn1Sece
+    name	proofofhunt
+    target	production
+    status	● Ready
+    url		https://proofofhunt-fu30ntetw-zhekinmaksim-8919s-projects.vercel.app
+    created	Sat Oct 03 2026 13:44:16 GMT+0500 (Uzbekistan Standard Time) [54s ago]
+
+
+  Aliases
+
+    ╶ https://proofofhunt-rouge.vercel.app
+    ╶ https://proofofhunt-zhekinmaksim-8919s-projects.vercel.app
+    ╶ https://proofofhunt-git-main-zhekinmaksim-8919s-projects.vercel.app
+    
+
+  Builds
+
+    ╶ .        [0ms]
+    
+

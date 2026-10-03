@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-03T08:45:05.361Z",
+  "network": "studionet",
+  "endpoint": "https://studio.genlayer.com/api",
+  "address": "0x3C5F4Ac99d5FDDc09d4435fEaaE7abF416f0DCAa",
+  "requested": 5,
+  "succeeded": 5,
+  "failed": 0,
+  "intervalMs": 2500,
+  "latencyMs": {
+    "p50": 1207.6,
+    "p95": 1227.5,
+    "max": 1227.5
+  },
+  "failures": [],
+  "scope": "Serial race() reads. Not a consensus, throughput, write-load, or provider-cost benchmark."
+}
