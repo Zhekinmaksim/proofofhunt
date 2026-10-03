@@ -1,0 +1,151 @@
+join 0x768fbb58db886893b251bd292e8e8adccf8889606a92779ddc627dec2da5206f
+join PENDING
+join COMMITTING
+join ACCEPTED
+join FINALIZED
+commit[0] 0xd49fa0d962e95206716acbf8f151779fc7d69306bde48188a65393a749b81f66
+commit[0] PENDING
+commit[0] PROPOSING
+commit[0] COMMITTING
+commit[0] ACCEPTED
+commit[0] FINALIZED
+reveal[0] 0xd8bcaa246a2dc4fed3162dee6372d5f22ed43ef680c56bd0337956f06867eeab
+reveal[0] PENDING
+reveal[0] COMMITTING
+reveal[0] ACCEPTED
+reveal[0] FINALIZED
+judge[0] 0xfd67549c22b6105b48788614fdf114148fcfc253a8ab5767a8111ebfb183f1a6
+judge[0] PENDING
+judge[0] PROPOSING
+judge[0] COMMITTING
+judge[0] ACCEPTED
+judge[0] FINALIZED
+Verdict 0 {
+  answer: 'stout',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '2e80c0e487091c33463050711a30c739cda5959449a721007ac9fa8401b096a3',
+  pin_status: 0,
+  player: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  reasoning_digest: 'a8ad5b9267dd34a0aaa040257a8c0031bd41318d68965a92b9ece9a54407d642',
+  revealed: true,
+  source_digest: '0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52',
+  verdict: 1
+} {
+  addr: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 1,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 1,
+  total_attempts: 1
+}
+commit[1] 0xb0234ccf496c708b2df5ecb34f34edcd42a87dbf15ca8c592602b48d98c1dd48
+commit[1] PENDING
+commit[1] COMMITTING
+commit[1] ACCEPTED
+commit[1] FINALIZED
+reveal[1] 0xbd0e6f159724f304b2d473a3a6eb6db1eea5c3c5328027647702f49f12e62051
+reveal[1] PENDING
+reveal[1] COMMITTING
+reveal[1] ACCEPTED
+reveal[1] FINALIZED
+judge[1] 0xdfc2ed82a89b7490665433a23c2c7dc32fe9b517b4404fb4c631922526e5b35a
+judge[1] PENDING
+judge[1] PROPOSING
+judge[1] COMMITTING
+judge[1] ACCEPTED
+judge[1] FINALIZED
+Verdict 1 {
+  answer: '256',
+  chain_version: 1,
+  cid: 1,
+  clue_idx: 1,
+  commitment: 'a285e2ca4a631bee4968d151cd5d2622377be39058251075b3b3cc237ef3db4a',
+  pin_status: 0,
+  player: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  reasoning_digest: 'ecbb1dde5dda67f90219cfb94506e09b3db8219ec237a956486db1ee7d669e5b',
+  revealed: true,
+  source_digest: 'bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c',
+  verdict: 1
+} {
+  addr: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 2,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 2,
+  total_attempts: 2
+}
+commit[2] 0xcf4394f25f9944a8264178e5ca9fdfbb23c320cf16f04a198e6b21c8fcd37365
+commit[2] PENDING
+commit[2] PROPOSING
+commit[2] ACCEPTED
+commit[2] FINALIZED
+reveal[2] 0xfca2f0b548366c18a862dc68a554e9b68a6dc02b8ea038266966795775717b44
+reveal[2] PENDING
+reveal[2] PROPOSING
+reveal[2] COMMITTING
+reveal[2] ACCEPTED
+reveal[2] FINALIZED
+judge[2] 0xdc94b4c2f23fb521ed25a35710fb463e7ffd5177a5a853224b6d3d80f5adcb43
+judge[2] PENDING
+judge[2] PROPOSING
+judge[2] COMMITTING
+judge[2] ACCEPTED
+judge[2] FINALIZED
+Verdict 2 {
+  answer: 'crocker',
+  chain_version: 1,
+  cid: 2,
+  clue_idx: 2,
+  commitment: 'd7771a837000371bf777fed39cd525847543bb82fea36b20b2135b80c805bc35',
+  pin_status: 0,
+  player: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  reasoning_digest: '000e49ba54c1a0d8f31179486ee2247900b6debdaad92a4e0621a9eeed9e3618',
+  revealed: true,
+  source_digest: '0cd3784a112006b04ff925ad94eef8babbae59c359ae9f23b83caa5c48700d9e',
+  verdict: 1
+} {
+  addr: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 3,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 3,
+  total_attempts: 3
+}
+commit[3] 0xb37bacb066c5a78dbce0a90c4ec2f99dee450b3d09725b542bb481e97cbb2974
+commit[3] PENDING
+commit[3] PROPOSING
+commit[3] ACCEPTED
+commit[3] FINALIZED
+reveal[3] 0x92a6bb14f0b6403caca911f2cbe7887cc423fa69d40798f271cdab8cb612dff7
+reveal[3] PENDING
+reveal[3] PROPOSING
+reveal[3] COMMITTING
+reveal[3] ACCEPTED
+reveal[3] FINALIZED
+judge[3] 0x353636d025345ff67aa034454f7e3297a27b116b14c2893daf0eec2496ba5b91
+judge[3] PENDING
+judge[3] PROPOSING
+judge[3] COMMITTING
+judge[3] UNDETERMINED
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:78
+      if(status!=='FINALIZED'||row.execution!=='SUCCESS') throw Error(`${row.label}: ${status}/${row.execution}: ${row.stderr}`);
+                                                                ^
+
+Error: judge[3]: UNDETERMINED/SUCCESS: 
+    at settle (file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:78:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async play (file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:132:5)
+    at async file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:140:51
+
+Node.js v20.20.2

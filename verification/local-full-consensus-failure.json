@@ -1,0 +1,1319 @@
+{
+  "hash": "0x353636d025345ff67aa034454f7e3297a27b116b14c2893daf0eec2496ba5b91",
+  "from_address": "0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA",
+  "to_address": "0xc5B25B9643A37D1c0798Ed3Bc1d869BEBAe994d3",
+  "data": {
+    "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl"
+  },
+  "value": 0,
+  "type": 2,
+  "status": "FINALIZED",
+  "result": 7,
+  "consensus_data": {
+    "votes": {
+      "0x20ddBb334395505BF53A142cd769F4545A403593": "disagree",
+      "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+      "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+      "0x9057a252a07054D55E24F144215820D06e8F6C49": "disagree",
+      "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "disagree"
+    },
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "disagree",
+        "result": "AAA=",
+        "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "primary_model": {
+            "model": "qwen2.5:7b",
+            "config": {
+              "seed": 0,
+              "stop": "",
+              "tfs_z": 1,
+              "top_k": 40,
+              "top_p": 0.9,
+              "num_ctx": 4096,
+              "num_gpu": 16,
+              "num_qga": 8,
+              "mirostat": 0,
+              "num_thread": 2,
+              "temprature": 0.1,
+              "num_predict": 512,
+              "temperature": 0.1,
+              "mirostat_eta": 0.1,
+              "microstat_tau": 5,
+              "repeat_last_n": 64,
+              "repeat_penalty": 1.1
+            },
+            "plugin": "ollama",
+            "provider": "ollama",
+            "plugin_config": {
+              "api_url": "http://host.lima.internal:11435",
+              "api_key_env_var": "<no-key>"
+            },
+            "fallback_validator": null
+          },
+          "secondary_model": null
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0xc1a7F3174f487c8eb8505B7872ACB8E711198318/qwen2.5:7b": {
+                "input": 966,
+                "total": 1011,
+                "output": 45
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 39,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2,
+            "NOTIFY_NONDET_DISAGREEMENT": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 6378.09035106,
+          "host_loop_enter_wait_ms": 23254,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 3,
+            "REMAINING_FUEL_AS_GEN": 0,
+            "NOTIFY_NONDET_DISAGREEMENT": 0
+          },
+          "host_total_handling_time_ms": 3,
+          "manager_run_attempt_0_error": {
+            "attempt": 0,
+            "error_type": "SocketTimeoutError",
+            "will_retry": true,
+            "duration_ms": 10005
+          },
+          "manager_run_attempt_1_error": {
+            "attempt": 1,
+            "error_type": "SocketTimeoutError",
+            "will_retry": true,
+            "duration_ms": 10002
+          },
+          "manager_run_attempt_success": {
+            "attempt": 2,
+            "duration_ms": 234
+          },
+          "host_first_method_received_s": 6378.09056656,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": 1,
+        "processing_time": 27746,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "disagree",
+        "result": "AAA=",
+        "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "primary_model": {
+            "model": "qwen2.5:7b",
+            "config": {
+              "seed": 0,
+              "stop": "",
+              "tfs_z": 1,
+              "top_k": 40,
+              "top_p": 0.9,
+              "num_ctx": 4096,
+              "num_gpu": 16,
+              "num_qga": 8,
+              "mirostat": 0,
+              "num_thread": 2,
+              "temprature": 0.1,
+              "num_predict": 512,
+              "temperature": 0.1,
+              "mirostat_eta": 0.1,
+              "microstat_tau": 5,
+              "repeat_last_n": 64,
+              "repeat_penalty": 1.1
+            },
+            "plugin": "ollama",
+            "provider": "ollama",
+            "plugin_config": {
+              "api_url": "http://host.lima.internal:11435",
+              "api_key_env_var": "<no-key>"
+            },
+            "fallback_validator": null
+          },
+          "secondary_model": null
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x20ddBb334395505BF53A142cd769F4545A403593/qwen2.5:7b": {
+                "input": 966,
+                "total": 1010,
+                "output": 44
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 39,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2,
+            "NOTIFY_NONDET_DISAGREEMENT": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 6354.838788092,
+          "host_loop_enter_wait_ms": 3,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 3,
+            "REMAINING_FUEL_AS_GEN": 0,
+            "NOTIFY_NONDET_DISAGREEMENT": 0
+          },
+          "host_total_handling_time_ms": 3,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 2
+          },
+          "host_first_method_received_s": 6354.838832217,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": 1,
+        "processing_time": 6979,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "primary_model": {
+            "model": "qwen2.5:7b",
+            "config": {
+              "seed": 0,
+              "stop": "",
+              "tfs_z": 1,
+              "top_k": 40,
+              "top_p": 0.9,
+              "num_ctx": 4096,
+              "num_gpu": 16,
+              "num_qga": 8,
+              "mirostat": 0,
+              "num_thread": 2,
+              "temprature": 0.1,
+              "num_predict": 512,
+              "temperature": 0.1,
+              "mirostat_eta": 0.1,
+              "microstat_tau": 5,
+              "repeat_last_n": 64,
+              "repeat_penalty": 1.1
+            },
+            "plugin": "ollama",
+            "provider": "ollama",
+            "plugin_config": {
+              "api_url": "http://host.lima.internal:11435",
+              "api_key_env_var": "<no-key>"
+            },
+            "fallback_validator": null
+          },
+          "secondary_model": null
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b/qwen2.5:7b": {
+                "input": 968,
+                "total": 1007,
+                "output": 39
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 39,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 6367.569227014,
+          "host_loop_enter_wait_ms": 12733,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 3,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 3,
+          "manager_run_attempt_0_error": {
+            "attempt": 0,
+            "error_type": "SocketTimeoutError",
+            "will_retry": true,
+            "duration_ms": 10005
+          },
+          "manager_run_attempt_success": {
+            "attempt": 1,
+            "duration_ms": 1722
+          },
+          "host_first_method_received_s": 6367.569372181,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 16939,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "primary_model": {
+            "model": "qwen2.5:7b",
+            "config": {
+              "seed": 0,
+              "stop": "",
+              "tfs_z": 1,
+              "top_k": 40,
+              "top_p": 0.9,
+              "num_ctx": 4096,
+              "num_gpu": 16,
+              "num_qga": 8,
+              "mirostat": 0,
+              "num_thread": 2,
+              "temprature": 0.1,
+              "num_predict": 512,
+              "temperature": 0.1,
+              "mirostat_eta": 0.1,
+              "microstat_tau": 5,
+              "repeat_last_n": 64,
+              "repeat_penalty": 1.1
+            },
+            "plugin": "ollama",
+            "provider": "ollama",
+            "plugin_config": {
+              "api_url": "http://host.lima.internal:11435",
+              "api_key_env_var": "<no-key>"
+            },
+            "fallback_validator": null
+          },
+          "secondary_model": null
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC/qwen2.5:7b": {
+                "input": 968,
+                "total": 1007,
+                "output": 39
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 39,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 6361.810590469,
+          "host_loop_enter_wait_ms": 6974,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 2,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 2,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 6973
+          },
+          "host_first_method_received_s": 6361.810762053,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 12731,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+        "pending_transactions": []
+      }
+    ],
+    "leader_receipt": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "result": "AAA=",
+        "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+        "gas_used": 0,
+        "eq_outputs": {
+          "0": "AOQSaXMgYSB3aWRlLWFyZWEgaHlwZXJtZWRpYSBpbmZvcm1hdGlvbiByZXRyaWV2YWwgaW5pdGlhdGl2ZSBhaW1pbmcgdG8gZ2l2ZSB1bml2ZXJzYWwgYWNjZXNzIHRvIGEgbGFyZ2UgdW5pdmVyc2Ugb2YgZG9jdW1lbnRzLiBldmVyeXRoaW5nIHRoZXJlIGlzIG9ubGluZSBhYm91dCB3MyBpcyBsaW5rZWQgZGlyZWN0bHkgb3IgaW5kaXJlY3RseSB0byB0aGlzIGRvY3VtZW50LCBpbmNsdWRpbmcgYW4gZXhlY3V0aXZlIHN1bW1hcnkgb2YgdGhlIHByb2plY3QsIG1haWxpbmcgbGlzdHMgLCBwb2xpY3kgLCBub3ZlbWJlcidzIHczIG5l",
+          "1": "AOwLeyJyZWFzb25pbmciOiAidGhlIGV4Y2VycHQgY29udGFpbnMgJ3dpZGUtYXJlYSBoeXBlcm1lZGlhIGluZm9ybWF0aW9uIHJldHJpZXZhbCciLCAic291cmNlX2RpZ2VzdCI6ICIwMzFlYzg0NjhkYjE5NmQ3OWNkMTU2NDg1NTdkNmRhYzA3NjkzMDJmOTcwYWQ1Y2VjNjdjZmM3NDM4NWFjZjdjIiwgInZlcmRpY3QiOiAiY29ycmVjdCJ9"
+        },
+        "node_config": {
+          "stake": 100,
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "primary_model": {
+            "model": "qwen2.5:7b",
+            "config": {
+              "seed": 0,
+              "stop": "",
+              "tfs_z": 1,
+              "top_k": 40,
+              "top_p": 0.9,
+              "num_ctx": 4096,
+              "num_gpu": 16,
+              "num_qga": 8,
+              "mirostat": 0,
+              "num_thread": 2,
+              "temprature": 0.1,
+              "num_predict": 512,
+              "temperature": 0.1,
+              "mirostat_eta": 0.1,
+              "microstat_tau": 5,
+              "repeat_last_n": 64,
+              "repeat_penalty": 1.1
+            },
+            "plugin": "ollama",
+            "provider": "ollama",
+            "plugin_config": {
+              "api_url": "http://host.lima.internal:11435",
+              "api_key_env_var": "<no-key>"
+            },
+            "fallback_validator": null
+          },
+          "secondary_model": null
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x9057a252a07054D55E24F144215820D06e8F6C49/qwen2.5:7b": {
+                "input": 434,
+                "total": 459,
+                "output": 25
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 1,
+            "STORAGE_READ": 39,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 6349.372257547,
+          "host_loop_enter_wait_ms": 7,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 3,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 3,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 4
+          },
+          "host_first_method_received_s": 6349.372373422,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 5425,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "disagree",
+        "result": "AAA=",
+        "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+        "gas_used": 0,
+        "node_config": {
+          "stake": 100,
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "primary_model": {
+            "model": "qwen2.5:7b",
+            "config": {
+              "seed": 0,
+              "stop": "",
+              "tfs_z": 1,
+              "top_k": 40,
+              "top_p": 0.9,
+              "num_ctx": 4096,
+              "num_gpu": 16,
+              "num_qga": 8,
+              "mirostat": 0,
+              "num_thread": 2,
+              "temprature": 0.1,
+              "num_predict": 512,
+              "temperature": 0.1,
+              "mirostat_eta": 0.1,
+              "microstat_tau": 5,
+              "repeat_last_n": 64,
+              "repeat_penalty": 1.1
+            },
+            "plugin": "ollama",
+            "provider": "ollama",
+            "plugin_config": {
+              "api_url": "http://host.lima.internal:11435",
+              "api_key_env_var": "<no-key>"
+            },
+            "fallback_validator": null
+          },
+          "secondary_model": null
+        },
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x9057a252a07054D55E24F144215820D06e8F6C49/qwen2.5:7b": {
+                "input": 966,
+                "total": 1010,
+                "output": 44
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 2,
+            "STORAGE_READ": 39,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 2,
+            "NOTIFY_NONDET_DISAGREEMENT": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 6371.780177765,
+          "host_loop_enter_wait_ms": 16945,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 3,
+            "REMAINING_FUEL_AS_GEN": 0,
+            "NOTIFY_NONDET_DISAGREEMENT": 0
+          },
+          "host_total_handling_time_ms": 3,
+          "manager_run_attempt_0_error": {
+            "attempt": 0,
+            "error_type": "SocketTimeoutError",
+            "will_retry": true,
+            "duration_ms": 10005
+          },
+          "manager_run_attempt_success": {
+            "attempt": 1,
+            "duration_ms": 5935
+          },
+          "host_first_method_received_s": 6371.780371932,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": 1,
+        "processing_time": 23256,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+        "pending_transactions": []
+      }
+    ]
+  },
+  "gaslimit": 38,
+  "nonce": 38,
+  "r": null,
+  "s": null,
+  "v": null,
+  "created_at": "2026-10-02T19:23:44.105019+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA",
+  "triggered_by": null,
+  "triggered_on": null,
+  "triggered_transactions": [],
+  "appealed": false,
+  "timestamp_awaiting_finalization": 1790969061,
+  "appeal_failed": 0,
+  "appeal_undetermined": false,
+  "consensus_history": {
+    "consensus_results": [
+      {
+        "monitoring": {
+          "PENDING": 1790969028.5574698,
+          "PROPOSING": 1790969028.5657349,
+          "COMMITTING": 1790969034.025574,
+          "UNDETERMINED": 1790969061.8568316,
+          "PROPOSING.LEADER.RUN_END": 1790969034.0163553,
+          "PROPOSING.LEADER.RUN_START": 1790969028.5820513,
+          "PROPOSING.LEADER.EXEC_START": 1790969028.5814695,
+          "PROPOSING.VALIDATORS_SELECTED": 1790969028.5787418,
+          "COMMITTING.VALIDATORS_PREPARED": 1790969034.0273328,
+          "COMMITTING.VALIDATOR_0.RUN_END": 1790969057.2951274,
+          "COMMITTING.VALIDATOR_1.RUN_END": 1790969061.7863593,
+          "COMMITTING.VALIDATOR_2.RUN_END": 1790969041.0222032,
+          "COMMITTING.VALIDATOR_3.RUN_END": 1790969050.9848676,
+          "COMMITTING.VALIDATOR_4.RUN_END": 1790969046.7806833,
+          "PROPOSING.TRANSACTION_EXECUTED": 1790969034.0177743,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1790969034.0308638,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1790969034.034135,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1790969034.0372667,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1790969034.04051,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1790969034.043778,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1790969028.582505,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1790969034.0170012,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1790969034.0305595,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1790969034.0335574,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1790969034.0368721,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1790969034.0398471,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1790969034.0431542,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1790969061.790344,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1790969034.0115883,
+          "COMMITTING.VALIDATOR_0_END.attempt_0": 1790969057.2975585,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1790969061.7890234,
+          "COMMITTING.VALIDATOR_2_END.attempt_0": 1790969041.0244098,
+          "COMMITTING.VALIDATOR_3_END.attempt_0": 1790969050.9873297,
+          "COMMITTING.VALIDATOR_4_END.attempt_0": 1790969046.7829099,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1790969034.0277154,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1790969061.791236,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1790969034.0311587,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1790969057.2960312,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1790969034.0282307,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1790969034.0345376,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1790969061.7874148,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1790969034.0286417,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1790969034.037661,
+          "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1790969041.0231113,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1790969034.0291085,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1790969034.0409453,
+          "COMMITTING.VALIDATOR_3.RECEIPT_CREATED": 1790969050.9859707,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1790969034.0296485,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1790969034.0443707,
+          "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1790969046.781543,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1790969034.0301828,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1790969028.5847058,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1790969028.5842564,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1790969028.5805373,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1790969028.5829806,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1790969028.5836756,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1790969057.2903037,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1790969061.7838619,
+          "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1790969041.019698,
+          "COMMITTING.VALIDATOR_3.EXECUTION_FINISHED": 1790969050.9828436,
+          "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1790969046.7786782,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1790969034.0325403,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1790969034.0322433,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1790969034.0363634,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1790969034.035821,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1790969034.0392373,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1790969034.038826,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1790969034.0426416,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1790969034.0422456,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1790969034.0462077,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1790969034.0456476,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1790969034.0316584,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1790969034.031955,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1790969034.0350013,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1790969034.0354068,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1790969034.0380585,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1790969034.038404,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1790969034.0413191,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1790969034.041772,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1790969034.044815,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1790969034.0452557
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AAA=",
+            "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+            "gas_used": 0,
+            "eq_outputs": {
+              "0": "AOQSaXMgYSB3aWRlLWFyZWEgaHlwZXJtZWRpYSBpbmZvcm1hdGlvbiByZXRyaWV2YWwgaW5pdGlhdGl2ZSBhaW1pbmcgdG8gZ2l2ZSB1bml2ZXJzYWwgYWNjZXNzIHRvIGEgbGFyZ2UgdW5pdmVyc2Ugb2YgZG9jdW1lbnRzLiBldmVyeXRoaW5nIHRoZXJlIGlzIG9ubGluZSBhYm91dCB3MyBpcyBsaW5rZWQgZGlyZWN0bHkgb3IgaW5kaXJlY3RseSB0byB0aGlzIGRvY3VtZW50LCBpbmNsdWRpbmcgYW4gZXhlY3V0aXZlIHN1bW1hcnkgb2YgdGhlIHByb2plY3QsIG1haWxpbmcgbGlzdHMgLCBwb2xpY3kgLCBub3ZlbWJlcidzIHczIG5l",
+              "1": "AOwLeyJyZWFzb25pbmciOiAidGhlIGV4Y2VycHQgY29udGFpbnMgJ3dpZGUtYXJlYSBoeXBlcm1lZGlhIGluZm9ybWF0aW9uIHJldHJpZXZhbCciLCAic291cmNlX2RpZ2VzdCI6ICIwMzFlYzg0NjhkYjE5NmQ3OWNkMTU2NDg1NTdkNmRhYzA3NjkzMDJmOTcwYWQ1Y2VjNjdjZmM3NDM4NWFjZjdjIiwgInZlcmRpY3QiOiAiY29ycmVjdCJ9"
+            },
+            "node_config": {
+              "stake": 100,
+              "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+              "primary_model": {
+                "model": "qwen2.5:7b",
+                "config": {
+                  "seed": 0,
+                  "stop": "",
+                  "tfs_z": 1,
+                  "top_k": 40,
+                  "top_p": 0.9,
+                  "num_ctx": 4096,
+                  "num_gpu": 16,
+                  "num_qga": 8,
+                  "mirostat": 0,
+                  "num_thread": 2,
+                  "temprature": 0.1,
+                  "num_predict": 512,
+                  "temperature": 0.1,
+                  "mirostat_eta": 0.1,
+                  "microstat_tau": 5,
+                  "repeat_last_n": 64,
+                  "repeat_penalty": 1.1
+                },
+                "plugin": "ollama",
+                "provider": "ollama",
+                "plugin_config": {
+                  "api_url": "http://host.lima.internal:11435",
+                  "api_key_env_var": "<no-key>"
+                },
+                "fallback_validator": null
+              },
+              "secondary_model": null
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x9057a252a07054D55E24F144215820D06e8F6C49/qwen2.5:7b": {
+                    "input": 434,
+                    "total": 459,
+                    "output": 25
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 1,
+                "STORAGE_READ": 39,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 6349.372257547,
+              "host_loop_enter_wait_ms": 7,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 3,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 3,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 4
+              },
+              "host_first_method_received_s": 6349.372373422,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 5425,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AAA=",
+            "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+              "primary_model": {
+                "model": "qwen2.5:7b",
+                "config": {
+                  "seed": 0,
+                  "stop": "",
+                  "tfs_z": 1,
+                  "top_k": 40,
+                  "top_p": 0.9,
+                  "num_ctx": 4096,
+                  "num_gpu": 16,
+                  "num_qga": 8,
+                  "mirostat": 0,
+                  "num_thread": 2,
+                  "temprature": 0.1,
+                  "num_predict": 512,
+                  "temperature": 0.1,
+                  "mirostat_eta": 0.1,
+                  "microstat_tau": 5,
+                  "repeat_last_n": 64,
+                  "repeat_penalty": 1.1
+                },
+                "plugin": "ollama",
+                "provider": "ollama",
+                "plugin_config": {
+                  "api_url": "http://host.lima.internal:11435",
+                  "api_key_env_var": "<no-key>"
+                },
+                "fallback_validator": null
+              },
+              "secondary_model": null
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x9057a252a07054D55E24F144215820D06e8F6C49/qwen2.5:7b": {
+                    "input": 966,
+                    "total": 1010,
+                    "output": 44
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 39,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 6371.780177765,
+              "host_loop_enter_wait_ms": 16945,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 3,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 3,
+              "manager_run_attempt_0_error": {
+                "attempt": 0,
+                "error_type": "SocketTimeoutError",
+                "will_retry": true,
+                "duration_ms": 10005
+              },
+              "manager_run_attempt_success": {
+                "attempt": 1,
+                "duration_ms": 5935
+              },
+              "host_first_method_received_s": 6371.780371932,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 1,
+            "processing_time": 23256,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "UNDETERMINED"
+        ],
+        "consensus_round": "Undetermined",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AAA=",
+            "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+              "primary_model": {
+                "model": "qwen2.5:7b",
+                "config": {
+                  "seed": 0,
+                  "stop": "",
+                  "tfs_z": 1,
+                  "top_k": 40,
+                  "top_p": 0.9,
+                  "num_ctx": 4096,
+                  "num_gpu": 16,
+                  "num_qga": 8,
+                  "mirostat": 0,
+                  "num_thread": 2,
+                  "temprature": 0.1,
+                  "num_predict": 512,
+                  "temperature": 0.1,
+                  "mirostat_eta": 0.1,
+                  "microstat_tau": 5,
+                  "repeat_last_n": 64,
+                  "repeat_penalty": 1.1
+                },
+                "plugin": "ollama",
+                "provider": "ollama",
+                "plugin_config": {
+                  "api_url": "http://host.lima.internal:11435",
+                  "api_key_env_var": "<no-key>"
+                },
+                "fallback_validator": null
+              },
+              "secondary_model": null
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0xc1a7F3174f487c8eb8505B7872ACB8E711198318/qwen2.5:7b": {
+                    "input": 966,
+                    "total": 1011,
+                    "output": 45
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 39,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 6378.09035106,
+              "host_loop_enter_wait_ms": 23254,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 3,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 3,
+              "manager_run_attempt_0_error": {
+                "attempt": 0,
+                "error_type": "SocketTimeoutError",
+                "will_retry": true,
+                "duration_ms": 10005
+              },
+              "manager_run_attempt_1_error": {
+                "attempt": 1,
+                "error_type": "SocketTimeoutError",
+                "will_retry": true,
+                "duration_ms": 10002
+              },
+              "manager_run_attempt_success": {
+                "attempt": 2,
+                "duration_ms": 234
+              },
+              "host_first_method_received_s": 6378.09056656,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 1,
+            "processing_time": 27746,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "disagree",
+            "result": "AAA=",
+            "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+              "primary_model": {
+                "model": "qwen2.5:7b",
+                "config": {
+                  "seed": 0,
+                  "stop": "",
+                  "tfs_z": 1,
+                  "top_k": 40,
+                  "top_p": 0.9,
+                  "num_ctx": 4096,
+                  "num_gpu": 16,
+                  "num_qga": 8,
+                  "mirostat": 0,
+                  "num_thread": 2,
+                  "temprature": 0.1,
+                  "num_predict": 512,
+                  "temperature": 0.1,
+                  "mirostat_eta": 0.1,
+                  "microstat_tau": 5,
+                  "repeat_last_n": 64,
+                  "repeat_penalty": 1.1
+                },
+                "plugin": "ollama",
+                "provider": "ollama",
+                "plugin_config": {
+                  "api_url": "http://host.lima.internal:11435",
+                  "api_key_env_var": "<no-key>"
+                },
+                "fallback_validator": null
+              },
+              "secondary_model": null
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x20ddBb334395505BF53A142cd769F4545A403593/qwen2.5:7b": {
+                    "input": 966,
+                    "total": 1010,
+                    "output": 44
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 39,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2,
+                "NOTIFY_NONDET_DISAGREEMENT": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 6354.838788092,
+              "host_loop_enter_wait_ms": 3,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 3,
+                "REMAINING_FUEL_AS_GEN": 0,
+                "NOTIFY_NONDET_DISAGREEMENT": 0
+              },
+              "host_total_handling_time_ms": 3,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 2
+              },
+              "host_first_method_received_s": 6354.838832217,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": 1,
+            "processing_time": 6979,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+              "primary_model": {
+                "model": "qwen2.5:7b",
+                "config": {
+                  "seed": 0,
+                  "stop": "",
+                  "tfs_z": 1,
+                  "top_k": 40,
+                  "top_p": 0.9,
+                  "num_ctx": 4096,
+                  "num_gpu": 16,
+                  "num_qga": 8,
+                  "mirostat": 0,
+                  "num_thread": 2,
+                  "temprature": 0.1,
+                  "num_predict": 512,
+                  "temperature": 0.1,
+                  "mirostat_eta": 0.1,
+                  "microstat_tau": 5,
+                  "repeat_last_n": 64,
+                  "repeat_penalty": 1.1
+                },
+                "plugin": "ollama",
+                "provider": "ollama",
+                "plugin_config": {
+                  "api_url": "http://host.lima.internal:11435",
+                  "api_key_env_var": "<no-key>"
+                },
+                "fallback_validator": null
+              },
+              "secondary_model": null
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b/qwen2.5:7b": {
+                    "input": 968,
+                    "total": 1007,
+                    "output": 39
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 39,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 6367.569227014,
+              "host_loop_enter_wait_ms": 12733,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 3,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 3,
+              "manager_run_attempt_0_error": {
+                "attempt": 0,
+                "error_type": "SocketTimeoutError",
+                "will_retry": true,
+                "duration_ms": 10005
+              },
+              "manager_run_attempt_success": {
+                "attempt": 1,
+                "duration_ms": 1722
+              },
+              "host_first_method_received_s": 6367.569372181,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 16939,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "FgZrd2FyZ3MOA2NpZBkGbWV0aG9kLGp1ZGdl",
+            "gas_used": 0,
+            "node_config": {
+              "stake": 100,
+              "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+              "primary_model": {
+                "model": "qwen2.5:7b",
+                "config": {
+                  "seed": 0,
+                  "stop": "",
+                  "tfs_z": 1,
+                  "top_k": 40,
+                  "top_p": 0.9,
+                  "num_ctx": 4096,
+                  "num_gpu": 16,
+                  "num_qga": 8,
+                  "mirostat": 0,
+                  "num_thread": 2,
+                  "temprature": 0.1,
+                  "num_predict": 512,
+                  "temperature": 0.1,
+                  "mirostat_eta": 0.1,
+                  "microstat_tau": 5,
+                  "repeat_last_n": 64,
+                  "repeat_penalty": 1.1
+                },
+                "plugin": "ollama",
+                "provider": "ollama",
+                "plugin_config": {
+                  "api_url": "http://host.lima.internal:11435",
+                  "api_key_env_var": "<no-key>"
+                },
+                "fallback_validator": null
+              },
+              "secondary_model": null
+            },
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC/qwen2.5:7b": {
+                    "input": 968,
+                    "total": 1007,
+                    "output": 39
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 2,
+                "STORAGE_READ": 39,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 2
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 6361.810590469,
+              "host_loop_enter_wait_ms": 6974,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 2,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 2,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 6973
+              },
+              "host_first_method_received_s": 6361.810762053,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 12731,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "2b03ef31ae3c8c6d675eb4f5d9de80eb65c5598c39770c21fab96101c666afb8",
+            "pending_transactions": []
+          }
+        ]
+      }
+    ],
+    "current_monitoring": {
+      "FINALIZED": 1790969066.8934247
+    },
+    "current_status_changes": [
+      "FINALIZED"
+    ]
+  },
+  "timestamp_appeal": null,
+  "appeal_processing_time": 0,
+  "config_rotation_rounds": 3,
+  "num_of_initial_validators": 5,
+  "last_vote_timestamp": "1790969061",
+  "rotation_count": 0,
+  "appeal_leader_timeout": false,
+  "leader_timeout_validators": [],
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9014826808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b8e427241a9900000000000000000000000000a820cecf127b5939715f4b72aa503f25cbc5ea000000000000000000000000c5b25b9643a37d1c0798ed3bc1d869bebae994d30000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000001edd9b16066b77617267730e0363696419066d6574686f642c6a756467650000008301e481a0fbbb291111534ed6cb598f42ed36746b2183d1690f821ad7ca9325e72f9893fba047beb601213f02189b515ed058937a96796b02d73082af36fd3283e2121be7fa"
+  },
+  "value_credited": false,
+  "current_timestamp": "1790969132",
+  "sender": "0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA",
+  "recipient": "0xc5B25B9643A37D1c0798Ed3Bc1d869BEBAe994d3",
+  "tx_slot": "0",
+  "created_timestamp": "1790969024",
+  "random_seed": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "tx_id": "0x353636d025345ff67aa034454f7e3297a27b116b14c2893daf0eec2496ba5b91",
+  "read_state_block_range": {
+    "activation_block": "0",
+    "processing_block": "0",
+    "proposal_block": "0"
+  },
+  "activator": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+  "last_leader": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+  "result_name": "MAJORITY_DISAGREE",
+  "tx_data": "dd9b16066b77617267730e0363696419066d6574686f642c6a7564676500",
+  "tx_execution_hash": "0x9a0eb244920f1fac31e750a5dca7905ed40d52791e704439ee593a431e92d6e4",
+  "eq_blocks_outputs": "0xcdc6c28000c0c080c5c480c28000",
+  "messages": [],
+  "queue_type": "0",
+  "queue_position": "0",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 7,
+    "round_validators": [
+      "0x9057a252a07054D55E24F144215820D06e8F6C49",
+      "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+      "0x20ddBb334395505BF53A142cd769F4545A403593",
+      "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+      "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC"
+    ],
+    "validator_votes_hash": [
+      "0x04a43945a83fce2a7a426e3ab3346151576caccf4d07d107780f1392f0b48ac2",
+      "0x1c15b65eecc0773a5036af5b7847b8e89b979355dff966095daf3ebc215ab278",
+      "0xab7fd372c315680fd595e89774debe97483a5eda28833856ca9012ffe3c0bced",
+      "0x4d2f642cc6eb11bc80340b60c34ee5e36640cafc6cf06c64a7b7674cbf32e3a7",
+      "0x2efabc94587fac2e4a5d6531cfefef2e4b372197c5eba54445e584b803c09e26"
+    ],
+    "validator_votes": [
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "DISAGREE",
+      "DISAGREE",
+      "DISAGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  }
+}

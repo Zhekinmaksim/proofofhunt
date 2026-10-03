@@ -1,0 +1,31 @@
+unreachable 0x46337b1438df78c8f7a912775af97251b60b3bb827efa900703bf3b4f83b790b
+unreachable PENDING
+unreachable ACCEPTED
+unreachable FINALIZED
+{
+  answer: 'cobalt',
+  chain_version: 2,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '3f1357e5707114aef0189fffb2a12b5ddbdd7e6ec2ea1ee35c5504d79ea37a48',
+  judge_deadline: 1791620923,
+  pin_status: 2,
+  player: '0x30cf71084B650F87d8329e9179f6387FA958fa38',
+  reasoning_digest: 'f1c9e8b95211b55f2ee64b04feaf08443ced349384c4afbd398220f4c7c7b7d4',
+  reveal_deadline: 1791102523,
+  revealed: true,
+  source_digest: '',
+  verdict: 3
+} {
+  addr: '0x30cf71084B650F87d8329e9179f6387FA958fa38',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  pending_cid: 0,
+  position: 0,
+  total_attempts: 0
+}
+PASS: attempts and position unchanged

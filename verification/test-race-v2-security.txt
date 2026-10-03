@@ -1,0 +1,26 @@
+test_clue_cap_and_hex_commitment_validation (__main__.RaceV2.test_clue_cap_and_hex_commitment_validation) ... ok
+test_commit_cap_rejects_without_mutation (__main__.RaceV2.test_commit_cap_rejects_without_mutation) ... ok
+test_duplicate_pending_cannot_bypass_six_attempts (__main__.RaceV2.test_duplicate_pending_cannot_bypass_six_attempts) ... ok
+test_earlier_incorrect_and_bad_form_finalize (__main__.RaceV2.test_earlier_incorrect_and_bad_form_finalize) ... ok
+test_expired_earlier_claim_finalizes_provisional_winner (__main__.RaceV2.test_expired_earlier_claim_finalizes_provisional_winner) ... ok
+test_final_event_emitted_once_when_other_pending_attempt_settles (__main__.RaceV2.test_final_event_emitted_once_when_other_pending_attempt_settles) ... ok
+test_inactive_attempt_guard (__main__.RaceV2.test_inactive_attempt_guard) ... ok
+test_judge_one_second_before_deadline_allowed (__main__.RaceV2.test_judge_one_second_before_deadline_allowed) ... ok
+test_leaderboard_tie_uses_commit_order_not_judge_order (__main__.RaceV2.test_leaderboard_tie_uses_commit_order_not_judge_order) ... ok
+test_non_object_model_json_is_free_undetermined (__main__.RaceV2.test_non_object_model_json_is_free_undetermined) ... ok
+test_once_only_advancement_and_stale_storage_defense (__main__.RaceV2.test_once_only_advancement_and_stale_storage_defense) ... ok
+test_player_cap_and_linear_leaderboard_without_commit_scan (__main__.RaceV2.test_player_cap_and_linear_leaderboard_without_commit_scan) ... ok
+test_preexisting_unrevealed_attempt_can_settle_after_final (__main__.RaceV2.test_preexisting_unrevealed_attempt_can_settle_after_final) ... ok
+test_race_expiration_finalizes_winner_instead_of_cancelling (__main__.RaceV2.test_race_expiration_finalizes_winner_instead_of_cancelling) ... ok
+test_race_expiration_no_owner_discretion (__main__.RaceV2.test_race_expiration_no_owner_discretion) ... ok
+test_reveal_expiration_boundary_charges_once (__main__.RaceV2.test_reveal_expiration_boundary_charges_once) ... ok
+test_reveal_one_second_before_deadline_allowed (__main__.RaceV2.test_reveal_one_second_before_deadline_allowed) ... ok
+test_revealed_expiration_is_free_and_pending_released (__main__.RaceV2.test_revealed_expiration_is_free_and_pending_released) ... ok
+test_reverse_verdict_order_preserves_first_commit_winner (__main__.RaceV2.test_reverse_verdict_order_preserves_first_commit_winner) ... ok
+test_six_unrevealed_expirations_cannot_evade_attempt_limit (__main__.RaceV2.test_six_unrevealed_expirations_cannot_evade_attempt_limit) ... ok
+test_undetermined_keeps_pending_and_retry_order_without_charging (__main__.RaceV2.test_undetermined_keeps_pending_and_retry_order_without_charging) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.006s
+
+OK

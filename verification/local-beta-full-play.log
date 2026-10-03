@@ -1,0 +1,129 @@
+join 0xebc9af85023e9aea9e27eca12b0eeb872c88a8f09987ca3823d54c8a59f33269
+join PENDING
+join PROPOSING
+join COMMITTING
+join ACCEPTED
+commit[0] 0x3bc82b9144fd84ebb30099c9ff0d26a571078e60c9bdd355f42ef7081f1b1175
+commit[0] PENDING
+commit[0] PROPOSING
+commit[0] COMMITTING
+commit[0] ACCEPTED
+reveal[0] 0x2fc0cdf5ee950ec0027cbbe48763bfd8c3f623cd448c0a904d30f05be287c837
+reveal[0] PENDING
+reveal[0] PROPOSING
+reveal[0] COMMITTING
+reveal[0] ACCEPTED
+judge[0] 0x4fbcd4112705caa11126c012e34ceaa027f06863c1e35b2df74f414d2eefa00b
+judge[0] PENDING
+judge[0] PROPOSING
+judge[0] COMMITTING
+judge[0] REVEALING
+judge[0] ACCEPTED
+Verdict 0 {
+  answer: 'stout',
+  chain_version: 2,
+  cid: 0,
+  clue_idx: 0,
+  commitment: 'ce523eeb991d5e9a9830b920c3e744f0148e7a93f253c42129d0b64598135123',
+  judge_deadline: 1791620454,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: 'ee57c65b9fdae748a4b1cbd5327c2bf25b954aad190b6f11b439dcfcdd1fc581',
+  reveal_deadline: 1791102054,
+  revealed: true,
+  source_digest: '0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 1,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 1,
+  total_attempts: 1
+}
+commit[1] 0x17456d09a21ee1a2e651b7a9446c789f2e8ff9d600c2cef2c1e851de7d269cb6
+commit[1] PENDING
+commit[1] COMMITTING
+commit[1] ACCEPTED
+reveal[1] 0xcfaab950106fb3aa3bb5c3b559bacc0aa6fc2d05ca993f18a487bc0c7c35ac42
+reveal[1] PENDING
+reveal[1] COMMITTING
+reveal[1] ACCEPTED
+judge[1] 0xbeb40853eba3d71431f3ed0c88f2eb3f47edbabff45228df6492ead520e64648
+judge[1] PENDING
+judge[1] PROPOSING
+judge[1] COMMITTING
+judge[1] ACCEPTED
+Verdict 1 {
+  answer: '256',
+  chain_version: 2,
+  cid: 1,
+  clue_idx: 1,
+  commitment: '2cad5c3729dc15d27b9afb3b3b7e1ce028e753ba8d1364d05c47244ef67ba7d1',
+  judge_deadline: 1791620502,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '023b87333cce186c8ab7c02b196b200c59bfa301b1971d7f11dcfcc248a6d66d',
+  reveal_deadline: 1791102102,
+  revealed: true,
+  source_digest: 'bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 2,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 2,
+  total_attempts: 2
+}
+commit[2] 0x7d4fc7d674cd77a69f195d06619dea6ba12ef9d16fa665cfcf196653f2219722
+commit[2] PENDING
+commit[2] PROPOSING
+commit[2] COMMITTING
+commit[2] ACCEPTED
+reveal[2] 0x4c002876d773ad9118fef96e04b033d9a1e1172e08e494f7ccc4c8f2d855cd94
+reveal[2] PENDING
+reveal[2] PROPOSING
+reveal[2] COMMITTING
+reveal[2] ACCEPTED
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:95
+      if((status!=='FINALIZED' && !(status==='ACCEPTED' && !requireFinal))||row.execution!=='SUCCESS'||consensusFailed) throw Error(`${row.label}: ${status}/${row.execution}: ${row.stderr}`);
+                                                                                                                              ^
+
+Error: reveal[2]: ACCEPTED/ERROR: Traceback (most recent call last):
+  File "/py/libs/_genlayer_runner.py", line 180, in <module>
+    _handle_main()
+    ~~~~~~~~~~~~^^
+  File "/py/libs/_genlayer_runner.py", line 170, in _handle_main
+    _give_result(
+    ~~~~~~~~~~~~^
+    	lambda: meth2call(contract_instance, *cd.get('args', []), **cd.get('kwargs', {}))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/py/libs/_genlayer_runner.py", line 65, in _give_result
+    res = res_fn()
+  File "/py/libs/_genlayer_runner.py", line 171, in <lambda>
+    lambda: meth2call(contract_instance, *cd.get('args', []), **cd.get('kwargs', {}))
+            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/contract.py", line 611, in reveal
+    self._require(c.player == sender, "not your commit")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/contract.py", line 367, in _require
+    raise Exception(why)
+Exception: not your commit
+
+    at settle (file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:95:127)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async play (file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:175:5)
+    at async file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:195:51
+
+Node.js v20.20.2

@@ -1,0 +1,63 @@
+Verdict 0 {
+  answer: 'stout',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: 'b74b4d38960a7ad09290aaff49e4c6e3fcc0db18eaa01c9ee4de39b56538f043',
+  pin_status: 0,
+  player: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  reasoning_digest: 'a8ad5b9267dd34a0aaa040257a8c0031bd41318d68965a92b9ece9a54407d642',
+  revealed: true,
+  source_digest: '0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52',
+  verdict: 1
+} {
+  addr: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 1,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 1,
+  total_attempts: 1
+}
+commit[1] 0xf70c0a7fafa9864f61b7952d9666a47eaa3a7f41f83291020334ffdf80747446
+commit[1] PENDING
+commit[1] PROPOSING
+commit[1] COMMITTING
+commit[1] ACCEPTED
+commit[1] FINALIZED
+reveal[1] 0xb9b9b8f618c2655d72d0deb883ea13eb3812a88d3baf7c7429411f69792ead6c
+reveal[1] PENDING
+reveal[1] PROPOSING
+reveal[1] ACCEPTED
+reveal[1] FINALIZED
+judge[1] 0xd1f8c667dcaff5bb7cf85752fd453c1419ad64941edb78dbc9f5e9d4be7562de
+judge[1] PENDING
+judge[1] PROPOSING
+judge[1] COMMITTING
+judge[1] ACCEPTED
+judge[1] FINALIZED
+Verdict 1 {
+  answer: '256',
+  chain_version: 1,
+  cid: 1,
+  clue_idx: 1,
+  commitment: 'caf0b9c8a98f8d50611b1590e938d3ff3651ea22aa1ba0cbce40a3806ed21d44',
+  pin_status: 0,
+  player: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  reasoning_digest: 'ecbb1dde5dda67f90219cfb94506e09b3db8219ec237a956486db1ee7d669e5b',
+  revealed: true,
+  source_digest: 'bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c',
+  verdict: 1
+} {
+  addr: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 2,
+  finished: true,
+  handle: 'verification-local',
+  joined: true,
+  position: 2,
+  total_attempts: 2
+}

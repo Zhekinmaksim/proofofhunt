@@ -1,0 +1,62 @@
+[
+  {
+    "step": "deploy",
+    "method": "__init__",
+    "args": {
+      "title": "Proof of Hunt - two-clue prototype"
+    },
+    "note": "deploy the contract, then use its address for everything below"
+  },
+  {
+    "step": "add_clue[00]",
+    "method": "add_clue",
+    "args": {
+      "title": "Short and Stout",
+      "riddle": "On the first of April 1998 the IETF published a standard for controlling coffee pots over HTTP. It reserves an error for the case where you ask a teapot to brew. The document says the resulting entity body MAY be short and one other thing. Give that word.",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc2324.txt",
+      "anchor": "any attempt to brew coffee with a teapot",
+      "window_chars": 400,
+      "answer_form": "one word, lowercase",
+      "answer_pattern": "[a-z]{3,12}",
+      "hint": "The joke is a nursery rhyme."
+    },
+    "note": "deterministic and cheap, no web fetch"
+  },
+  {
+    "step": "add_clue[01]",
+    "method": "add_clue",
+    "args": {
+      "title": "By Air",
+      "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+      "anchor": "the mtu is variable",
+      "window_chars": 300,
+      "answer_form": "a number, digits only",
+      "answer_pattern": "\\d{1,5}",
+      "hint": "Milligrams. And it is a power of two."
+    },
+    "note": "deterministic and cheap, no web fetch"
+  },
+  {
+    "step": "pin_clue[00]",
+    "method": "pin_clue",
+    "args": {
+      "idx": 0
+    },
+    "note": "fetches https://www.rfc-editor.org/rfc/rfc2324.txt and agrees on the window at anchor 'any attempt to brew coffee with a teapot'. If this fails consensus the source is unstable across validators - replace it, do not retry forever"
+  },
+  {
+    "step": "pin_clue[01]",
+    "method": "pin_clue",
+    "args": {
+      "idx": 1
+    },
+    "note": "fetches https://www.rfc-editor.org/rfc/rfc1149.txt and agrees on the window at anchor 'the mtu is variable'. If this fails consensus the source is unstable across validators - replace it, do not retry forever"
+  },
+  {
+    "step": "open_race",
+    "method": "open_race",
+    "args": {},
+    "note": "one way door, the clue chain is sealed after this"
+  }
+]

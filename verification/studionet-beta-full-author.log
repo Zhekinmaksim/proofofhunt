@@ -1,0 +1,128 @@
+deploy 0xae461046009907a5676b895ddaa67e4564a32adf8dd9813e70c039e3403782c8
+deploy PENDING
+deploy ACCEPTED
+deploy FINALIZED
+add_clue[0] 0x542ca75183009f40c7d501ee2876a6493a6c4028fec1343b3367ad17e721246f
+add_clue[0] PROPOSING
+add_clue[0] ACCEPTED
+add_clue[1] 0x6d75ab167bf36c3c8c4d85717b4dd20a259d837da369e8f300e03f7898dd6f81
+add_clue[1] PENDING
+add_clue[1] ACCEPTED
+add_clue[2] 0x2f73438d1f11a026e2602761846f4097a976c63cc29381f62aab7bb352547d9b
+add_clue[2] PENDING
+add_clue[2] ACCEPTED
+add_clue[3] 0xce5afdf00e505b0c85eccbae303542569b745a5a7fbfd5297436462e25a39c5d
+add_clue[3] PENDING
+add_clue[3] ACCEPTED
+add_clue[4] 0x195267f4cc384abdc5a2171ba62729a88c8877b6eb3eef79f073d713760678c2
+add_clue[4] PENDING
+add_clue[4] ACCEPTED
+add_clue[5] 0xde6fea3eefeb816c3383a3f24cf4c478972815d6d43f8922923359dd3bafae2f
+add_clue[5] PENDING
+add_clue[5] ACCEPTED
+add_clue[6] 0x0e6260974402108df01a19841c0f8265434cbe744354eb5fe0fde6fde9f428ad
+add_clue[6] PENDING
+add_clue[6] ACCEPTED
+add_clue[7] 0x9b622e18470449b3292cb7c897d11558831d2360acc6dbfd04f84daff28927a5
+add_clue[7] PENDING
+add_clue[7] ACCEPTED
+add_clue[8] 0xf8972347229aee809101a826a8ed4d251dd6cc39cc41b7e9343e898c51c98fb6
+add_clue[8] PENDING
+add_clue[8] ACCEPTED
+add_clue[9] 0xf56673e5d0d52468ad76c2edeee0d1024d5530f3f10c7abd5c7b2555388fc6d8
+add_clue[9] PENDING
+add_clue[9] ACCEPTED
+add_clue[10] 0x59d5f67047921fb700e2570b16777bfeb33746c9f0d0647e1aab87ab249f0a0a
+add_clue[10] PENDING
+add_clue[10] ACCEPTED
+add_clue[11] 0x8d04382e6428093c3962826882cf6df0a5195c660393c91ffd319f9bcf907544
+add_clue[11] PROPOSING
+add_clue[11] ACCEPTED
+pin_clue[0] 0xba66c9b872ae72863148d001555c8a853ba17dde3f809a8e285f593bc4c09b79
+pin_clue[0] PROPOSING
+pin_clue[0] ACCEPTED
+pin_clue[1] 0xfc45a6c249c650f4d3226cc8241ecb1e7ebb1aa9789b07bffac605288492519b
+pin_clue[1] PENDING
+pin_clue[1] ACCEPTED
+pin_clue[2] 0xddf409361219932dcb548a59a6e19243ddc53a1fed915c51967b5c504565fe7c
+pin_clue[2] PROPOSING
+pin_clue[2] ACCEPTED
+pin_clue[3] 0x937cf534ae45986b111daf9176df30da825208135568afb57c92a33a7b7f7154
+pin_clue[3] PENDING
+pin_clue[3] ACCEPTED
+pin_clue[4] 0xbb42505418215753f9ea015cdde716807730e69299ffd98a0ecd83f52476db55
+pin_clue[4] PENDING
+pin_clue[4] ACCEPTED
+pin_clue[5] 0xb1f41172a8e612a7fb3d6c9b502fbe4b55c983a98ae5bb3dc12fecc521e41e2c
+pin_clue[5] PENDING
+pin_clue[5] ACCEPTED
+pin_clue[6] 0xbd02ea13bc7e0373767e6aa79423c612bf8cb5316f2bffeddd0edfa119a3c024
+pin_clue[6] PENDING
+pin_clue[6] ACCEPTED
+pin_clue[7] 0x591fc85c5629e4c9b9763579ae98ea4e78586ecd2e284f81aab20ec3f255d1af
+pin_clue[7] PENDING
+pin_clue[7] ACCEPTED
+pin_clue[8] 0xd658b6bbbd123b1e3613ddc21e8d49d5c6a4ec0f51d713c44fd83e8d6dc6e2de
+pin_clue[8] PROPOSING
+pin_clue[8] ACCEPTED
+pin_clue[9] 0x61a7be9ff5ce85e96b256cb31acd8fe7ac3ed9757f2b47611ee0a4f76d0d1677
+pin_clue[9] PROPOSING
+pin_clue[9] ACCEPTED
+pin_clue[10] 0xc8f2366eb82fa36d25678cd6d6d581d4e73c90c6d05afa58068193f05f15a546
+pin_clue[10] PENDING
+pin_clue[10] COMMITTING
+pin_clue[10] ACCEPTED
+pin_clue[11] 0x698074ffe63b3edb9ca93790b68740020e66eebd8f7fb3bf3c285612015e4043
+pin_clue[11] PENDING
+pin_clue[11] COMMITTING
+pin_clue[11] ACCEPTED
+add_clue[0] FINALIZED
+add_clue[1] FINALIZED
+add_clue[2] FINALIZED
+add_clue[3] FINALIZED
+add_clue[4] FINALIZED
+add_clue[5] FINALIZED
+add_clue[6] FINALIZED
+add_clue[7] FINALIZED
+add_clue[8] FINALIZED
+add_clue[9] FINALIZED
+add_clue[10] FINALIZED
+add_clue[11] FINALIZED
+pin_clue[0] FINALIZED
+pin_clue[1] FINALIZED
+pin_clue[2] FINALIZED
+pin_clue[3] FINALIZED
+pin_clue[4] FINALIZED
+pin_clue[5] FINALIZED
+pin_clue[6] FINALIZED
+pin_clue[7] FINALIZED
+pin_clue[8] FINALIZED
+pin_clue[9] FINALIZED
+pin_clue[10] ACCEPTED
+pin_clue[10] FINALIZED
+pin_clue[11] ACCEPTED
+pin_clue[11] FINALIZED
+open_race 0xaf62e5814e6944af969826ad3cc54f3d22cb4b83e6778a5987324351d44ef5a9
+open_race PROPOSING
+open_race ACCEPTED
+open_race ACCEPTED
+open_race FINALIZED
+Authored 0xf5F7996d47608885b075726B49De6F137C3A71C3 {
+  chain_version: 2,
+  closes_at: 1793608335,
+  clue_count: 12,
+  commit_count: 0,
+  hash_algo: 'sha256',
+  judge_seconds: 604800,
+  max_attempts_per_clue: 6,
+  max_commits: 8192,
+  max_players: 128,
+  owner: '0xe640e07D5de048E9b3c7C3f81a9D3cD9c5ecB91a',
+  player_count: 0,
+  protocol_version: 2,
+  reveal_seconds: 86400,
+  state: 1,
+  title: 'Proof of Hunt 01 - Paper Trail',
+  winner: '',
+  winner_cid: -1
+}

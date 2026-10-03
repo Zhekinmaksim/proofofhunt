@@ -1,0 +1,34 @@
+{
+  "race_title": "Proof of Hunt - source failure verification",
+  "note": "Every source here is chosen for one property above all others: it does not change. Standards documents that were frozen on publication, a 1989 proposal kept as a historical record, and specification files that have not been touched in years. A clue whose page drifts does not produce a wrong verdict - it produces UNDETERMINED and costs the player nothing - but it does waste consensus, so drift is designed out rather than handled.",
+  "authoring_rules": [
+    "The anchor must never contain the answer. It is public in the clue view, so an anchor that leaks the answer turns the clue into a giveaway.",
+    "The anchor sits immediately before the material, because the window runs forward from it.",
+    "The answer pattern is checked on chain before any model is called. It is the cheap filter that keeps the answer space near binary and stops a player burning tribunal budget on an essay.",
+    "The source URL is public. It has to be - it is on chain, and claiming otherwise would be a claimed-behaviour mismatch. The race is about solving faster with the same information, not about privileged information."
+  ],
+  "clues": [
+    {
+      "title": "Controlled Source",
+      "riddle": "What color is explicitly named as the verification color in this synthetic document?",
+      "source_url": "https://gist.githubusercontent.com/Zhekinmaksim/e7c4ea1a9b8a0270968a3cdc6df04ee2/raw/source.txt",
+      "anchor": "proof of hunt source fixture",
+      "window_chars": 400,
+      "answer_form": "one word, lowercase",
+      "answer_pattern": "[a-z]{3,12}",
+      "hint": "Read the sentence immediately after the anchor.",
+      "expected": "cobalt"
+    },
+    {
+      "title": "By Air",
+      "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+      "anchor": "the mtu is variable",
+      "window_chars": 300,
+      "answer_form": "a number, digits only",
+      "answer_pattern": "\\d{1,5}",
+      "hint": "Milligrams. And it is a power of two.",
+      "expected": "256"
+    }
+  ]
+}

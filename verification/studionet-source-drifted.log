@@ -1,0 +1,31 @@
+Cache wait complete; actual contract result must still be checked.
+drifted 0x26e8e81a837340785e915800dab1cbc06b065f9c29e582dd01b2713a0c2081eb
+drifted PENDING
+drifted PROPOSING
+drifted COMMITTING
+drifted ACCEPTED
+drifted FINALIZED
+{
+  answer: 'cobalt',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0',
+  pin_status: 1,
+  player: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  reasoning_digest: '8578d23c25a8027ddf69a54a95e4bbd4f3d8ff45063a784efe7f0ba4311923f5',
+  revealed: true,
+  source_digest: 'b5c982b244e1a3755975c6af1cd0caf6df52f46dc9b84315efac2cd45831ff7b',
+  verdict: 3
+} {
+  addr: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 0,
+  total_attempts: 0
+}
+PASS: attempts and position unchanged

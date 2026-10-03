@@ -1,0 +1,33 @@
+unreachable 0x5e45aac1bf3c2a11e9fe486fbc5cb7deffd93892778a8932507fadbe7c0c1fbb
+unreachable PENDING
+unreachable PROPOSING
+unreachable COMMITTING
+unreachable ACCEPTED
+unreachable FINALIZED
+{
+  answer: 'cobalt',
+  chain_version: 2,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '5b2cc3f782b512e19c446e448c5f0971bd1f78d680cb905b0af0e53fb7535180',
+  judge_deadline: 1791620442,
+  pin_status: 2,
+  player: '0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0',
+  reasoning_digest: 'f1c9e8b95211b55f2ee64b04feaf08443ced349384c4afbd398220f4c7c7b7d4',
+  reveal_deadline: 1791102042,
+  revealed: true,
+  source_digest: '',
+  verdict: 3
+} {
+  addr: '0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: 0,
+  position: 0,
+  total_attempts: 0
+}
+PASS: attempts and position unchanged

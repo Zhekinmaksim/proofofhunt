@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+    "stake": 100,
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "config": {
+      "seed": 0,
+      "stop": "",
+      "tfs_z": 1.0,
+      "top_k": 40,
+      "top_p": 0.9,
+      "num_ctx": 4096,
+      "num_gpu": 16,
+      "num_qga": 8,
+      "mirostat": 0,
+      "num_thread": 2,
+      "temprature": 0.0,
+      "num_predict": 512,
+      "temperature": 0.0,
+      "mirostat_eta": 0.1,
+      "microstat_tau": 5,
+      "repeat_last_n": 64,
+      "repeat_penalty": 1.1
+    },
+    "plugin": "ollama",
+    "plugin_config": {
+      "api_url": "http://host.lima.internal:11435",
+      "api_key_env_var": "<no-key>"
+    },
+    "created_at": "2026-10-02T18:02:37.222189+00:00"
+  },
+  {
+    "id": 2,
+    "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+    "stake": 100,
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "config": {
+      "seed": 0,
+      "stop": "",
+      "tfs_z": 1.0,
+      "top_k": 40,
+      "top_p": 0.9,
+      "num_ctx": 4096,
+      "num_gpu": 16,
+      "num_qga": 8,
+      "mirostat": 0,
+      "num_thread": 2,
+      "temprature": 0.0,
+      "num_predict": 512,
+      "temperature": 0.0,
+      "mirostat_eta": 0.1,
+      "microstat_tau": 5,
+      "repeat_last_n": 64,
+      "repeat_penalty": 1.1
+    },
+    "plugin": "ollama",
+    "plugin_config": {
+      "api_url": "http://host.lima.internal:11435",
+      "api_key_env_var": "<no-key>"
+    },
+    "created_at": "2026-10-02T18:02:37.222189+00:00"
+  },
+  {
+    "id": 5,
+    "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+    "stake": 100,
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "config": {
+      "seed": 0,
+      "stop": "",
+      "tfs_z": 1.0,
+      "top_k": 40,
+      "top_p": 0.9,
+      "num_ctx": 4096,
+      "num_gpu": 16,
+      "num_qga": 8,
+      "mirostat": 0,
+      "num_thread": 2,
+      "temprature": 0.0,
+      "num_predict": 512,
+      "temperature": 0.0,
+      "mirostat_eta": 0.1,
+      "microstat_tau": 5,
+      "repeat_last_n": 64,
+      "repeat_penalty": 1.1
+    },
+    "plugin": "ollama",
+    "plugin_config": {
+      "api_url": "http://host.lima.internal:11435",
+      "api_key_env_var": "<no-key>"
+    },
+    "created_at": "2026-10-02T18:02:37.222189+00:00"
+  },
+  {
+    "id": 3,
+    "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+    "stake": 100,
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "config": {
+      "seed": 0,
+      "stop": "",
+      "tfs_z": 1.0,
+      "top_k": 40,
+      "top_p": 0.9,
+      "num_ctx": 4096,
+      "num_gpu": 16,
+      "num_qga": 8,
+      "mirostat": 0,
+      "num_thread": 2,
+      "temprature": 0.0,
+      "num_predict": 512,
+      "temperature": 0.0,
+      "mirostat_eta": 0.1,
+      "microstat_tau": 5,
+      "repeat_last_n": 64,
+      "repeat_penalty": 1.1
+    },
+    "plugin": "ollama",
+    "plugin_config": {
+      "api_url": "http://host.lima.internal:11435",
+      "api_key_env_var": "<no-key>"
+    },
+    "created_at": "2026-10-02T18:02:37.222189+00:00"
+  },
+  {
+    "id": 4,
+    "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+    "stake": 100,
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "config": {
+      "seed": 0,
+      "stop": "",
+      "tfs_z": 1.0,
+      "top_k": 40,
+      "top_p": 0.9,
+      "num_ctx": 4096,
+      "num_gpu": 16,
+      "num_qga": 8,
+      "mirostat": 0,
+      "num_thread": 2,
+      "temprature": 0.0,
+      "num_predict": 512,
+      "temperature": 0.0,
+      "mirostat_eta": 0.1,
+      "microstat_tau": 5,
+      "repeat_last_n": 64,
+      "repeat_penalty": 1.1
+    },
+    "plugin": "ollama",
+    "plugin_config": {
+      "api_url": "http://host.lima.internal:11435",
+      "api_key_env_var": "<no-key>"
+    },
+    "created_at": "2026-10-02T18:02:37.222189+00:00"
+  }
+]

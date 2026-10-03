@@ -1,0 +1,13 @@
+Official SDK source: https://github.com/genlayerlabs/genvm/blob/v0.2.16/runners/genlayer-py-std/src/genlayer/py/_internal/event.py
+SDK source SHA256: 61d28072ae42f8770c15d7f6ec4012fd3e6908ed40155026ad92b42acf04d03c
+PASS CluePinned(clue_idx) indexed payload matches: ('clue_idx',)
+PASS RaceOpened(chain_version,clue_count) indexed payload matches: ('chain_version', 'clue_count')
+PASS PlayerJoined(player) indexed payload matches: ('player',)
+PASS AnswerCommitted(clue_idx,player) indexed payload matches: ('clue_idx', 'player')
+PASS AnswerRevealed(clue_idx,player) indexed payload matches: ('clue_idx', 'player')
+PASS VerdictRendered(clue_idx,player) indexed payload matches: ('clue_idx', 'player')
+PASS ClueCleared(clue_idx,player) indexed payload matches: ('clue_idx', 'player')
+PASS RaceWon(winner) indexed payload matches: ('winner',)
+PASS RaceFinalized(winner) indexed payload matches: ('winner',)
+All 9 event classes accepted by official SDK reflection.
+Scope: Event class generation only; not a GenVM deployment or storage test.

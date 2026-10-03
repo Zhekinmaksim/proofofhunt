@@ -1,0 +1,29 @@
+join 0x950782dcd5b8c44292d1c015aa8665b07775ccdef6a9cb7163e2fe28cb4ac2c5
+join PENDING
+join COMMITTING
+join ACCEPTED
+commit[0] 0x6900bf500bcee0c79702c4ab80ca5dc41810a29f5eab5d0aa2f60ef0e92c46c4
+commit[0] PROPOSING
+commit[0] COMMITTING
+commit[0] ACCEPTED
+reveal[0] 0xe7fb8408fed1d9642d0c56d3d96fbe044a3af38105428a8482d890154f040a9c
+reveal[0] PENDING
+reveal[0] COMMITTING
+reveal[0] ACCEPTED
+join ACCEPTED
+join FINALIZED
+commit[0] ACCEPTED
+commit[0] FINALIZED
+reveal[0] ACCEPTED
+reveal[0] FINALIZED
+Prepared 0 {
+  addr: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 0,
+  total_attempts: 0
+}

@@ -1,0 +1,9 @@
+  ok   canonicalise is identical on both sides
+  ok   cut_window is identical on both sides
+  ok   normalise_answer is identical on both sides
+  ok   MAX_PAGE_CHARS is identical on both sides
+  ok   MIN_WINDOW_CHARS is identical on both sides
+  ok   _KEEP is identical on both sides
+  ok   _WS is identical on both sides
+
+canonicalisation parity holds

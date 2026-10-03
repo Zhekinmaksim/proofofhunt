@@ -1,0 +1,31 @@
+add_clue[1] FINALIZED
+pin_clue[0] 0x3140fd3e2870c625c7b391bdb56d869edb8e648cda81716f706fcf2dbabe78ec
+pin_clue[0] PENDING
+pin_clue[0] PROPOSING
+pin_clue[0] COMMITTING
+pin_clue[0] ACCEPTED
+pin_clue[0] FINALIZED
+pin_clue[1] 0x83cb1f6bdac1d58146492138e9a3bc9e9518acaf414106e91d81b0afd3a86e03
+pin_clue[1] PENDING
+pin_clue[1] PROPOSING
+pin_clue[1] COMMITTING
+pin_clue[1] ACCEPTED
+pin_clue[1] FINALIZED
+open_race 0xd511ccafbe0d2d5ddbfecc186d77d9a1042f943c71b39449d0ca6c782d333e00
+open_race PENDING
+open_race COMMITTING
+open_race ACCEPTED
+open_race FINALIZED
+Authored 0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914 {
+  chain_version: 1,
+  clue_count: 2,
+  commit_count: 0,
+  hash_algo: 'sha256',
+  max_attempts_per_clue: 6,
+  owner: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  player_count: 0,
+  state: 1,
+  title: 'Proof of Hunt - source failure verification',
+  winner: '',
+  winner_cid: -1
+}

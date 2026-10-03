@@ -1,0 +1,4 @@
+Duplicate clue-0 commits: {'position': 2, 'finished': True, 'race_state': 3}
+Earlier unrevealed final commit: {'race_state': 2, 'winner': '0x3333333333333333333333333333333333333333', 'state_won': 2, 'state_final': 3}
+Earlier claim now INCORRECT but race still provisional: {'verdict': 2, 'race_state': 2}
+Advancement and both finalization blockers reproduced locally. No hosted transactions sent.

@@ -1,0 +1,83 @@
+join 0x74536d729368d9303202f88206bcc3255a45475f5db06ac4cb915ff1173016a8
+join PENDING
+join ACCEPTED
+join FINALIZED
+commit[0] 0x2603aaddf2cedfab933f91452d4a523ec93d7fa62a7ad72ac8d9fc6d4abab049
+commit[0] PENDING
+commit[0] ACCEPTED
+commit[0] FINALIZED
+reveal[0] 0x0cc49480cb0364d8bf20232a8399bcd20bf70cd8d5431a602e2dedc4f6bf1669
+reveal[0] PROPOSING
+reveal[0] ACCEPTED
+reveal[0] FINALIZED
+judge[0] 0x032ade8b021660e50b69ac33155ab564820a9c27d209d71921045d31cc2ecee0
+judge[0] PENDING
+judge[0] COMMITTING
+judge[0] ACCEPTED
+judge[0] FINALIZED
+Verdict 0 {
+  answer: 'stout',
+  chain_version: 2,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '58131fe7fbf00a0b83534b965a5c62b6a74e573cd9c4127b31d99a2099f6ab49',
+  judge_deadline: 1791620510,
+  pin_status: 0,
+  player: '0x379b9e176278F1013DcC21F62ED72B229bDE6A90',
+  reasoning_digest: 'f216dd77e47c4cf68cd6311f813e4f95046b0e50c670405111109a62fd55c93f',
+  reveal_deadline: 1791102110,
+  revealed: true,
+  source_digest: '0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52',
+  verdict: 1
+} {
+  addr: '0x379b9e176278F1013DcC21F62ED72B229bDE6A90',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 1,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  pending_cid: -1,
+  position: 1,
+  total_attempts: 1
+}
+commit[1] 0xea8339884cc0da923026000891cd1b80fe383fcc80f8ce833ccf1b10736c7e3b
+commit[1] PENDING
+commit[1] REVEALING
+commit[1] ACCEPTED
+commit[1] FINALIZED
+reveal[1] 0x8f1412c32327bc6e59cd9c0d6981fa09c75e7a6ef86a09884c296e95acf5e996
+reveal[1] PROPOSING
+reveal[1] ACCEPTED
+reveal[1] FINALIZED
+judge[1] 0xb278bbeb8440a39fe701a5da4f35a043d5d869ee38be407766ab56ceb25d0ecf
+judge[1] PENDING
+judge[1] COMMITTING
+judge[1] ACCEPTED
+judge[1] FINALIZED
+Verdict 1 {
+  answer: '256',
+  chain_version: 2,
+  cid: 1,
+  clue_idx: 1,
+  commitment: '959562ca1f2c21d3ba4935343ea70d2f6249f91ed46729f829c40d39b4235ae7',
+  judge_deadline: 1791620650,
+  pin_status: 0,
+  player: '0x379b9e176278F1013DcC21F62ED72B229bDE6A90',
+  reasoning_digest: 'f712fc3e77777614994291e811ab3ce882765792af6caaee006608336f2c8b81',
+  reveal_deadline: 1791102250,
+  revealed: true,
+  source_digest: 'bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c',
+  verdict: 1
+} {
+  addr: '0x379b9e176278F1013DcC21F62ED72B229bDE6A90',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 2,
+  finished: true,
+  handle: 'verification-studionet',
+  joined: true,
+  pending_cid: -1,
+  position: 2,
+  total_attempts: 2
+}

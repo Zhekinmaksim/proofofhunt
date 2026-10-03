@@ -1,0 +1,9 @@
+.git
+.vercel
+verification
+contracts
+scripts
+video
+*.zip
+node_modules
+**/node_modules

@@ -1,0 +1,2645 @@
+{
+  "network": "studionet",
+  "endpoint": "https://studio.genlayer.com/api",
+  "chainId": 61999,
+  "accountKeyName": "",
+  "account": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+  "calls": [
+    {
+      "label": "deploy",
+      "functionName": "__init__",
+      "kwargs": {
+        "title": "Proof of Hunt - source failure verification"
+      },
+      "hash": "0xd34db6d8b3d7aafbae92d763718970ef8bd40a73776f5e276a9c1341af20d20d",
+      "submittedAt": "2026-10-03T06:20:43.373Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 6.692,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "provider": "openrouter",
+          "model": "google/gemini-3-flash-preview",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "provider": "llm-router",
+          "model": "policy:prd-gemma",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+          "provider": "llm-router",
+          "model": "policy:prd-mistral",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+          "provider": "llm-router",
+          "model": "policy:prd-minimax",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "idle",
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "idle",
+        "0x4404Fb70d490c935758146f42A73DC850FF95C71": "agree",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "agree",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 41.854
+    },
+    {
+      "label": "add_clue[0]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "Controlled Source",
+        "riddle": "What color is explicitly named as the verification color in this synthetic document?",
+        "source_url": "https://gist.githubusercontent.com/Zhekinmaksim/e7c4ea1a9b8a0270968a3cdc6df04ee2/raw/source.txt",
+        "anchor": "proof of hunt source fixture",
+        "window_chars": 400,
+        "answer_form": "one word, lowercase",
+        "answer_pattern": "[a-z]{3,12}",
+        "hint": "Read the sentence immediately after the anchor."
+      },
+      "hash": "0x406dc9f592515c24b8627b67ca4723b24aea2ce752a6d81d25d9a0f245e6aa49",
+      "submittedAt": "2026-10-03T06:20:51.478Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 5.608,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+          "provider": "openrouter",
+          "model": "openai/gpt-5.4",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "provider": "llm-router",
+          "model": "policy:prd-qwen",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+          "provider": "llm-router",
+          "model": "policy:prd-grok",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "agree",
+        "0x4404Fb70d490c935758146f42A73DC850FF95C71": "idle",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+        "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "agree",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 36.344
+    },
+    {
+      "label": "add_clue[1]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "By Air",
+        "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+        "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+        "anchor": "the mtu is variable",
+        "window_chars": 300,
+        "answer_form": "a number, digits only",
+        "answer_pattern": "\\d{1,5}",
+        "hint": "Milligrams. And it is a power of two."
+      },
+      "hash": "0x538eaf662732133d5cb25fe399faba60b08efa8e13b69fcd65b9699b0a1343fe",
+      "submittedAt": "2026-10-03T06:20:57.315Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 5.692,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+          "provider": "openrouter",
+          "model": "anthropic/claude-sonnet-4.6",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "provider": "llm-router",
+          "model": "policy:prd-glm",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "provider": "openrouter",
+          "model": "google/gemini-3-flash-preview",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+          "provider": "llm-router",
+          "model": "policy:prd-grok",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "idle",
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "agree",
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "idle",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 37.555
+    },
+    {
+      "label": "pin_clue[0]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 0
+      },
+      "hash": "0x92e7807efcc087ce54112aa08c06c3ba8a9ef20dd5d0b23621f04f3c951a6738",
+      "submittedAt": "2026-10-03T06:21:03.200Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 7.784,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "provider": "llm-router",
+          "model": "policy:prd-qwen",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+          "provider": "llm-router",
+          "model": "policy:prd-gemini",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "provider": "openrouter",
+          "model": "openai/gpt-5.4",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+          "provider": "llm-router",
+          "model": "policy:prd-sonnet",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "idle",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "idle",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "agree",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is cobalt. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 38.707
+    },
+    {
+      "label": "pin_clue[1]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 1
+      },
+      "hash": "0xe70c24508734f5677407ad71df3feaff55fee147737e9ebaf1b69875521a6d28",
+      "submittedAt": "2026-10-03T06:21:11.179Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 7.829,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-5-4",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+          "provider": "llm-router",
+          "model": "policy:prd-gemini",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+          "provider": "openrouter",
+          "model": "google/gemini-3-flash-preview",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "idle",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "the mtu is variable, and paradoxically, generally increases with increased carrier age. a typical mtu is 256 milligrams. some datagram padding may be needed. upon receipt, the duct tape is removed and the paper copy of the datagram is optically scanned into a electronically transmittable form. discu"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 40.007
+    },
+    {
+      "label": "open_race",
+      "functionName": "open_race",
+      "kwargs": {},
+      "hash": "0x47f6ff426e76de2bc609e445804f9cd9304a19cffd6d5dffaed2423b2fc961ec",
+      "submittedAt": "2026-10-03T06:21:19.219Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 5.528,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-oss",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "provider": "llm-router",
+          "model": "policy:prd-qwen",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+          "provider": "llm-router",
+          "model": "policy:prd-sonnet",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "idle",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "idle",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 36.786
+    },
+    {
+      "label": "join",
+      "functionName": "join",
+      "kwargs": {
+        "handle": "verification-studionet"
+      },
+      "hash": "0x950782dcd5b8c44292d1c015aa8665b07775ccdef6a9cb7163e2fe28cb4ac2c5",
+      "submittedAt": "2026-10-03T06:22:38.916Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 8.02,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "provider": "llm-router",
+          "model": "policy:prd-gemma",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+          "provider": "llm-router",
+          "model": "policy:prd-gemini",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "provider": "llm-router",
+          "model": "policy:prd-glm",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-5-4",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "provider": "llm-router",
+          "model": "policy:prd-deepseek",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+        "0x4404Fb70d490c935758146f42A73DC850FF95C71": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 37.23
+    },
+    {
+      "label": "commit[0]",
+      "functionName": "commit",
+      "kwargs": {
+        "clue_idx": 0,
+        "commitment": "42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0"
+      },
+      "hash": "0x6900bf500bcee0c79702c4ab80ca5dc41810a29f5eab5d0aa2f60ef0e92c46c4",
+      "submittedAt": "2026-10-03T06:22:48.359Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 5.674,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-5-4",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+          "provider": "llm-router",
+          "model": "policy:prd-gemini",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "provider": "llm-router",
+          "model": "policy:prd-glm",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "agree",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "idle",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 34.989
+    },
+    {
+      "label": "reveal[0]",
+      "functionName": "reveal",
+      "kwargs": {
+        "cid": 0,
+        "answer": "cobalt",
+        "salt": "285ac30548239161f7d5462bfd2460121936f9cceae4d7bf"
+      },
+      "hash": "0xe7fb8408fed1d9642d0c56d3d96fbe044a3af38105428a8482d890154f040a9c",
+      "submittedAt": "2026-10-03T06:22:54.232Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 5.818,
+      "status": "FINALIZED",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+          "provider": "openrouter",
+          "model": "openai/gpt-5.4",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "provider": "llm-router",
+          "model": "policy:prd-glm",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "provider": "llm-router",
+          "model": "policy:prd-qwen",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+          "provider": "llm-router",
+          "model": "policy:prd-gemini",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "provider": "llm-router",
+          "model": "policy:prd-deepseek",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "agree",
+        "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "finalizedSeconds": 33.946
+    },
+    {
+      "label": "drifted",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x26e8e81a837340785e915800dab1cbc06b065f9c29e582dd01b2713a0c2081eb",
+      "submittedAt": "2026-10-03T06:30:08.565Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 12.147,
+      "status": "FINALIZED",
+      "finalizedSeconds": 41.115,
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-5-4",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+          "provider": "llm-router",
+          "model": "policy:prd-gemini",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+          "provider": "openrouter",
+          "model": "openai/gpt-5.4",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-oss",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "idle",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+        "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "agree",
+        "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is copper. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 1,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0",
+          "pin_status": 1,
+          "player": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+          "reasoning_digest": "8578d23c25a8027ddf69a54a95e4bbd4f3d8ff45063a784efe7f0ba4311923f5",
+          "revealed": true,
+          "source_digest": "b5c982b244e1a3755975c6af1cd0caf6df52f46dc9b84315efac2cd45831ff7b",
+          "verdict": 3
+        },
+        "player": {
+          "addr": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 0,
+          "finished": false,
+          "handle": "verification-studionet",
+          "joined": true,
+          "position": 0,
+          "total_attempts": 0
+        }
+      }
+    },
+    {
+      "label": "unreachable",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0xc9430c10eee80a8315208e1e5e2f784c6df153a4e3f1ab56896a942eb3c0d3e5",
+      "submittedAt": "2026-10-03T06:36:50.776Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 12.125,
+      "status": "FINALIZED",
+      "finalizedSeconds": 43.046,
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+          "provider": "llm-router",
+          "model": "policy:prd-qwen",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+          "provider": "llm-router",
+          "model": "policy:prd-sonnet",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+          "provider": "llm-router",
+          "model": "policy:prd-gpt-5-4",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+          "provider": "llm-router",
+          "model": "policy:prd-kimi",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "idle",
+        "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "idle",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": ""
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 1,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0",
+          "pin_status": 2,
+          "player": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+          "reasoning_digest": "f1c9e8b95211b55f2ee64b04feaf08443ced349384c4afbd398220f4c7c7b7d4",
+          "revealed": true,
+          "source_digest": "",
+          "verdict": 3
+        },
+        "player": {
+          "addr": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 0,
+          "finished": false,
+          "handle": "verification-studionet",
+          "joined": true,
+          "position": 0,
+          "total_attempts": 0
+        }
+      }
+    },
+    {
+      "label": "restored",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0xfaa2dfd4c37e1ec908e6eaf725606f2f1439659b123916ba758ddc093becdb34",
+      "submittedAt": "2026-10-03T06:48:44.787Z",
+      "runtime": {
+        "endpoint": "https://studio.genlayer.com/api",
+        "chainId": 61999,
+        "validatorPoolObservedAt": "2026-10-02T19:22:16.445Z",
+        "validators": [
+          {
+            "address": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-5-4",
+            "stake": 100
+          },
+          {
+            "address": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+            "provider": "llm-router",
+            "model": "policy:prd-gemini",
+            "stake": 100
+          },
+          {
+            "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+            "provider": "llm-router",
+            "model": "policy:prd-sonnet",
+            "stake": 100
+          },
+          {
+            "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+            "provider": "llm-router",
+            "model": "policy:prd-deepseek",
+            "stake": 100
+          },
+          {
+            "address": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+            "provider": "llm-router",
+            "model": "policy:prd-gpt-oss",
+            "stake": 100
+          },
+          {
+            "address": "0x36728d2a123aB444E603EE5b2ad17d18Bb193557",
+            "provider": "llm-router",
+            "model": "policy:prd-grok",
+            "stake": 100
+          },
+          {
+            "address": "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+            "provider": "llm-router",
+            "model": "policy:prd-mistral",
+            "stake": 100
+          },
+          {
+            "address": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+            "provider": "llm-router",
+            "model": "policy:prd-kimi",
+            "stake": 100
+          },
+          {
+            "address": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+            "provider": "llm-router",
+            "model": "policy:prd-qwen",
+            "stake": 100
+          },
+          {
+            "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+            "provider": "llm-router",
+            "model": "policy:prd-glm",
+            "stake": 100
+          },
+          {
+            "address": "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+            "provider": "llm-router",
+            "model": "policy:prd-minimax",
+            "stake": 100
+          },
+          {
+            "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+            "provider": "llm-router",
+            "model": "policy:prd-gemma",
+            "stake": 100
+          },
+          {
+            "address": "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+            "provider": "openrouter",
+            "model": "openai/gpt-5.4",
+            "stake": 100
+          },
+          {
+            "address": "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+            "provider": "openrouter",
+            "model": "anthropic/claude-sonnet-4.6",
+            "stake": 100
+          },
+          {
+            "address": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+            "provider": "openrouter",
+            "model": "google/gemini-3-flash-preview",
+            "stake": 100
+          }
+        ],
+        "note": "Pool diversity is a preflight observation; each finalized transaction records its actual validators."
+      },
+      "acceptedSeconds": 42.914,
+      "status": "FINALIZED",
+      "finalizedSeconds": 76.071,
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+          "provider": "llm-router",
+          "model": "policy:prd-sonnet",
+          "vote": null,
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67/policy:prd-sonnet": {
+              "input": 452,
+              "total": 486,
+              "output": 34
+            }
+          }
+        },
+        {
+          "address": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+          "provider": "llm-router",
+          "model": "policy:prd-gemma",
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 1003,
+              "total": 1069,
+              "output": 66
+            }
+          }
+        },
+        {
+          "address": "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+          "provider": "llm-router",
+          "model": "policy:prd-sonnet",
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+              "input": 1003,
+              "total": 1065,
+              "output": 62
+            }
+          }
+        }
+      ],
+      "votes": {
+        "0x4404Fb70d490c935758146f42A73DC850FF95C71": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "idle",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree",
+        "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is cobalt. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable",
+        "1": {
+          "reasoning": "The source explicitly states 'the verification color is cobalt,' matching the player's answer exactly.",
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": "correct"
+        }
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Studio simulator receipt; not a measured production inference invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 1,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0",
+          "pin_status": 0,
+          "player": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+          "reasoning_digest": "9199a2f4e915fb29908e72ed8532076b9f2b3b7f7511eb17bf3bad7c9000624e",
+          "revealed": true,
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": 1
+        },
+        "player": {
+          "addr": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 1,
+          "finished": false,
+          "handle": "verification-studionet",
+          "joined": true,
+          "position": 1,
+          "total_attempts": 1
+        }
+      }
+    }
+  ],
+  "plays": [
+    {
+      "idx": 0,
+      "cid": 0,
+      "answer": "cobalt",
+      "salt": "285ac30548239161f7d5462bfd2460121936f9cceae4d7bf",
+      "commitment": "42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0",
+      "attempt": 1
+    }
+  ],
+  "createdAt": "2026-10-03T06:20:43.371Z",
+  "client": {
+    "sdk": "genlayer-js@1.1.8",
+    "node": "v20.20.2",
+    "contractSha256": "f47cadf541445309130cf22ff022db4ba192ccfbcb8a7192403922d417f05c38"
+  },
+  "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+  "race": {
+    "chain_version": 1,
+    "clue_count": 2,
+    "commit_count": 0,
+    "hash_algo": "sha256",
+    "max_attempts_per_clue": 6,
+    "owner": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+    "player_count": 0,
+    "state": 1,
+    "title": "Proof of Hunt - source failure verification",
+    "winner": "",
+    "winner_cid": -1
+  },
+  "failureBaseline": {
+    "addr": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+    "attempts_left": 6,
+    "attempts_used": 0,
+    "cleared": 0,
+    "finished": false,
+    "handle": "verification-studionet",
+    "joined": true,
+    "position": 0,
+    "total_attempts": 0
+  },
+  "lastCommit": {
+    "answer": "cobalt",
+    "chain_version": 1,
+    "cid": 0,
+    "clue_idx": 0,
+    "commitment": "42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0",
+    "pin_status": 0,
+    "player": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+    "reasoning_digest": "9199a2f4e915fb29908e72ed8532076b9f2b3b7f7511eb17bf3bad7c9000624e",
+    "revealed": true,
+    "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+    "verdict": 1
+  },
+  "lastPlayer": {
+    "addr": "0x08a35ce9529f640c5c02729CAa643253Db3f5b23",
+    "attempts_left": 6,
+    "attempts_used": 0,
+    "cleared": 1,
+    "finished": false,
+    "handle": "verification-studionet",
+    "joined": true,
+    "position": 1,
+    "total_attempts": 1
+  }
+}

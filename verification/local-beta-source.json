@@ -1,0 +1,1264 @@
+{
+  "network": "local",
+  "endpoint": "http://localhost:4000/api",
+  "chainId": 61999,
+  "accountKeyName": "beta-source",
+  "account": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+  "calls": [
+    {
+      "label": "deploy",
+      "functionName": "__init__",
+      "kwargs": {
+        "title": "Proof of Hunt - source failure verification"
+      },
+      "hash": "0xd88b2ad53b737a8c1c335a5b85f5c5645ab13de9a0518712ab0dad521bda2bb2",
+      "submittedAt": "2026-10-03T08:18:56.624Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.179,
+      "status": "FINALIZED",
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 59.954
+    },
+    {
+      "label": "add_clue[0]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "Controlled Source",
+        "riddle": "What color is explicitly named as the verification color in this synthetic document?",
+        "source_url": "https://gist.githubusercontent.com/Zhekinmaksim/e7c4ea1a9b8a0270968a3cdc6df04ee2/raw/source.txt",
+        "anchor": "proof of hunt source fixture",
+        "window_chars": 400,
+        "answer_form": "one word, lowercase",
+        "answer_pattern": "[a-z]{3,12}",
+        "hint": "Read the sentence immediately after the anchor."
+      },
+      "hash": "0x3e14435c5d1d02a2d6081959e0a2b9e46217a2d5cbc150c08502844f4a136d3d",
+      "submittedAt": "2026-10-03T08:19:03.829Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 8.097,
+      "status": "FINALIZED",
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 52.762
+    },
+    {
+      "label": "add_clue[1]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "By Air",
+        "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+        "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+        "anchor": "the mtu is variable",
+        "window_chars": 300,
+        "answer_form": "a number, digits only",
+        "answer_pattern": "\\d{1,5}",
+        "hint": "Milligrams. And it is a power of two."
+      },
+      "hash": "0x6398fb3b462897b830877e6073c1bebdad00944cbfe251a480e2f4b3f8c4fb76",
+      "submittedAt": "2026-10-03T08:19:11.936Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 12.146,
+      "status": "FINALIZED",
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 44.666
+    },
+    {
+      "label": "pin_clue[0]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 0
+      },
+      "hash": "0x720550d3a2be6cf3154074431d3e943b68cb048d614f9013f8d5676247cfc242",
+      "submittedAt": "2026-10-03T08:19:24.091Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 14.114,
+      "status": "FINALIZED",
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is cobalt. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 32.52
+    },
+    {
+      "label": "pin_clue[1]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 1
+      },
+      "hash": "0xcb77c6ebecfda0c2a1496f062d792bb0fc56f338d5067bbc3ed2f0e516b3a824",
+      "submittedAt": "2026-10-03T08:19:38.215Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 18.344,
+      "status": "FINALIZED",
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "the mtu is variable, and paradoxically, generally increases with increased carrier age. a typical mtu is 256 milligrams. some datagram padding may be needed. upon receipt, the duct tape is removed and the paper copy of the datagram is optically scanned into a electronically transmittable form. discu"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 28.471
+    },
+    {
+      "label": "open_race",
+      "functionName": "open_race",
+      "kwargs": {},
+      "hash": "0xb7ebf20e16cd768cf9f1e32189ee2a5552488802c45b999db0a72c179a92c154",
+      "submittedAt": "2026-10-03T08:20:08.720Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.125,
+      "status": "FINALIZED",
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 10.205
+    },
+    {
+      "label": "join",
+      "functionName": "join",
+      "kwargs": {
+        "handle": "verification-local"
+      },
+      "hash": "0x50e53d803e737015df9d02b72d7e6279b8f619404fd9ed78f08135e67ef8226b",
+      "submittedAt": "2026-10-03T08:20:20.137Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.101,
+      "status": "FINALIZED",
+      "finalizedSeconds": 14.233,
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "commit[0]",
+      "functionName": "commit",
+      "kwargs": {
+        "clue_idx": 0,
+        "commitment": "5b2cc3f782b512e19c446e448c5f0971bd1f78d680cb905b0af0e53fb7535180"
+      },
+      "hash": "0x03d5a735c7214f911d4418d7c398c4e9694dc905360fccae2a11d8d1e7f29bcd",
+      "submittedAt": "2026-10-03T08:20:35.439Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.16,
+      "status": "FINALIZED",
+      "finalizedSeconds": 10.212,
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "reveal[0]",
+      "functionName": "reveal",
+      "kwargs": {
+        "cid": 0,
+        "answer": "cobalt",
+        "salt": "13636a61ab5846d2cbae908253abdb2f541175768c9048f6"
+      },
+      "hash": "0x49faa26aeee6eaff2bd156a9a2ea1affb352acf4b05c018747edc283c54c3c76",
+      "submittedAt": "2026-10-03T08:20:45.667Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 8.159,
+      "status": "FINALIZED",
+      "finalizedSeconds": 10.195,
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "drifted",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x66cfc57f27ea5b6b2633fd951a890fc9fdee932bb5486473263c2ca15059ee67",
+      "submittedAt": "2026-10-03T08:29:03.234Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 12.222,
+      "status": "FINALIZED",
+      "finalizedSeconds": 50.89,
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is copper. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 2,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "5b2cc3f782b512e19c446e448c5f0971bd1f78d680cb905b0af0e53fb7535180",
+          "judge_deadline": 1791620442,
+          "pin_status": 1,
+          "player": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+          "reasoning_digest": "8578d23c25a8027ddf69a54a95e4bbd4f3d8ff45063a784efe7f0ba4311923f5",
+          "reveal_deadline": 1791102042,
+          "revealed": true,
+          "source_digest": "b5c982b244e1a3755975c6af1cd0caf6df52f46dc9b84315efac2cd45831ff7b",
+          "verdict": 3
+        },
+        "player": {
+          "addr": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 0,
+          "finished": false,
+          "handle": "verification-local",
+          "joined": true,
+          "pending_cid": 0,
+          "position": 0,
+          "total_attempts": 0
+        }
+      }
+    },
+    {
+      "label": "unreachable",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x5e45aac1bf3c2a11e9fe486fbc5cb7deffd93892778a8932507fadbe7c0c1fbb",
+      "submittedAt": "2026-10-03T08:35:26.306Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 52.848,
+      "status": "FINALIZED",
+      "finalizedSeconds": 58.906,
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": ""
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 2,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "5b2cc3f782b512e19c446e448c5f0971bd1f78d680cb905b0af0e53fb7535180",
+          "judge_deadline": 1791620442,
+          "pin_status": 2,
+          "player": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+          "reasoning_digest": "f1c9e8b95211b55f2ee64b04feaf08443ced349384c4afbd398220f4c7c7b7d4",
+          "reveal_deadline": 1791102042,
+          "revealed": true,
+          "source_digest": "",
+          "verdict": 3
+        },
+        "player": {
+          "addr": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 0,
+          "finished": false,
+          "handle": "verification-local",
+          "joined": true,
+          "pending_cid": 0,
+          "position": 0,
+          "total_attempts": 0
+        }
+      }
+    },
+    {
+      "label": "restored",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0xe2d894d398fe14f69f25ef4dcf65bad3413ed5fe12357521494b298e985af824",
+      "submittedAt": "2026-10-03T08:42:26.705Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 32.33,
+      "status": "FINALIZED",
+      "finalizedSeconds": 38.384,
+      "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0xc1a7F3174f487c8eb8505B7872ACB8E711198318/llama3.1:8b": {
+              "input": 432,
+              "total": 465,
+              "output": 33
+            }
+          }
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0x20ddBb334395505BF53A142cd769F4545A403593/llama3.1:8b": {
+              "input": 950,
+              "total": 1004,
+              "output": 54
+            }
+          }
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS",
+          "usage": {
+            "node-0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b/llama3.1:8b": {
+              "input": 950,
+              "total": 1004,
+              "output": 54
+            }
+          }
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is cobalt. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable",
+        "1": {
+          "reasoning": "The verification color is explicitly named as 'cobalt' in the source excerpt.",
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": "correct"
+        }
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 2,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "5b2cc3f782b512e19c446e448c5f0971bd1f78d680cb905b0af0e53fb7535180",
+          "judge_deadline": 1791620442,
+          "pin_status": 0,
+          "player": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+          "reasoning_digest": "7c7c00fc1c19e2f51fd7d734e38edec5483af8b82becd78d5d8f01273e121dd7",
+          "reveal_deadline": 1791102042,
+          "revealed": true,
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": 1
+        },
+        "player": {
+          "addr": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 1,
+          "finished": false,
+          "handle": "verification-local",
+          "joined": true,
+          "pending_cid": -1,
+          "position": 1,
+          "total_attempts": 1
+        }
+      }
+    }
+  ],
+  "plays": [
+    {
+      "idx": 0,
+      "cid": 0,
+      "answer": "cobalt",
+      "salt": "13636a61ab5846d2cbae908253abdb2f541175768c9048f6",
+      "commitment": "5b2cc3f782b512e19c446e448c5f0971bd1f78d680cb905b0af0e53fb7535180",
+      "attempt": 1
+    }
+  ],
+  "createdAt": "2026-10-03T08:18:56.623Z",
+  "client": {
+    "sdk": "genlayer-js@1.1.8",
+    "node": "v20.20.2",
+    "contractSha256": "95f3bb804d2f831a63c7f29647d06bccebbc139b86179f598c53e8de3f0dd8d0"
+  },
+  "address": "0x1f39fc219722C550176798722479Fae6eBA8F530",
+  "race": {
+    "chain_version": 2,
+    "closes_at": 1793607616,
+    "clue_count": 2,
+    "commit_count": 0,
+    "hash_algo": "sha256",
+    "judge_seconds": 604800,
+    "max_attempts_per_clue": 6,
+    "max_commits": 8192,
+    "max_players": 128,
+    "owner": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+    "player_count": 0,
+    "protocol_version": 2,
+    "reveal_seconds": 86400,
+    "state": 1,
+    "title": "Proof of Hunt - source failure verification",
+    "winner": "",
+    "winner_cid": -1
+  },
+  "failureBaseline": {
+    "addr": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+    "attempts_left": 6,
+    "attempts_used": 0,
+    "cleared": 0,
+    "finished": false,
+    "handle": "verification-local",
+    "joined": true,
+    "pending_cid": 0,
+    "position": 0,
+    "total_attempts": 0
+  },
+  "lastCommit": {
+    "answer": "cobalt",
+    "chain_version": 2,
+    "cid": 0,
+    "clue_idx": 0,
+    "commitment": "5b2cc3f782b512e19c446e448c5f0971bd1f78d680cb905b0af0e53fb7535180",
+    "judge_deadline": 1791620442,
+    "pin_status": 0,
+    "player": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+    "reasoning_digest": "7c7c00fc1c19e2f51fd7d734e38edec5483af8b82becd78d5d8f01273e121dd7",
+    "reveal_deadline": 1791102042,
+    "revealed": true,
+    "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+    "verdict": 1
+  },
+  "lastPlayer": {
+    "addr": "0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0",
+    "attempts_left": 6,
+    "attempts_used": 0,
+    "cleared": 1,
+    "finished": false,
+    "handle": "verification-local",
+    "joined": true,
+    "pending_cid": -1,
+    "position": 1,
+    "total_attempts": 1
+  }
+}

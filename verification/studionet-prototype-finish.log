@@ -1,0 +1,41 @@
+Already cleared 0
+commit[1] 0x5ce59f740425ca2d8a76416511430270fb5f7b342dba187f1c6c0aed296b0ffb
+commit[1] PENDING
+commit[1] COMMITTING
+commit[1] ACCEPTED
+reveal[1] 0x377cd0142ad0f50978e1ca0955da518acbddb31bdf60287c050834ff4e108644
+reveal[1] PENDING
+reveal[1] COMMITTING
+reveal[1] ACCEPTED
+judge[1] 0x7682ca5e916053bcb6d4b845ab049f5a342c4e4e843f80e47b25e5ec69d518a0
+judge[1] PENDING
+judge[1] PROPOSING
+judge[1] COMMITTING
+judge[1] ACCEPTED
+Verdict 1 {
+  answer: '256',
+  chain_version: 1,
+  cid: 1,
+  clue_idx: 1,
+  commitment: '07480e43b370221beac727745d999ac9afcfb1ba360beef6ab5a36c1ae052b88',
+  pin_status: 0,
+  player: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  reasoning_digest: '250c5bf7a81b93af507a1c50e1fd14853aa63567ad1566fc7afc50f7d45ffb0c',
+  revealed: true,
+  source_digest: 'bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c',
+  verdict: 1
+} {
+  addr: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 2,
+  finished: true,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 2,
+  total_attempts: 2
+}
+commit[1] FINALIZED
+reveal[1] FINALIZED
+judge[1] ACCEPTED
+judge[1] FINALIZED

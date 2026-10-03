@@ -1,0 +1,45 @@
+Retrieving project…
+Deploying zhekinmaksim-8919s-projects/proofofhunt
+Uploading [--------------------] (0.0B/3.2MB)
+Uploading [=====---------------] (820.5KB/3.2MB)
+Uploading [==========----------] (1.6MB/3.2MB)
+Uploading [===============-----] (2.4MB/3.2MB)
+Uploading [====================] (3.2MB/3.2MB)
+Inspect: https://vercel.com/zhekinmaksim-8919s-projects/proofofhunt/6uNVuiFDfFnYYUwaZrMjuHaTW98s [4s]
+Production: https://proofofhunt-cu1yrqqtz-zhekinmaksim-8919s-projects.vercel.app [4s]
+Building...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 4 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 54 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 62.1.0
+Building: Running "install" command: `npm --prefix web ci`...
+Building: npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+[2K[1A[2K[GProduction: https://proofofhunt-cu1yrqqtz-zhekinmaksim-8919s-projects.vercel.app [15s]
+Completing...
+Aliased: https://proofofhunt-rouge.vercel.app [15s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_6uNVuiFDfFnYYUwaZrMjuHaTW98s",
+    "url": "https://proofofhunt-cu1yrqqtz-zhekinmaksim-8919s-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/zhekinmaksim-8919s-projects/proofofhunt/6uNVuiFDfFnYYUwaZrMjuHaTW98s",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_6uNVuiFDfFnYYUwaZrMjuHaTW98s"
+  },
+  "message": "Deployment proofofhunt-cu1yrqqtz-zhekinmaksim-8919s-projects.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect proofofhunt-cu1yrqqtz-zhekinmaksim-8919s-projects.vercel.app --scope zhekinmaksim-8919s-projects",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod --scope zhekinmaksim-8919s-projects",
+      "when": "Promote to production"
+    }
+  ]
+}

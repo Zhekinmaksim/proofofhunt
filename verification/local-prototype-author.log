@@ -1,0 +1,40 @@
+deploy FINALIZED
+add_clue[0] 0xa441638818a3d2dbce24cbb17118ecb1af458124f551cbe30517c36b45d5f86d
+add_clue[0] PENDING
+add_clue[0] COMMITTING
+add_clue[0] ACCEPTED
+add_clue[0] FINALIZED
+add_clue[1] 0x5fc17c05a7510bff24e3e21947d9d83b0229a1798684f20931053f9825c85ac4
+add_clue[1] PENDING
+add_clue[1] COMMITTING
+add_clue[1] ACCEPTED
+add_clue[1] FINALIZED
+pin_clue[0] 0x811ce00e546cf18cee05abdb42aec007483085d02454a2c3e99ea103007f3ca5
+pin_clue[0] PENDING
+pin_clue[0] PROPOSING
+pin_clue[0] COMMITTING
+pin_clue[0] ACCEPTED
+pin_clue[0] FINALIZED
+pin_clue[1] 0x05858cffc49d8d9ed96f94154fc522c7a052c7218490d04eef5290db888c5325
+pin_clue[1] PENDING
+pin_clue[1] COMMITTING
+pin_clue[1] ACCEPTED
+pin_clue[1] FINALIZED
+open_race 0xf0501da14e36b7381502afaca413eb24075efddbcd7a9e44ed12de2b38c66e0f
+open_race PENDING
+open_race PROPOSING
+open_race ACCEPTED
+open_race FINALIZED
+Authored 0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580 {
+  chain_version: 1,
+  clue_count: 2,
+  commit_count: 0,
+  hash_algo: 'sha256',
+  max_attempts_per_clue: 6,
+  owner: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  player_count: 0,
+  state: 1,
+  title: 'Proof of Hunt - two-clue prototype',
+  winner: '',
+  winner_cid: -1
+}

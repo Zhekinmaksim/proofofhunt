@@ -1,0 +1,113 @@
+deploy 0xa4f1640d3fe10166e411d172558d10dbd6ce12f6c8b9442f44d3895de8922ebd
+deploy PENDING
+deploy COMMITTING
+deploy ACCEPTED
+add_clue[0] 0xa4fa3290d997dd79b2c4fee1f99ffcca6401242cf6daef7cd4f95fd2a2aec794
+add_clue[0] PENDING
+add_clue[0] PROPOSING
+add_clue[0] ACCEPTED
+add_clue[1] 0xd1e1cde835c0d68a10a39eddfa236d26fa8c459aaacb28314fc7a3fa7a3a9233
+add_clue[1] PENDING
+add_clue[1] COMMITTING
+add_clue[1] ACCEPTED
+add_clue[2] 0x640f70c7023950efd9bb539952ac019ed4a3630adc4ac46a9e4abd85d91fc68f
+add_clue[2] PENDING
+add_clue[2] PROPOSING
+add_clue[2] COMMITTING
+add_clue[2] ACCEPTED
+add_clue[3] 0xc1077a59075911a2d5c7ed818a01760a343e2cafbb7be6601ff510ed96389bd9
+add_clue[3] PENDING
+add_clue[3] PROPOSING
+add_clue[3] ACCEPTED
+add_clue[4] 0x19340cc9c6decabf88d3426e9abff18fe314992c9226b296c58c4a83fa17c0a9
+add_clue[4] PENDING
+add_clue[4] COMMITTING
+add_clue[4] ACCEPTED
+add_clue[5] 0xbfca512abc2c2d8a8232b40aa66e215fb4722e47045bdcbcd1cd3ed9635f0907
+add_clue[5] PENDING
+add_clue[5] COMMITTING
+add_clue[5] ACCEPTED
+add_clue[6] 0xa977c845207c99dba31911116dc21ab7c00a446a127d2bce4dfb90eece93b2a9
+add_clue[6] PENDING
+add_clue[6] COMMITTING
+add_clue[6] ACCEPTED
+add_clue[7] 0xc0b10cfbceb28dc322f3b7b1115e606a2ad873e31675f6af62ebabdb2024fa36
+add_clue[7] PENDING
+add_clue[7] PROPOSING
+add_clue[7] COMMITTING
+add_clue[7] ACCEPTED
+add_clue[8] 0xffa8ac95e37d467d88307887856be28840758becc871c64e5c788c712f16717b
+add_clue[8] PENDING
+add_clue[8] COMMITTING
+add_clue[8] ACCEPTED
+add_clue[9] 0x0598b4cb5d553b5b70d4a6e6d987465560195e6adbbc5c0c5f4caa77d8512265
+add_clue[9] PENDING
+add_clue[9] PROPOSING
+add_clue[9] REVEALING
+add_clue[9] ACCEPTED
+add_clue[10] 0x7b3c4f0318592141a882430bcaef4a0e18d0f0d7fced245a2ec6802974f603b3
+add_clue[10] PENDING
+add_clue[10] COMMITTING
+add_clue[10] ACCEPTED
+add_clue[11] 0xbc1c99c6b316d427bc1cbb7a3d91a602d802948b45ff97eec2472a77bc356d56
+add_clue[11] PENDING
+add_clue[11] PROPOSING
+add_clue[11] REVEALING
+add_clue[11] ACCEPTED
+pin_clue[0] 0x07adbe3c69d73e17a4161a084cc983aaf91dea1e4652415143a9c3b7532dc892
+pin_clue[0] PROPOSING
+pin_clue[0] COMMITTING
+pin_clue[0] ACCEPTED
+pin_clue[1] 0xa0668499b675a2febb3a039f92556acf401c0fb9a41251f5e614f949dea220fd
+pin_clue[1] PENDING
+pin_clue[1] PROPOSING
+pin_clue[1] COMMITTING
+pin_clue[1] ACCEPTED
+pin_clue[2] 0xd2050fbd1becdc709ecacc2c855abad245976ee91016c7025f817247a35e1601
+pin_clue[2] PENDING
+pin_clue[2] PROPOSING
+pin_clue[2] COMMITTING
+pin_clue[2] ACCEPTED
+pin_clue[3] 0x329072dbf5ee8f7ebfef1bc77ab11b2d8ccd67cedcb8da3fb2dce1db8a798283
+pin_clue[3] PENDING
+pin_clue[3] PROPOSING
+pin_clue[3] COMMITTING
+pin_clue[3] ACCEPTED
+pin_clue[4] 0x6c8159068d9dda7e9869b765198732a0d466a37254ef28f526ff6e4947aa68ea
+pin_clue[4] PENDING
+pin_clue[4] COMMITTING
+pin_clue[4] REVEALING
+pin_clue[4] ACCEPTED
+pin_clue[5] 0x7ee022f661a0463e57bb474525a64a8bb02dbbe02dc9ee41364f35cb38b52618
+pin_clue[5] PENDING
+GenLayer RPC error (eth_getTransactionByHash): Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:127
+                        throw new UnknownRpcError(err);
+                              ^
+
+UnknownRpcError: An unknown RPC error occurred.
+
+Details: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+Version: viem@2.57.2
+    at withRetry.delay.count.count (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:127:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async attemptRetry (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+  details: `Unexpected token '<', "<!DOCTYPE "... is not valid JSON`,
+  docsPath: undefined,
+  metaMessages: undefined,
+  shortMessage: 'An unknown RPC error occurred.',
+  version: '2.57.2',
+  code: -1,
+  [cause]: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+      at JSON.parse (<anonymous>)
+      at parseJSONFromBytes (node:internal/deps/undici/undici:5880:19)
+      at successSteps (node:internal/deps/undici/undici:5861:27)
+      at fullyReadBody (node:internal/deps/undici/undici:4753:9)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async consumeBody (node:internal/deps/undici/undici:5870:7)
+      at async Object.request (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/genlayer-js/dist/index.js:2408:22)
+      at async withRetry.delay.count.count (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+      at async attemptRetry (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/promise/withRetry.js:24:30)
+}
+
+Node.js v20.20.2

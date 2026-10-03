@@ -1,0 +1,62 @@
+[
+  {
+    "step": "deploy",
+    "method": "__init__",
+    "args": {
+      "title": "Proof of Hunt - source failure verification"
+    },
+    "note": "deploy the contract, then use its address for everything below"
+  },
+  {
+    "step": "add_clue[00]",
+    "method": "add_clue",
+    "args": {
+      "title": "Controlled Source",
+      "riddle": "What color is explicitly named as the verification color in this synthetic document?",
+      "source_url": "https://gist.githubusercontent.com/Zhekinmaksim/e7c4ea1a9b8a0270968a3cdc6df04ee2/raw/source.txt",
+      "anchor": "proof of hunt source fixture",
+      "window_chars": 400,
+      "answer_form": "one word, lowercase",
+      "answer_pattern": "[a-z]{3,12}",
+      "hint": "Read the sentence immediately after the anchor."
+    },
+    "note": "deterministic and cheap, no web fetch"
+  },
+  {
+    "step": "add_clue[01]",
+    "method": "add_clue",
+    "args": {
+      "title": "By Air",
+      "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+      "anchor": "the mtu is variable",
+      "window_chars": 300,
+      "answer_form": "a number, digits only",
+      "answer_pattern": "\\d{1,5}",
+      "hint": "Milligrams. And it is a power of two."
+    },
+    "note": "deterministic and cheap, no web fetch"
+  },
+  {
+    "step": "pin_clue[00]",
+    "method": "pin_clue",
+    "args": {
+      "idx": 0
+    },
+    "note": "fetches https://gist.githubusercontent.com/Zhekinmaksim/e7c4ea1a9b8a0270968a3cdc6df04ee2/raw/source.txt and agrees on the window at anchor 'proof of hunt source fixture'. If this fails consensus the source is unstable across validators - replace it, do not retry forever"
+  },
+  {
+    "step": "pin_clue[01]",
+    "method": "pin_clue",
+    "args": {
+      "idx": 1
+    },
+    "note": "fetches https://www.rfc-editor.org/rfc/rfc1149.txt and agrees on the window at anchor 'the mtu is variable'. If this fails consensus the source is unstable across validators - replace it, do not retry forever"
+  },
+  {
+    "step": "open_race",
+    "method": "open_race",
+    "args": {},
+    "note": "one way door, the clue chain is sealed after this"
+  }
+]

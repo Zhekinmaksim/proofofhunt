@@ -1,0 +1,149 @@
+{
+  "address": "0x9dA0f355C42f4a4C4D06D165936E78908e9d0f2e",
+  "account": "0x15B26975dB249a1Eed087bAcb7Ed148F08937150",
+  "endpoint": "http://localhost:4000/api",
+  "calls": [
+    {
+      "method": "join",
+      "hash": "0xadcb684a7943fb17c7e4c7ab86be67b004d4d3bb2dc31a2c0f1464fe11a38c4e",
+      "kwargs": {
+        "handle": "wallet-provider-check"
+      },
+      "submittedAt": "2026-10-03T08:20:55.913Z",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "rounds": [
+        [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ]
+      ]
+    },
+    {
+      "method": "commit",
+      "hash": "0xc005bd019de84f4f179c62759eab63dc87410ef61880466cb11c597a9542dc21",
+      "kwargs": {
+        "clue_idx": 0,
+        "commitment": "52149c4b8f3e786687297120ae6d25b17192a968133ee332713427c49036545c"
+      },
+      "submittedAt": "2026-10-03T08:21:51.545Z",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "rounds": [
+        [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ]
+      ]
+    },
+    {
+      "method": "reveal",
+      "hash": "0x3c01ec0c4eb3bf1451c5844aa5c19ee49a54ef265df862371099329950a2ae35",
+      "kwargs": {
+        "cid": 2,
+        "answer": "stout",
+        "salt": "c65043db39cd8f01616616acdac80150"
+      },
+      "submittedAt": "2026-10-03T08:22:35.147Z",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "rounds": [
+        [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ]
+      ]
+    },
+    {
+      "method": "judge",
+      "hash": "0x7fd797b583e5588cbca3824838ea4cb8b07485f614fbbb0a5532151200d25c4d",
+      "kwargs": {
+        "cid": 2
+      },
+      "submittedAt": "2026-10-03T08:22:49.434Z",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "rounds": [
+        [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ]
+      ]
+    }
+  ],
+  "providerMethods": [
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_sendTransaction",
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_sendTransaction",
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_sendTransaction",
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_accounts",
+    "eth_chainId",
+    "gen_call",
+    "eth_sendTransaction"
+  ],
+  "createdAt": "2026-10-03T08:20:53.708Z",
+  "scope": "Actual SDK EIP-1193 provider path with isolated Node signer; no browser extension UI tested",
+  "salt": "c65043db39cd8f01616616acdac80150",
+  "cid": 2,
+  "player": {
+    "addr": "0x15B26975dB249a1Eed087bAcb7Ed148F08937150",
+    "attempts_left": 6,
+    "attempts_used": 0,
+    "cleared": 1,
+    "finished": false,
+    "handle": "wallet-provider-check",
+    "joined": true,
+    "pending_cid": -1,
+    "position": 1,
+    "total_attempts": 1
+  },
+  "result": {
+    "answer": "stout",
+    "chain_version": 2,
+    "cid": 2,
+    "clue_idx": 0,
+    "commitment": "52149c4b8f3e786687297120ae6d25b17192a968133ee332713427c49036545c",
+    "judge_deadline": 1791620518,
+    "pin_status": 0,
+    "player": "0x15B26975dB249a1Eed087bAcb7Ed148F08937150",
+    "reasoning_digest": "ee57c65b9fdae748a4b1cbd5327c2bf25b954aad190b6f11b439dcfcdd1fc581",
+    "reveal_deadline": 1791102118,
+    "revealed": true,
+    "source_digest": "0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52",
+    "verdict": 1
+  },
+  "passed": true,
+  "completedAt": "2026-10-03T08:23:19.885Z"
+}

@@ -1,0 +1,29 @@
+restored 0xfaa2dfd4c37e1ec908e6eaf725606f2f1439659b123916ba758ddc093becdb34
+restored PENDING
+restored PROPOSING
+restored COMMITTING
+restored ACCEPTED
+restored FINALIZED
+{
+  answer: 'cobalt',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '42b8eb62d52f5f2d4b4b358b925801ace1ea1f868666e769f0774c83fc4d5ad0',
+  pin_status: 0,
+  player: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  reasoning_digest: '9199a2f4e915fb29908e72ed8532076b9f2b3b7f7511eb17bf3bad7c9000624e',
+  revealed: true,
+  source_digest: 'c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d',
+  verdict: 1
+} {
+  addr: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 1,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 1,
+  total_attempts: 1
+}

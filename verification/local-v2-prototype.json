@@ -1,0 +1,572 @@
+{
+  "network": "local",
+  "endpoint": "http://localhost:4000/api",
+  "chainId": 61999,
+  "accountKeyName": "v2-prototype",
+  "account": "0x889Cec0EA96Be32488E3f413968fA84692CA6289",
+  "calls": [
+    {
+      "label": "deploy",
+      "functionName": "__init__",
+      "kwargs": {
+        "title": "Proof of Hunt - two-clue prototype"
+      },
+      "hash": "0x7f617e8bf28618cf3b8081c566665304f5d224631cf0c68af8b88d084626be5f",
+      "submittedAt": "2026-10-03T08:07:55.159Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 4.193,
+      "status": "FINALIZED",
+      "address": "0x7fC8dd027250eDA1d7a0BC563F564518d1EC3701",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 41.895
+    },
+    {
+      "label": "add_clue[0]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "Short and Stout",
+        "riddle": "On the first of April 1998 the IETF published a standard for controlling coffee pots over HTTP. It reserves an error for the case where you ask a teapot to brew. The document says the resulting entity body MAY be short and one other thing. Give that word.",
+        "source_url": "https://www.rfc-editor.org/rfc/rfc2324.txt",
+        "anchor": "any attempt to brew coffee with a teapot",
+        "window_chars": 400,
+        "answer_form": "one word, lowercase",
+        "answer_pattern": "[a-z]{3,12}",
+        "hint": "The joke is a nursery rhyme."
+      },
+      "hash": "0xe190a4c78bb40c5938b90c205380c14835a5ce2cef400368cff5c7b373a73bbb",
+      "submittedAt": "2026-10-03T08:08:00.406Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.157,
+      "status": "FINALIZED",
+      "address": "0x7fC8dd027250eDA1d7a0BC563F564518d1EC3701",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 36.664
+    },
+    {
+      "label": "add_clue[1]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "By Air",
+        "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+        "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+        "anchor": "the mtu is variable",
+        "window_chars": 300,
+        "answer_form": "a number, digits only",
+        "answer_pattern": "\\d{1,5}",
+        "hint": "Milligrams. And it is a power of two."
+      },
+      "hash": "0x0d683795db0ada1d3dbc40a38ed828b88145f4c221bb5c57b888e8923dbc12d5",
+      "submittedAt": "2026-10-03T08:08:06.570Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 8.138,
+      "status": "FINALIZED",
+      "address": "0x7fC8dd027250eDA1d7a0BC563F564518d1EC3701",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 30.515
+    },
+    {
+      "label": "pin_clue[0]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 0
+      },
+      "hash": "0x8626312c570697864d8d1be329f669360ae3f2bc688db40ba7aa765133d72802",
+      "submittedAt": "2026-10-03T08:08:14.726Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 12.174,
+      "status": "FINALIZED",
+      "address": "0x7fC8dd027250eDA1d7a0BC563F564518d1EC3701",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "any attempt to brew coffee with a teapot should result in the error code \"418 i'm a teapot\". the resulting entity body may be short and stout. 3. the \"coffee\" uri scheme because coffee is international, there are international coffee uri schemes. all coffee url schemes are written with url encoding of the utf-8 encoding of the characters that spell the word for \"coffee\" in any of 29 languages, fol"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 22.373
+    },
+    {
+      "label": "pin_clue[1]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 1
+      },
+      "hash": "0xf50d247340abb8db02ef8150c5450eef6649166d3419c60d82b1b441f3f23faf",
+      "submittedAt": "2026-10-03T08:08:26.911Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 10.124,
+      "status": "FINALIZED",
+      "address": "0x7fC8dd027250eDA1d7a0BC563F564518d1EC3701",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {
+        "0": "the mtu is variable, and paradoxically, generally increases with increased carrier age. a typical mtu is 256 milligrams. some datagram padding may be needed. upon receipt, the duct tape is removed and the paper copy of the datagram is optically scanned into a electronically transmittable form. discu"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 14.259
+    },
+    {
+      "label": "open_race",
+      "functionName": "open_race",
+      "kwargs": {},
+      "hash": "0x952516e9eeda487844124c2dbed38858dabfa80f5a7e77934a8810b508bfe500",
+      "submittedAt": "2026-10-03T08:08:43.253Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "llama3.1:8b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.144,
+      "status": "FINALIZED",
+      "address": "0x7fC8dd027250eDA1d7a0BC563F564518d1EC3701",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "llama3.1:8b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "consensusRounds": [
+        {
+          "round": "Accepted",
+          "statusChanges": [
+            "PENDING",
+            "PROPOSING",
+            "COMMITTING",
+            "REVEALING",
+            "ACCEPTED"
+          ]
+        }
+      ],
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "finalizedSeconds": 10.22
+    }
+  ],
+  "plays": [],
+  "createdAt": "2026-10-03T08:07:55.159Z",
+  "client": {
+    "sdk": "genlayer-js@1.1.8",
+    "node": "v20.20.2",
+    "contractSha256": "68ae849e4ecf04d131364caf6f8cf6e6ffb32afb23da5024e5a0ccd640cdf989"
+  },
+  "address": "0x7fC8dd027250eDA1d7a0BC563F564518d1EC3701",
+  "race": {
+    "chain_version": 2,
+    "closes_at": 1793606930,
+    "clue_count": 2,
+    "commit_count": 0,
+    "hash_algo": "sha256",
+    "judge_seconds": 604800,
+    "max_attempts_per_clue": 6,
+    "max_commits": 8192,
+    "max_players": 128,
+    "owner": "0x889Cec0EA96Be32488E3f413968fA84692CA6289",
+    "player_count": 0,
+    "protocol_version": 2,
+    "reveal_seconds": 86400,
+    "state": 1,
+    "title": "Proof of Hunt - two-clue prototype",
+    "winner": "",
+    "winner_cid": -1
+  }
+}

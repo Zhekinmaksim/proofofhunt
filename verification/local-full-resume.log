@@ -1,0 +1,33 @@
+Verdict 0 {
+  answer: 'stout',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '2e80c0e487091c33463050711a30c739cda5959449a721007ac9fa8401b096a3',
+  pin_status: 0,
+  player: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  reasoning_digest: 'a8ad5b9267dd34a0aaa040257a8c0031bd41318d68965a92b9ece9a54407d642',
+  revealed: true,
+  source_digest: '0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52',
+  verdict: 1
+} {
+  addr: '0x00A820CEcF127b5939715F4b72AA503f25Cbc5eA',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 3,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 3,
+  total_attempts: 3
+}
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:135
+    if(turn.result.verdict!==1||turn.player.position!==idx+1) throw Error(`Clue ${idx}: expected CORRECT and position ${idx+1}`);
+                                                                    ^
+
+Error: Clue 0: expected CORRECT and position 1
+    at play (file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:135:69)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:140:51
+
+Node.js v20.20.2

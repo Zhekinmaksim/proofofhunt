@@ -1,0 +1,7 @@
+{
+  "source": "https://gist.githubusercontent.com/Zhekinmaksim/e7c4ea1a9b8a0270968a3cdc6df04ee2/raw/source.txt",
+  "observedDate": "2026-10-03",
+  "cacheControl": "max-age=300",
+  "hostedJudgeWaitSeconds": 330,
+  "note": "A cache wait is precautionary; only the actual judge snapshot proves DRIFTED or UNREACHABLE."
+}

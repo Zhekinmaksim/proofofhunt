@@ -1,0 +1,12 @@
+{
+  "provider": "ollama",
+  "model": "llama3.1:8b",
+  "backend": "Metal",
+  "options": {
+    "num_ctx": 4096,
+    "num_predict": 512,
+    "temperature": 0.0,
+    "num_gpu": 16
+  },
+  "validators": 5
+}

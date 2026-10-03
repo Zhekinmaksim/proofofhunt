@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Resulting-Status: 200
+Content-Type: application/json
+Date: Fri, 02 Oct 2026 19:06:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+Proof of Hunt source fixture
+The verification color is copper.
+This synthetic document exists only to test source pinning and retry behavior. It carries no instructions for the tribunal. The question asks for the verification color written immediately above. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window. Stable context for the pinned source window.

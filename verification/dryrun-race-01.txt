@@ -1,0 +1,110 @@
+
+[00] Short and Stout
+  ok   the expected answer matches the answer pattern  ('stout' vs /[a-z]{3,12}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (19610 chars)
+  ok   anchor found on the page  ('any attempt to brew coffee with a teapot')
+  ok   window is long enough to judge against  (400 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[01] By Air
+  ok   the expected answer matches the answer pattern  ('256' vs /\d{1,5}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (3215 chars)
+  ok   anchor found on the page  ('the mtu is variable')
+  ok   window is long enough to judge against  (300 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[02] Number One
+  ok   the expected answer matches the answer pattern  ('crocker' vs /[a-z]{3,20}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (21088 chars)
+  ok   anchor found on the page  ('title: host software author:')
+  ok   window is long enough to judge against  (300 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[03] Still Served
+  ok   the expected answer matches the answer pattern  ('hypermedia' vs /[a-z]{3,20}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (1109 chars)
+  ok   anchor found on the page  ('is a wide-area')
+  ok   window is long enough to judge against  (300 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[04] Nodes and Arcs
+  ok   the expected answer matches the answer pattern  ('hypertext' vs /[a-z]{3,20}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (21318 chars)
+  ok   anchor found on the page  ('the attached document describes in more detail')
+  ok   window is long enough to judge against  (600 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[05] Reserved
+  ok   the expected answer matches the answer pattern  ('2606' vs /\d{1,5}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (2681 chars)
+  ok   anchor found on the page  ('we strongly recommend')
+  ok   window is long enough to judge against  (240 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[06] Closed Ecosystem
+  ok   the expected answer matches the answer pattern  ('utf-8' vs /utf-?8/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (28360 chars)
+  ok   anchor found on the page  ('closed ecosystem')
+  ok   window is long enough to judge against  (300 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[07] Arbitrarily Defined
+  ok   the expected answer matches the answer pattern  ('2' vs /\d{1,3}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (172710 chars)
+  ok   anchor found on the page  ('msl maximum segment lifetime, the time a tcp segment')
+  ok   window is long enough to judge against  (600 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[08] The Standard Everything Copied
+  ok   the expected answer matches the answer pattern  ('decimals' vs /[a-z]{3,20}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (8228 chars)
+  ok   anchor found on the page  ('a standard interface for tokens.')
+  ok   window is long enough to judge against  (3000 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[09] Mixed Case
+  ok   the expected answer matches the answer pattern  ('keccak256' vs /keccak-?ss?256|keccak-?256|sha-?3/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (5759 chars)
+  ok   anchor found on the page  ('in english, convert the address to hex')
+  ok   window is long enough to judge against  (1600 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[10] Eleven Bits
+  ok   the expected answer matches the answer pattern  ('2047' vs /\d{1,6}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (6729 chars)
+  ok   anchor found on the page  ('appended to the end of the initial entropy')
+  ok   window is long enough to judge against  (400 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[11] Home
+  ok   the expected answer matches the answer pattern  ('treemap' vs /[a-z]{4,20}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (14042 chars)
+  ok   anchor found on the page  ('dict[k, v] needs to be replaced with')
+  ok   window is long enough to judge against  (500 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+all 12 clues look ready to pin

@@ -1,0 +1,183 @@
+join FINALIZED
+Already cleared 0
+Already cleared 1
+Already cleared 2
+Already cleared 3
+Already cleared 4
+Already cleared 5
+commit[6] FINALIZED
+reveal[6] FINALIZED
+judge[6] FINALIZED
+Verdict 6 {
+  answer: 'utf-8',
+  chain_version: 1,
+  cid: 6,
+  clue_idx: 6,
+  commitment: 'e92499ba5440483b4e10440247296b73ed3285977a2abdaa56df5609ffec1d13',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: '34cd28f688dfd2fa3a7860408aa633bf23fc554dd18bde7f53214123c3fcaf5c',
+  revealed: true,
+  source_digest: '50c3328037cd55ea7a09c30c05d053fa67efd010633847ccaa58fe896be38862',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 7,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 7,
+  total_attempts: 7
+}
+commit[7] 0xf33c769c86429a3f3ecc9e095ea14162a4c90a8f2a3df0585475c96dc05bbe00
+commit[7] PENDING
+commit[7] COMMITTING
+commit[7] ACCEPTED
+reveal[7] 0x0bb91bbbaeef9b3de818ec2a2cf730ddf8ef38fc034467d3e936e902f936602f
+reveal[7] PENDING
+reveal[7] COMMITTING
+reveal[7] ACCEPTED
+judge[7] 0xbb99d5eafc3be19a06b2a299f0a16f5fe92d88034e9aea4ed0d4cc3b5a65763c
+judge[7] PENDING
+judge[7] PROPOSING
+judge[7] COMMITTING
+judge[7] ACCEPTED
+Verdict 7 {
+  answer: '2',
+  chain_version: 1,
+  cid: 7,
+  clue_idx: 7,
+  commitment: '728fe919b7f74f890c87118d1ce800cb9a0a49449239eaf8512afc65f1f929d2',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: '8d55307af32fd97876f694d5f8f7d8d889d0a466e0c7fcc402a12a140b8d6da0',
+  revealed: true,
+  source_digest: '6fef1a8a0b1563ad613e3cba12dabdb476591c30f2828d0eab46d13e39c35c23',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 8,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 8,
+  total_attempts: 8
+}
+commit[8] 0x529aeb2c685db482286afc46163811680c3410903537650d197949442eaad8bd
+commit[8] PENDING
+commit[8] COMMITTING
+commit[8] ACCEPTED
+reveal[8] 0x7d88c2ed39bc0b43cbb57ba50614d9eb2c5d92e42e3dc13e682a7245588ba542
+reveal[8] PENDING
+reveal[8] PROPOSING
+reveal[8] COMMITTING
+reveal[8] ACCEPTED
+judge[8] 0xde5c4a13d09dbca0a32067ec0dbf9ec717f9de9962ec468af632aa3f249351b4
+judge[8] PENDING
+judge[8] PROPOSING
+judge[8] COMMITTING
+judge[8] ACCEPTED
+Verdict 8 {
+  answer: 'decimals',
+  chain_version: 1,
+  cid: 8,
+  clue_idx: 8,
+  commitment: '127ce7439e050da20551c05c8b3e99030866176df19e2208be14cb70cfa8a342',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: '62aa0b663d2244b42f3bafc7c409e405637cf592e8061f42560a159aa1d194cf',
+  revealed: true,
+  source_digest: '839c47b4b3f25fc64f62a541c1ca9d6710146895ce9ba6471b943342f79bd0e4',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 9,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 9,
+  total_attempts: 9
+}
+commit[9] 0x3563f84569c66eaebc5ea8d4f193d51c8c15e5be89a14e80da9f3727667a9452
+commit[9] PROPOSING
+commit[9] COMMITTING
+commit[9] ACCEPTED
+reveal[9] 0xc29f7768e37724f9526f5c8dd247b61ea0ff6cfceb5b7bd9aee31e633c012d84
+reveal[9] PENDING
+reveal[9] PROPOSING
+reveal[9] COMMITTING
+reveal[9] ACCEPTED
+judge[9] 0xdc00c97fd941d6b87ca16b38e4ee537f82697b91b2079cb7148dbc858d11ed94
+judge[9] PROPOSING
+judge[9] COMMITTING
+judge[9] ACCEPTED
+Verdict 9 {
+  answer: 'keccak256',
+  chain_version: 1,
+  cid: 9,
+  clue_idx: 9,
+  commitment: '8c69e08b2a1b56193eb33d2b4cdd75e753e6dd255979a0e9a6ddd07bab5b5dcc',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: '4100f028afb4db3cdb6d2f8a563aa701e41580b9dcf68fab7d251d5bf68eeb30',
+  revealed: true,
+  source_digest: 'c359f37371deb68ae791abcad311a9a3d01fb990f3702c34c3053fcc32cb8f50',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 10,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 10,
+  total_attempts: 10
+}
+commit[10] 0xbedbcf8f96014b223587091681b182d2a1c31be63600cd0ae6724cffc5e02d6a
+commit[10] PROPOSING
+commit[10] COMMITTING
+commit[10] ACCEPTED
+reveal[10] 0x4b2047787e27183cd6cbd11f3f0d82a1ce39a513bcdf98782780e8e95c4a3cb5
+reveal[10] PENDING
+reveal[10] PROPOSING
+reveal[10] COMMITTING
+reveal[10] ACCEPTED
+GenLayer RPC error (eth_sendRawTransaction): Rate limit exceeded: 30 requests per minute
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:127
+                        throw new UnknownRpcError(err);
+                              ^
+
+UnknownRpcError: An unknown RPC error occurred.
+
+Details: Rate limit exceeded: 30 requests per minute
+Version: viem@2.57.2
+    at withRetry.delay.count.count (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:127:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async attemptRetry (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+  details: 'Rate limit exceeded: 30 requests per minute',
+  docsPath: undefined,
+  metaMessages: undefined,
+  shortMessage: 'An unknown RPC error occurred.',
+  version: '2.57.2',
+  code: -1,
+  [cause]: {
+    code: -32029,
+    message: 'Rate limit exceeded: 30 requests per minute',
+    data: {
+      bucket: 'standard',
+      window: 'minute',
+      limit: 30,
+      current: 30,
+      retry_after_seconds: 4
+    }
+  }
+}
+
+Node.js v20.20.2

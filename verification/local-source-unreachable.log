@@ -1,0 +1,37 @@
+unreachable 0xee47d076af73b86c3783366b02dcc56267c5786c3791da6ed97217d16c705388
+unreachable PENDING
+unreachable COMMITTING
+unreachable ACCEPTED
+unreachable FINALIZED
+{
+  answer: 'cobalt',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585',
+  pin_status: 1,
+  player: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  reasoning_digest: '8578d23c25a8027ddf69a54a95e4bbd4f3d8ff45063a784efe7f0ba4311923f5',
+  revealed: true,
+  source_digest: 'b5c982b244e1a3755975c6af1cd0caf6df52f46dc9b84315efac2cd45831ff7b',
+  verdict: 3
+} {
+  addr: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 0,
+  total_attempts: 0
+}
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:144
+  if(flags['expect-pin'] && log.lastCommit.pin_status!==Number(flags['expect-pin'])) throw Error('Unexpected pin status');
+                                                                                           ^
+
+Error: Unexpected pin status
+    at file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:144:92
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v20.20.2

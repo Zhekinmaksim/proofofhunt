@@ -1,0 +1,109 @@
+Already cleared 0
+Already cleared 1
+Already cleared 2
+Already cleared 3
+Already cleared 4
+Already cleared 5
+Already cleared 6
+Already cleared 7
+Already cleared 8
+Already cleared 9
+commit[10] FINALIZED
+reveal[10] FINALIZED
+judge[10] 0x8ac36ffddc76e655d97baf00464b75ac52f6c8f48a192036339c029224e170e0
+judge[10] PENDING
+judge[10] PROPOSING
+judge[10] COMMITTING
+judge[10] ACCEPTED
+Verdict 10 {
+  answer: '2047',
+  chain_version: 1,
+  cid: 10,
+  clue_idx: 10,
+  commitment: 'f4284f4c6409a8ec32744aeb4a60d865d81e50122fb4dacd1e9fecf8bbb3901f',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: '536a928899d514e82d4168acbba579f6bef7d064a3f6320ed4f3b8ba4114b617',
+  revealed: true,
+  source_digest: '3e0be47d31152551a61a76b654210c8ea8544d289b062190ab1e5b269c614209',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 11,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 11,
+  total_attempts: 11
+}
+commit[11] 0x45e0f7bd0aff85821eb60fbb625436d79ef776c6c3345cc051011fc18eaee637
+commit[11] PROPOSING
+commit[11] COMMITTING
+commit[11] ACCEPTED
+reveal[11] 0x4865ba0a602b56b7d7b236b6f979e7a2b035f00c791b2e02b21a641deec774f2
+GenLayer RPC error (eth_getTransactionByHash): Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+Read-only RPC retry 1 An unknown RPC error occurred.
+reveal[11] PROPOSING
+reveal[11] ACCEPTED
+judge[11] 0xa94709ebc760ab2f73694a7d811bec78457003570355c2443ac6b0c45a05d8fc
+judge[11] PENDING
+judge[11] PROPOSING
+judge[11] COMMITTING
+judge[11] ACCEPTED
+Verdict 11 {
+  answer: 'treemap',
+  chain_version: 1,
+  cid: 11,
+  clue_idx: 11,
+  commitment: 'b3e8889060dd95154fcd89483059ee3f409fa8cf04743803e1acae91999d6ca9',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: 'e000939ef2aed70c472caae14bb739934adc290a6016c71ff2622060cc455c84',
+  revealed: true,
+  source_digest: 'a0270405675fda3289682313f77b578237ae78a68313985393f0ec300cafb7ed',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 12,
+  finished: true,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 12,
+  total_attempts: 12
+}
+commit[0] FINALIZED
+reveal[0] FINALIZED
+judge[0] FINALIZED
+commit[1] FINALIZED
+reveal[1] FINALIZED
+judge[1] FINALIZED
+commit[2] FINALIZED
+reveal[2] FINALIZED
+judge[2] FINALIZED
+commit[3] FINALIZED
+reveal[3] FINALIZED
+judge[3] FINALIZED
+commit[4] FINALIZED
+reveal[4] FINALIZED
+judge[4] FINALIZED
+commit[5] FINALIZED
+reveal[5] FINALIZED
+judge[5] FINALIZED
+commit[7] FINALIZED
+reveal[7] FINALIZED
+judge[7] FINALIZED
+commit[8] FINALIZED
+reveal[8] FINALIZED
+judge[8] FINALIZED
+commit[9] FINALIZED
+reveal[9] FINALIZED
+judge[9] FINALIZED
+judge[10] FINALIZED
+commit[11] FINALIZED
+reveal[11] FINALIZED
+judge[11] ACCEPTED
+judge[11] FINALIZED

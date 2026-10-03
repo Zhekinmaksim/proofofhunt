@@ -1,0 +1,50 @@
+add_clue[0] FINALIZED
+add_clue[1] FINALIZED
+add_clue[2] FINALIZED
+add_clue[3] FINALIZED
+add_clue[4] FINALIZED
+add_clue[5] FINALIZED
+add_clue[6] FINALIZED
+add_clue[7] FINALIZED
+add_clue[8] FINALIZED
+add_clue[9] FINALIZED
+add_clue[10] FINALIZED
+add_clue[11] FINALIZED
+pin_clue[0] FINALIZED
+pin_clue[1] FINALIZED
+pin_clue[2] FINALIZED
+pin_clue[3] FINALIZED
+pin_clue[4] FINALIZED
+pin_clue[5] FINALIZED
+pin_clue[6]-validators-timeout 0xab04a7889697fc87e344560d5ac75d773482b1c551a0bc9a87a845cd88d7add1
+pin_clue[6]-validators-timeout PENDING
+pin_clue[6]-validators-timeout PROPOSING
+pin_clue[6]-validators-timeout COMMITTING
+pin_clue[6]-validators-timeout ACCEPTED
+pin_clue[7] FINALIZED
+pin_clue[8] FINALIZED
+pin_clue[9] FINALIZED
+pin_clue[10] FINALIZED
+pin_clue[11] FINALIZED
+deploy FINALIZED
+pin_clue[6]-validators-timeout ACCEPTED
+pin_clue[6]-validators-timeout FINALIZED
+open_race-validators-timeout 0x0ee95884612494a1a53cb8ce8386a46e71c5f71452cfe2d4b13bc8a35f224c17
+open_race-validators-timeout PROPOSING
+open_race-validators-timeout COMMITTING
+open_race-validators-timeout ACCEPTED
+open_race-validators-timeout ACCEPTED
+open_race-validators-timeout FINALIZED
+Authored 0xF71CC39fa2Bd35F35f997bCD51a631545A6B4b71 {
+  chain_version: 1,
+  clue_count: 12,
+  commit_count: 0,
+  hash_algo: 'sha256',
+  max_attempts_per_clue: 6,
+  owner: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  player_count: 0,
+  state: 1,
+  title: 'Proof of Hunt 01 - Paper Trail',
+  winner: '',
+  winner_cid: -1
+}

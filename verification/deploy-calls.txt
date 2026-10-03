@@ -1,0 +1,199 @@
+
+Proof of Hunt 01 - Paper Trail
+12 clues, 26 calls
+
+--- deploy  ->  __init__
+      title = "Proof of Hunt 01 - Paper Trail"
+      # deploy the contract, then use its address for everything below
+
+--- add_clue[00]  ->  add_clue
+      title = "Short and Stout"
+      riddle = "On the first of April 1998 the IETF published a standard for controlling coffee pots over HTTP. It reserve..."
+      source_url = "https://www.rfc-editor.org/rfc/rfc2324.txt"
+      anchor = "any attempt to brew coffee with a teapot"
+      window_chars = 400
+      answer_form = "one word, lowercase"
+      answer_pattern = "[a-z]{3,12}"
+      hint = "The joke is a nursery rhyme."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[01]  ->  add_clue
+      title = "By Air"
+      riddle = "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission ..."
+      source_url = "https://www.rfc-editor.org/rfc/rfc1149.txt"
+      anchor = "the mtu is variable"
+      window_chars = 300
+      answer_form = "a number, digits only"
+      answer_pattern = "\\d{1,5}"
+      hint = "Milligrams. And it is a power of two."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[02]  ->  add_clue
+      title = "Number One"
+      riddle = "The very first Request for Comments was circulated from UCLA in April 1969. Give the surname of the person..."
+      source_url = "https://www.rfc-editor.org/rfc/rfc1.txt"
+      anchor = "title: host software author:"
+      window_chars = 300
+      answer_form = "one word, a surname, lowercase"
+      answer_pattern = "[a-z]{3,20}"
+      hint = "He later chaired the Network Working Group itself."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[03]  ->  add_clue
+      title = "Still Served"
+      riddle = "The oldest page still served from CERN describes the project in a single sentence. It calls it a wide-area..."
+      source_url = "https://info.cern.ch/hypertext/WWW/TheProject.html"
+      anchor = "is a wide-area"
+      window_chars = 300
+      answer_form = "one word, lowercase"
+      answer_pattern = "[a-z]{3,20}"
+      hint = "Not hypertext. The broader word that includes it."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[04]  ->  add_clue
+      title = "Nodes and Arcs"
+      riddle = "A CERN proposal dated 12 November 1990 opens by describing a way to link and access information as a web o..."
+      source_url = "https://info.cern.ch/hypertext/WWW/Proposal.html"
+      anchor = "the attached document describes in more detail"
+      window_chars = 600
+      answer_form = "one word, lowercase"
+      answer_pattern = "[a-z]{3,20}"
+      hint = "Read the definition after the addressees."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[05]  ->  add_clue
+      title = "Reserved"
+      riddle = "Some domain names can never be registered because a standards document set them aside for use in documenta..."
+      source_url = "https://www.iana.org/help/example-domains"
+      anchor = "we strongly recommend"
+      window_chars = 240
+      answer_form = "a number, digits only"
+      answer_pattern = "\\d{1,5}"
+      hint = "There are two RFCs named on that page. You want the earlier one."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[06]  ->  add_clue
+      title = "Closed Ecosystem"
+      riddle = "The current JSON specification makes one encoding mandatory for text exchanged between systems that are no..."
+      source_url = "https://www.rfc-editor.org/rfc/rfc8259.txt"
+      anchor = "closed ecosystem"
+      window_chars = 300
+      answer_form = "a character encoding name"
+      answer_pattern = "utf-?8"
+      hint = "It is the one everything else lost to."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[07]  ->  add_clue
+      title = "Arbitrarily Defined"
+      riddle = "The TCP specification needs a bound on how long a segment can survive in the network, and admits the value..."
+      source_url = "https://www.rfc-editor.org/rfc/rfc793.txt"
+      anchor = "msl maximum segment lifetime, the time a tcp segment"
+      window_chars = 600
+      answer_form = "a number, digits only"
+      answer_pattern = "\\d{1,3}"
+      hint = "Small. The TIME-WAIT state waits twice as long."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[08]  ->  add_clue
+      title = "The Standard Everything Copied"
+      riddle = "The Ethereum token standard lists a handful of methods, and marks three of them optional. One of the three..."
+      source_url = "https://eips.ethereum.org/EIPS/eip-20"
+      anchor = "a standard interface for tokens."
+      window_chars = 3000
+      answer_form = "one word, the method name, lowercase"
+      answer_pattern = "[a-z]{3,20}"
+      hint = "Every wallet reads it before showing you a balance."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[09]  ->  add_clue
+      title = "Mixed Case"
+      riddle = "Ethereum addresses are case-insensitive, so a proposal smuggled a checksum into the choice of upper and lo..."
+      source_url = "https://eips.ethereum.org/EIPS/eip-55"
+      anchor = "in english, convert the address to hex"
+      window_chars = 1600
+      answer_form = "the name of a hash function"
+      answer_pattern = "keccak-?ss?256|keccak-?256|sha-?3"
+      hint = "Not SHA-256. The one Ethereum uses everywhere else."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[10]  ->  add_clue
+      title = "Eleven Bits"
+      riddle = "A mnemonic scheme splits your entropy into equal groups of bits, and each group encodes a number used as a..."
+      source_url = "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039.mediawiki"
+      anchor = "appended to the end of the initial entropy"
+      window_chars = 400
+      answer_form = "a number, digits only"
+      answer_pattern = "\\d{1,6}"
+      hint = "Eleven bits per group. The range starts at zero."
+      # deterministic and cheap, no web fetch
+
+--- add_clue[11]  ->  add_clue
+      title = "Home"
+      riddle = "The chain you are racing on forbids one ordinary Python container in contract storage and names a replacem..."
+      source_url = "https://docs.genlayer.com/developers/intelligent-contracts/storage"
+      anchor = "dict[k, v] needs to be replaced with"
+      window_chars = 500
+      answer_form = "one word, lowercase"
+      answer_pattern = "[a-z]{4,20}"
+      hint = "You have been running on it the whole time."
+      # deterministic and cheap, no web fetch
+
+--- pin_clue[00]  ->  pin_clue
+      idx = 0
+      # fetches https://www.rfc-editor.org/rfc/rfc2324.txt and agrees on the window at anchor 'any attempt to brew coffee with a teapot'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[01]  ->  pin_clue
+      idx = 1
+      # fetches https://www.rfc-editor.org/rfc/rfc1149.txt and agrees on the window at anchor 'the mtu is variable'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[02]  ->  pin_clue
+      idx = 2
+      # fetches https://www.rfc-editor.org/rfc/rfc1.txt and agrees on the window at anchor 'title: host software author:'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[03]  ->  pin_clue
+      idx = 3
+      # fetches https://info.cern.ch/hypertext/WWW/TheProject.html and agrees on the window at anchor 'is a wide-area'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[04]  ->  pin_clue
+      idx = 4
+      # fetches https://info.cern.ch/hypertext/WWW/Proposal.html and agrees on the window at anchor 'the attached document describes in more detail'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[05]  ->  pin_clue
+      idx = 5
+      # fetches https://www.iana.org/help/example-domains and agrees on the window at anchor 'we strongly recommend'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[06]  ->  pin_clue
+      idx = 6
+      # fetches https://www.rfc-editor.org/rfc/rfc8259.txt and agrees on the window at anchor 'closed ecosystem'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[07]  ->  pin_clue
+      idx = 7
+      # fetches https://www.rfc-editor.org/rfc/rfc793.txt and agrees on the window at anchor 'msl maximum segment lifetime, the time a tcp segment'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[08]  ->  pin_clue
+      idx = 8
+      # fetches https://eips.ethereum.org/EIPS/eip-20 and agrees on the window at anchor 'a standard interface for tokens.'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[09]  ->  pin_clue
+      idx = 9
+      # fetches https://eips.ethereum.org/EIPS/eip-55 and agrees on the window at anchor 'in english, convert the address to hex'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[10]  ->  pin_clue
+      idx = 10
+      # fetches https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039.mediawiki and agrees on the window at anchor 'appended to the end of the initial entropy'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- pin_clue[11]  ->  pin_clue
+      idx = 11
+      # fetches https://docs.genlayer.com/developers/intelligent-contracts/storage and agrees on the window at anchor 'dict[k, v] needs to be replaced with'. If this fails consensus the source is unstable across validators - replace it, do not retry forever
+
+--- open_race  ->  open_race
+      # one way door, the clue chain is sealed after this
+
+After open_race, verify the chain end to end with these answers:
+  0:stout, 1:256, 2:crocker, 3:hypermedia, 4:hypertext, 5:2606, 6:utf-8, 7:2, 8:decimals, 9:keccak256, 10:2047, 11:treemap
+
+Submit each as commit -> reveal -> judge and confirm the verdict
+is CORRECT, not UNDETERMINED. An UNDETERMINED on a known-good
+answer means the window does not contain the material, which is a
+clue authoring bug, not a chain problem.
+

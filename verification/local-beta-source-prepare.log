@@ -1,0 +1,28 @@
+join 0x50e53d803e737015df9d02b72d7e6279b8f619404fd9ed78f08135e67ef8226b
+join PENDING
+join PROPOSING
+join ACCEPTED
+join FINALIZED
+commit[0] 0x03d5a735c7214f911d4418d7c398c4e9694dc905360fccae2a11d8d1e7f29bcd
+commit[0] PENDING
+commit[0] PROPOSING
+commit[0] ACCEPTED
+commit[0] FINALIZED
+reveal[0] 0x49faa26aeee6eaff2bd156a9a2ea1affb352acf4b05c018747edc283c54c3c76
+reveal[0] PENDING
+reveal[0] PROPOSING
+reveal[0] COMMITTING
+reveal[0] ACCEPTED
+reveal[0] FINALIZED
+Prepared 0 {
+  addr: '0xA3c0dE2b0E4caeb5e4E5b6c45bA35E6fD0Cfa7d0',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: 0,
+  position: 0,
+  total_attempts: 0
+}

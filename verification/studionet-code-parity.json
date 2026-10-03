@@ -1,0 +1,29 @@
+{
+  "expected": "f47cadf541445309130cf22ff022db4ba192ccfbcb8a7192403922d417f05c38",
+  "contracts": [
+    {
+      "name": "prototype",
+      "address": "0xE2ab983C99Ab127fd3c79E66Ce83ec4c70C1b4ED",
+      "actual": "f47cadf541445309130cf22ff022db4ba192ccfbcb8a7192403922d417f05c38",
+      "matches": true
+    },
+    {
+      "name": "source",
+      "address": "0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7",
+      "actual": "f47cadf541445309130cf22ff022db4ba192ccfbcb8a7192403922d417f05c38",
+      "matches": true
+    },
+    {
+      "name": "full",
+      "address": "0xF71CC39fa2Bd35F35f997bCD51a631545A6B4b71",
+      "actual": "f47cadf541445309130cf22ff022db4ba192ccfbcb8a7192403922d417f05c38",
+      "matches": true
+    },
+    {
+      "name": "release",
+      "address": "0x1Bc40819aF0fAED6e789AECc909561FD4F9579CB",
+      "actual": "f47cadf541445309130cf22ff022db4ba192ccfbcb8a7192403922d417f05c38",
+      "matches": true
+    }
+  ]
+}

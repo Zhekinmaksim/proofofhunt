@@ -1,0 +1,66 @@
+# The CLI 0.39.1 migration service does not receive the .env file, while the
+# current Studio image reads DBHOST/DBPORT/DBNAME from that environment.
+# Paths are resolved beside the first Compose file (the installed CLI).
+services:
+  jsonrpc:
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      JSONRPC_SERVER_URL: http://jsonrpc:4000
+      VALIDATORS_CONFIG_JSON: '[{"stake":100,"provider":"ollama","model":"qwen2.5:7b","amount":5}]'
+    volumes:
+      - proof_of_hunt_genvm_cache:/genvm-cache
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      start_period: 300s
+  database-migration:
+    env_file:
+      - ./.env
+  ollama:
+    volumes:
+      - proof_of_hunt_ollama:/root/.ollama
+  webdriver:
+    image: yeagerai/genlayer-genvm-webdriver:0.0.9
+  redis:
+    image: redis:8-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+  consensus-worker:
+    image: yeagerai/simulator-jsonrpc:${LOCALNETVERSION:-latest}
+    command: ["python3", "-m", "backend.consensus.run_worker"]
+    env_file:
+      - ./.env
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      JSONRPC_SERVER_URL: http://jsonrpc:4000
+      WORKER_PORT: 4001
+      MAX_PARALLEL_TXS_PER_WORKER: 1
+    volumes:
+      - proof_of_hunt_genvm_cache:/genvm-cache
+    depends_on:
+      jsonrpc:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      webdriver:
+        condition: service_healthy
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 180s
+    restart: unless-stopped
+
+volumes:
+  proof_of_hunt_ollama:
+  proof_of_hunt_genvm_cache:

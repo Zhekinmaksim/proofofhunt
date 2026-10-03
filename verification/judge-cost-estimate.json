@@ -1,0 +1,43 @@
+{
+  "hash": "0x7861327c95c2d66be0583efb7a1d84fd914afe57da58f8302424716aaeef3145",
+  "acceptedSeconds": 18.992,
+  "finalizedSeconds": 52.271,
+  "networkReceiptGen": 0,
+  "reportedUsage": [
+    {
+      "model": "policy:prd-gpt-5-4",
+      "inputTokens": 545,
+      "outputTokens": 222,
+      "estimatedUsd": 0.0046925
+    },
+    {
+      "model": "policy:prd-gpt-5-4",
+      "inputTokens": 1121,
+      "outputTokens": 221,
+      "estimatedUsd": 0.0061175
+    },
+    {
+      "model": "openai/gpt-5.4",
+      "inputTokens": 1003,
+      "outputTokens": 59,
+      "estimatedUsd": 0.0033925
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.6",
+      "inputTokens": 1092,
+      "outputTokens": 127,
+      "estimatedUsd": 0.005181
+    }
+  ],
+  "estimatedReportedUsageUsd": 0.019383499999999998,
+  "pricingSources": [
+    "https://openrouter.ai/openai/gpt-5.4",
+    "https://openrouter.ai/anthropic/claude-sonnet-4.6/pricing"
+  ],
+  "assumptions": [
+    "Uncached public list prices checked 2026-10-03 Asia/Tashkent.",
+    "policy:prd-gpt-5-4 is priced as GPT-5.4; internal routing invoice is unavailable.",
+    "Unreported canceled inference, web rendering, machine cost and subsidies are excluded.",
+    "This is an estimate for reported token usage, not a production invoice."
+  ]
+}

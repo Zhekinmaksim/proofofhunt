@@ -1,0 +1,196 @@
+{
+  "ctor": {
+    "params": [
+      [
+        "title",
+        "string"
+      ]
+    ],
+    "kwparams": {}
+  },
+  "methods": {
+    "add_clue": {
+      "params": [
+        [
+          "title",
+          "string"
+        ],
+        [
+          "riddle",
+          "string"
+        ],
+        [
+          "source_url",
+          "string"
+        ],
+        [
+          "anchor",
+          "string"
+        ],
+        [
+          "window_chars",
+          "int"
+        ],
+        [
+          "answer_form",
+          "string"
+        ],
+        [
+          "answer_pattern",
+          "string"
+        ],
+        [
+          "hint",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "clue": {
+      "params": [
+        [
+          "idx",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "any"
+    },
+    "commit": {
+      "params": [
+        [
+          "clue_idx",
+          "int"
+        ],
+        [
+          "commitment",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "commit_at": {
+      "params": [
+        [
+          "cid",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "any"
+    },
+    "commitment_preview": {
+      "params": [
+        [
+          "answer",
+          "string"
+        ],
+        [
+          "salt",
+          "string"
+        ],
+        [
+          "clue_idx",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "join": {
+      "params": [
+        [
+          "handle",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "judge": {
+      "params": [
+        [
+          "cid",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "leaderboard": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "any"
+    },
+    "open_race": {
+      "params": [],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "pin_clue": {
+      "params": [
+        [
+          "idx",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "player": {
+      "params": [
+        [
+          "addr",
+          "address"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "any"
+    },
+    "race": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "any"
+    },
+    "reveal": {
+      "params": [
+        [
+          "cid",
+          "int"
+        ],
+        [
+          "answer",
+          "string"
+        ],
+        [
+          "salt",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

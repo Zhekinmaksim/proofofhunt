@@ -1,0 +1,86 @@
+
+canonicalisation and commitments
+  ok   whitespace and case flattened
+  ok   anchor window starts at anchor
+  ok   window is exactly the requested length
+  ok   missing anchor yields empty window
+  ok   commitment is stable under answer and address normalisation
+  ok   commitment is bound to the player
+  ok   commitment is bound to the clue
+
+authoring
+  ok   cannot open with an unpinned clue
+  ok   only the author may pin
+  ok   unreachable source cannot be pinned
+  ok   pin records a digest
+  ok   one pinned clue is not enough
+  ok   a clue without an answer pattern is rejected
+  ok   a non-https source is rejected
+
+commit ordering decides the race, verdict order does not
+  ok   all three advanced to the final clue
+  ok   commit ids follow chain order
+  ok   the first verdict makes a provisional winner
+  ok   the race is not final while earlier commits are open
+  ok   an earlier commit displaces a later one
+  ok   still not final, Bob committed earlier still
+  ok   the earliest correct commit wins regardless of verdict order
+  ok   the winning commit id is the earliest one
+  ok   race finalises once no earlier commit is open
+  ok   finalisation is emitted exactly once
+
+the final clue closes to newcomers once won
+  ok   Alice wins provisionally
+  ok   a late commit on the final clue is refused rather than taken
+  ok   the older commit wins and the race finalises
+
+a decided race still owes pending players a verdict
+  ok   Alice ran the whole chain and the race is final
+  ok   Bob's pending commit still gets judged
+  ok   and his progress is still recorded
+  ok   but it cannot take the win
+  ok   no new commits once the race is over
+
+undetermined never costs a player anything
+  ok   unreachable source is undetermined
+  ok   pin status records why
+  ok   no attempt consumed
+  ok   position unmoved
+  ok   drifted source is undetermined
+  ok   drift is distinguished from unreachable
+  ok   still no attempt consumed
+  ok   the same commit judges cleanly on retry
+  ok   and the retry advances the player
+  ok   the commit kept its id, so it kept its place in the race
+
+attempts, forms and limits
+  ok   an answer in the wrong form is rejected deterministically
+  ok   the wrong form costs an attempt
+  ok   attempts on a clue are capped
+
+commit-reveal binding
+  ok   revealing a different answer is refused
+  ok   revealing with the wrong salt is refused
+  ok   another player cannot reveal your commit
+  ok   the owner can reveal
+  ok   no double reveal
+  ok   anyone may call judge
+  ok   and it advances the right player
+
+out of turn play
+  ok   you cannot skip ahead to a later clue
+  ok   you must join before committing
+
+leaderboard
+  ok   furthest along is listed first
+  ok   cleared counts are right
+
+injection shape
+  ok   a source swapped mid-race is caught by the pin before the model sees it
+  ok   and is reported as drift
+
+event ABI
+  ok   SDK event indexing keeps the clue and player in their correct fields
+  ok   race-open event keeps the version and count in their correct fields
+
+all checks passed

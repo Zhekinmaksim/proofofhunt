@@ -1,0 +1,29 @@
+unreachable-retry 0x9ac49e92b052d9b7772b2ced71a3b993e97b90dbaead45bcb7ca6c2c1c80818a
+unreachable-retry PENDING
+unreachable-retry PROPOSING
+unreachable-retry COMMITTING
+unreachable-retry FINALIZED
+{
+  answer: 'cobalt',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585',
+  pin_status: 2,
+  player: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  reasoning_digest: 'f1c9e8b95211b55f2ee64b04feaf08443ced349384c4afbd398220f4c7c7b7d4',
+  revealed: true,
+  source_digest: '',
+  verdict: 3
+} {
+  addr: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 0,
+  total_attempts: 0
+}
+PASS: attempts and position unchanged

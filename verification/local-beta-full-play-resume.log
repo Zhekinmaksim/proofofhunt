@@ -1,0 +1,438 @@
+join FINALIZED
+Already cleared 0
+Already cleared 1
+commit[2] FINALIZED
+reveal[2]-resolved-cid-3 0xd6c9b8687769c9dbd9893e9fbbefaf3df79b22a5590186c5ed92f87748adf282
+reveal[2]-resolved-cid-3 PENDING
+reveal[2]-resolved-cid-3 COMMITTING
+reveal[2]-resolved-cid-3 ACCEPTED
+judge[2] 0xe8ca0cc1d5467ede801ae03578255b97f846df2581d9e919eb1e453179c5af35
+judge[2] PENDING
+judge[2] PROPOSING
+judge[2] COMMITTING
+judge[2] ACCEPTED
+Verdict 2 {
+  answer: 'crocker',
+  chain_version: 2,
+  cid: 3,
+  clue_idx: 2,
+  commitment: '091154fd261f44d62345a02010e501a3378cefdd1ca58a96a613f15db05c2942',
+  judge_deadline: 1791620538,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '82cb4725b4c25b861c1366f6bf4ebb60725eb3ec45cbcc4e7431c071094a4224',
+  reveal_deadline: 1791102138,
+  revealed: true,
+  source_digest: '0cd3784a112006b04ff925ad94eef8babbae59c359ae9f23b83caa5c48700d9e',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 3,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 3,
+  total_attempts: 3
+}
+commit[3] 0xead18d253affcc8c70b95848576663203b06ca543c6340f40209b065b493a1b5
+commit[3] PENDING
+commit[3] PROPOSING
+commit[3] COMMITTING
+commit[3] ACCEPTED
+reveal[3] 0xe45d7a74eb60f72a870a401f8415d3af7ad8977206e4c635de1fa4c256ac5d9b
+reveal[3] PENDING
+reveal[3] PROPOSING
+reveal[3] ACCEPTED
+judge[3] 0xf4eb5562738bb1ee162b5191e5b8ba7b4276cdbe8865cca02448b6c75f1e6084
+judge[3] PENDING
+judge[3] PROPOSING
+judge[3] COMMITTING
+judge[3] ACCEPTED
+Verdict 3 {
+  answer: 'hypermedia',
+  chain_version: 2,
+  cid: 4,
+  clue_idx: 3,
+  commitment: '3ef67e8f29e3e88aa715ac9a230ffc113b338b3700d5838fcad8f9e317ee1cb0',
+  judge_deadline: 1791620810,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '2049daaa17b8434b5c2c9cffb9ea89c118e5f31ecadbbba900055bf425156bff',
+  reveal_deadline: 1791102410,
+  revealed: true,
+  source_digest: '031ec8468db196d79cd15648557d6dac0769302f970ad5cec67cfc74385acf7c',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 4,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 4,
+  total_attempts: 4
+}
+commit[4] 0x65ffda6cc78326be2adeb48fb21a58cef0d1678856633e9ead54d483ab32531b
+commit[4] PENDING
+commit[4] PROPOSING
+commit[4] COMMITTING
+commit[4] ACCEPTED
+reveal[4] 0xe806ea3c5c9d503824f4f4921633c71f6045d81168dea4eebf52e73a128203c4
+reveal[4] PENDING
+reveal[4] COMMITTING
+reveal[4] ACCEPTED
+judge[4] 0x7ebbab9733fbd1e3f2d8a2e0af9085a2915d66c33b5eb3ee63587554a07a2aef
+judge[4] PENDING
+judge[4] PROPOSING
+judge[4] COMMITTING
+judge[4] ACCEPTED
+Verdict 4 {
+  answer: 'hypertext',
+  chain_version: 2,
+  cid: 5,
+  clue_idx: 4,
+  commitment: '7a9b437ecc324b38832a9e7bda48b59b48de446b4462d95795bf0a221cc40030',
+  judge_deadline: 1791620870,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '73661122d9ad87235945b3fbe04578f4f45b3b857507b15c4026c298e955a713',
+  reveal_deadline: 1791102470,
+  revealed: true,
+  source_digest: 'd464822874481c5c06ecf5e706da3152c82e328b5d2d5325f3d6a9360850f8ac',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 5,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 5,
+  total_attempts: 5
+}
+commit[5] 0x5c34d4f94318518853da7ed70704a920e9625bb347ab788e1a2f3bd7cf09cb54
+commit[5] PENDING
+commit[5] PROPOSING
+commit[5] COMMITTING
+commit[5] ACCEPTED
+reveal[5] 0xe756ab1350faf298be523d588b6ccc4ea4a22c02b5942b691d70d3c5e7e3083f
+reveal[5] PENDING
+reveal[5] PROPOSING
+reveal[5] COMMITTING
+reveal[5] ACCEPTED
+judge[5] 0x9f534d603b7b31de7a9c6c7407caa471bb9f85a169325ee904348e83832b5a17
+judge[5] PENDING
+judge[5] PROPOSING
+judge[5] COMMITTING
+judge[5] FINALIZED
+Verdict 5 {
+  answer: '2606',
+  chain_version: 2,
+  cid: 6,
+  clue_idx: 5,
+  commitment: 'd1577b02671fdd78c3484e2d283680cbd805a1121026adc7731aa755644a4c3f',
+  judge_deadline: 1791620935,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: 'c9583096714ef06fd4318be0f679864940f1886355334495855520897763fe79',
+  reveal_deadline: 1791102535,
+  revealed: true,
+  source_digest: '834b1f46723a74732820eecb39bcacadd7dafbe5a43f43fb86d4fa1e3fcb90d0',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 6,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 6,
+  total_attempts: 6
+}
+commit[6] 0xd6a835ac77c7aa85819b1bf057887be69fb210e1de830318d19fbd07c64406f0
+commit[6] PENDING
+commit[6] PROPOSING
+commit[6] COMMITTING
+commit[6] ACCEPTED
+reveal[6] 0x0ae11feaa5dcb75178b6d02224a386cd92b93ae4671b725700d7a92a9a8e87eb
+reveal[6] PENDING
+reveal[6] PROPOSING
+reveal[6] COMMITTING
+reveal[6] ACCEPTED
+judge[6] 0x5a6ff3526b02bfa469370a6191362910991c3fe3024bba281263a728a70163e1
+judge[6] PENDING
+judge[6] PROPOSING
+judge[6] COMMITTING
+judge[6] ACCEPTED
+Verdict 6 {
+  answer: 'utf-8',
+  chain_version: 2,
+  cid: 7,
+  clue_idx: 6,
+  commitment: 'c5e8b066edf353f341807ff07ae1376a1d99f61085ff852e1d40ba739a3dc6c5',
+  judge_deadline: 1791620997,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '184e5ba0ba20fb1fd7eba25afb8f0a8b84bd99f6752b9e22425988d75e51499c',
+  reveal_deadline: 1791102597,
+  revealed: true,
+  source_digest: '50c3328037cd55ea7a09c30c05d053fa67efd010633847ccaa58fe896be38862',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 7,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 7,
+  total_attempts: 7
+}
+commit[7] 0x8538a623e81b87a2cb8c7ee08ec8e16c23be718cbdecb04afaca305731255ee7
+commit[7] PENDING
+commit[7] PROPOSING
+commit[7] COMMITTING
+commit[7] ACCEPTED
+reveal[7] 0x225cece1f1b2728d1790294bfe012800bc61b952056dc2d61acbc089dda16f03
+reveal[7] PENDING
+reveal[7] COMMITTING
+reveal[7] ACCEPTED
+judge[7] 0x5c7a76ba3309e82245605a919a11ec1885f687806add68254651f523dcead858
+judge[7] PENDING
+judge[7] PROPOSING
+judge[7] COMMITTING
+judge[7] ACCEPTED
+Verdict 7 {
+  answer: '2',
+  chain_version: 2,
+  cid: 8,
+  clue_idx: 7,
+  commitment: '658ed2d7f764553afa82eea35c0a12d42601ed6060e669dae72140d49070cad3',
+  judge_deadline: 1791621059,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '8857ced1e2ce91ffef30c8d7a3c7f1a962a8af82921ba010e65e07a62616cfe4',
+  reveal_deadline: 1791102659,
+  revealed: true,
+  source_digest: '6fef1a8a0b1563ad613e3cba12dabdb476591c30f2828d0eab46d13e39c35c23',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 8,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 8,
+  total_attempts: 8
+}
+commit[8] 0x2532375f055203975064423a867f32f80801c1448951a671faa0d5732c41d806
+commit[8] PENDING
+commit[8] PROPOSING
+commit[8] COMMITTING
+commit[8] ACCEPTED
+reveal[8] 0xcb5ba98dd465f8bca2bd172cd5fa669484eb13c5eb275f0b1e68683012624368
+reveal[8] PENDING
+reveal[8] PROPOSING
+reveal[8] COMMITTING
+reveal[8] ACCEPTED
+judge[8] 0x32c6d9a292f04923174baa976ddb7ffa80067e4c88816e5ad3c178e769039d45
+judge[8] PENDING
+judge[8] PROPOSING
+judge[8] COMMITTING
+judge[8] ACCEPTED
+Verdict 8 {
+  answer: 'decimals',
+  chain_version: 2,
+  cid: 9,
+  clue_idx: 8,
+  commitment: 'e286950da410072e023da177efc874b8593cdfb7618fbe0d31c69fb7982edba8',
+  judge_deadline: 1791621125,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: 'e3f70ddf867c80ece5b10d3d18e8cdd8279f90dd751ef944bd72fa5c1fe04512',
+  reveal_deadline: 1791102725,
+  revealed: true,
+  source_digest: '839c47b4b3f25fc64f62a541c1ca9d6710146895ce9ba6471b943342f79bd0e4',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 9,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 9,
+  total_attempts: 9
+}
+commit[9] 0xdb30545909c3992f5d28b7ed74e7467e31655d05d4e86e557c9d1a7ec75dff51
+commit[9] PENDING
+commit[9] PROPOSING
+commit[9] COMMITTING
+commit[9] ACCEPTED
+reveal[9] 0x9de4fd7464f2ac32c1d68bee8581f48f3cabd43ef4413e068983d65e49244ef3
+reveal[9] PENDING
+reveal[9] COMMITTING
+reveal[9] ACCEPTED
+judge[9] 0x9dc2c7dee35544c79e2a39232a70682d27fca3584e93d94654b8411e9847b7f9
+judge[9] PENDING
+judge[9] PROPOSING
+judge[9] COMMITTING
+judge[9] ACCEPTED
+Verdict 9 {
+  answer: 'keccak256',
+  chain_version: 2,
+  cid: 10,
+  clue_idx: 9,
+  commitment: '3dca2a2cd65b684d3338eb6d1decff07893e3af6ab6aee6597baa6a6dd9df77a',
+  judge_deadline: 1791621186,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '1688eaf8250a618780a045ee18f4c63c6ea0180156df240acd548a789aa368eb',
+  reveal_deadline: 1791102786,
+  revealed: true,
+  source_digest: 'c359f37371deb68ae791abcad311a9a3d01fb990f3702c34c3053fcc32cb8f50',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 10,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 10,
+  total_attempts: 10
+}
+commit[10] 0x32d6a73167b5c220bf9f0a8dbfa6177fd8572f6021ce9ffa8c7e3435ac7b10d7
+commit[10] PENDING
+commit[10] PROPOSING
+commit[10] COMMITTING
+commit[10] ACCEPTED
+reveal[10] 0xc92ca685e356f31f4d72079f15576227c424d99bb0b183f8ad51eb67c94371d0
+reveal[10] PENDING
+reveal[10] COMMITTING
+reveal[10] ACCEPTED
+judge[10] 0x3ea73dc982f1951559e0ba515f78c60d321447e694fccfe1ebe43ec7acaf615c
+judge[10] PENDING
+judge[10] PROPOSING
+judge[10] COMMITTING
+judge[10] ACCEPTED
+Verdict 10 {
+  answer: '2047',
+  chain_version: 2,
+  cid: 11,
+  clue_idx: 10,
+  commitment: '1547dfd07fb57f40a303fb9d5f378e8555a55a2dd952725363ec5cc04465bbfe',
+  judge_deadline: 1791621242,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '4a2cdc823e6abbca5e3093eb7929349a6f30d6f007771992ba09a33ca56428eb',
+  reveal_deadline: 1791102842,
+  revealed: true,
+  source_digest: '3e0be47d31152551a61a76b654210c8ea8544d289b062190ab1e5b269c614209',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 11,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 11,
+  total_attempts: 11
+}
+commit[11] 0x1dae3c990700a4f3fefcfaabfcee9e2eae2aae0087c0444f858115b3c6a0043c
+commit[11] PENDING
+commit[11] PROPOSING
+commit[11] COMMITTING
+commit[11] ACCEPTED
+reveal[11] 0x51cedb98827e98fa36896ff1af8c91de62e9d4b4313e38d72cf51e219530de2e
+reveal[11] PENDING
+reveal[11] PROPOSING
+reveal[11] COMMITTING
+reveal[11] ACCEPTED
+judge[11] 0xa420ae1b7670217257090e079cd03e27f36bf6b56d8fc897cb2114d85f2f82c4
+judge[11] PENDING
+judge[11] PROPOSING
+judge[11] COMMITTING
+judge[11] ACCEPTED
+Verdict 11 {
+  answer: 'treemap',
+  chain_version: 2,
+  cid: 12,
+  clue_idx: 11,
+  commitment: '226b43f34baa8314f185c73722c635c2c513f8aafb33995344310a66dd38d400',
+  judge_deadline: 1791621307,
+  pin_status: 0,
+  player: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  reasoning_digest: '96cd2ac0d38f8bf28d94ca0ba0c713693a792d20b644f0068c450ca40320c7ee',
+  reveal_deadline: 1791102907,
+  revealed: true,
+  source_digest: 'a0270405675fda3289682313f77b578237ae78a68313985393f0ec300cafb7ed',
+  verdict: 1
+} {
+  addr: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 12,
+  finished: true,
+  handle: 'verification-local',
+  joined: true,
+  pending_cid: -1,
+  position: 12,
+  total_attempts: 12
+}
+commit[0] FINALIZED
+reveal[0] FINALIZED
+judge[0] FINALIZED
+commit[1] FINALIZED
+reveal[1] FINALIZED
+judge[1] FINALIZED
+reveal[2]-resolved-cid-3 FINALIZED
+judge[2] FINALIZED
+commit[3] FINALIZED
+reveal[3] FINALIZED
+judge[3] FINALIZED
+commit[4] FINALIZED
+reveal[4] FINALIZED
+judge[4] FINALIZED
+commit[5] FINALIZED
+reveal[5] FINALIZED
+commit[6] FINALIZED
+reveal[6] FINALIZED
+judge[6] FINALIZED
+commit[7] FINALIZED
+reveal[7] FINALIZED
+judge[7] FINALIZED
+commit[8] FINALIZED
+reveal[8] FINALIZED
+judge[8] FINALIZED
+commit[9] FINALIZED
+reveal[9] FINALIZED
+judge[9] FINALIZED
+commit[10] FINALIZED
+reveal[10] FINALIZED
+judge[10] FINALIZED
+commit[11] FINALIZED
+reveal[11] FINALIZED
+judge[11] ACCEPTED
+judge[11] FINALIZED

@@ -1,0 +1,25 @@
+name: Verify beta
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 scripts/test_race.py
+      - run: python3 scripts/test_race_v2.py
+      - run: python3 scripts/test_canon_parity.py
+      - run: python3 scripts/test_commitment_parity.py
+      - run: python3 scripts/test_dryrun.py
+      - run: npm --prefix scripts ci
+      - run: node scripts/test_monitor.mjs
+      - run: npm --prefix web ci
+      - run: npm --prefix web test
+      - run: npm --prefix web run build

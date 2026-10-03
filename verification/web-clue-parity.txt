@@ -1,0 +1,2 @@
+PASS web/index.html 12 source/riddle records and browser answer patterns
+PASS web/play.html 12 source/riddle records and browser answer patterns

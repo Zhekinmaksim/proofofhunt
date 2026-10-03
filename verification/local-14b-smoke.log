@@ -1,0 +1,18 @@
+Qwen 14B downloaded; checking exact tribunal prompt.
+{
+  "model": "qwen2.5:14b",
+  "wallSeconds": 39.765925334068015,
+  "result": {
+    "verdict": "incorrect",
+    "reasoning": "Source excerpt forbids treemap, requiring a specific type instantiation instead."
+  },
+  "options": {
+    "temperature": 0,
+    "num_ctx": 4096,
+    "num_predict": 512,
+    "num_gpu": 16
+  },
+  "evalCount": 28,
+  "evalDuration": 4366691000
+}
+Local model did not support the known answer; do not alter the clue to fit it

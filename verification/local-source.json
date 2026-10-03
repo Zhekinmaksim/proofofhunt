@@ -1,0 +1,897 @@
+{
+  "network": "local",
+  "endpoint": "http://localhost:4000/api",
+  "chainId": 61999,
+  "account": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+  "calls": [
+    {
+      "label": "add_clue[0]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "Controlled Source",
+        "riddle": "What color is explicitly named as the verification color in this synthetic document?",
+        "source_url": "https://gist.githubusercontent.com/Zhekinmaksim/e7c4ea1a9b8a0270968a3cdc6df04ee2/raw/source.txt",
+        "anchor": "proof of hunt source fixture",
+        "window_chars": 400,
+        "answer_form": "one word, lowercase",
+        "answer_pattern": "[a-z]{3,12}",
+        "hint": "Read the sentence immediately after the anchor."
+      },
+      "hash": "0x7095435fe6b95caa702e3e611268c6979b1806a2d72b7a4e03f72c6e1d7c8083",
+      "submittedAt": "2026-10-02T18:36:27.396Z",
+      "acceptedSeconds": 213.697,
+      "status": "FINALIZED",
+      "finalizedSeconds": 215.706,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "add_clue[1]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "By Air",
+        "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+        "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+        "anchor": "the mtu is variable",
+        "window_chars": 300,
+        "answer_form": "a number, digits only",
+        "answer_pattern": "\\d{1,5}",
+        "hint": "Milligrams. And it is a power of two."
+      },
+      "hash": "0x15d9866db1b26f1550410268ba4a2650d215652604647a1be83966d964635460",
+      "submittedAt": "2026-10-02T18:40:03.110Z",
+      "acceptedSeconds": 12.116,
+      "status": "FINALIZED",
+      "finalizedSeconds": 605.397,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "pin_clue[0]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 0
+      },
+      "hash": "0x3140fd3e2870c625c7b391bdb56d869edb8e648cda81716f706fcf2dbabe78ec",
+      "submittedAt": "2026-10-02T18:50:08.518Z",
+      "acceptedSeconds": 50.675,
+      "status": "FINALIZED",
+      "finalizedSeconds": 54.718,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "pin_clue[1]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 1
+      },
+      "hash": "0x83cb1f6bdac1d58146492138e9a3bc9e9518acaf414106e91d81b0afd3a86e03",
+      "submittedAt": "2026-10-02T18:51:03.245Z",
+      "acceptedSeconds": 12.329,
+      "status": "FINALIZED",
+      "finalizedSeconds": 16.371,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "open_race",
+      "functionName": "open_race",
+      "kwargs": {},
+      "hash": "0xd511ccafbe0d2d5ddbfecc186d77d9a1042f943c71b39449d0ca6c782d333e00",
+      "submittedAt": "2026-10-02T18:51:19.623Z",
+      "acceptedSeconds": 8.12,
+      "status": "FINALIZED",
+      "finalizedSeconds": 12.397,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "join",
+      "functionName": "join",
+      "kwargs": {
+        "handle": "verification-local"
+      },
+      "hash": "0x5587742f06fb40524271d7e5a332caf8ee09a3b03bc0af891a0269aed1368c14",
+      "submittedAt": "2026-10-02T18:59:49.334Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0.1,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.144,
+      "status": "FINALIZED",
+      "finalizedSeconds": 12.239,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "commit[0]",
+      "functionName": "commit",
+      "kwargs": {
+        "clue_idx": 0,
+        "commitment": "92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585"
+      },
+      "hash": "0x882311b950f2083e534f27515a6b2430500ff6b255f384c015dba5f4a3aab627",
+      "submittedAt": "2026-10-02T19:00:02.617Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0.1,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.124,
+      "status": "FINALIZED",
+      "finalizedSeconds": 12.181,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "reveal[0]",
+      "functionName": "reveal",
+      "kwargs": {
+        "cid": 0,
+        "answer": "cobalt",
+        "salt": "81ca7fb7436c1d46351e92654cedf927c421c54d7416dba7"
+      },
+      "hash": "0xbbcf28c3c2fd8bb1db5cf5fd135c7bedc839b06e29e411bd4998750f04298485",
+      "submittedAt": "2026-10-02T19:00:14.810Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0.1,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 6.12,
+      "status": "FINALIZED",
+      "finalizedSeconds": 12.175,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "outputs": {},
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "drifted",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x01c1871d4cd9f2d1e9025ba9e2fd9fc7aa7eaab2bfafedc05fb04ad61f059731",
+      "submittedAt": "2026-10-02T19:02:22.402Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0.1,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 10.185,
+      "status": "FINALIZED",
+      "finalizedSeconds": 16.245,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is copper. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 1,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585",
+          "pin_status": 1,
+          "player": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "reasoning_digest": "8578d23c25a8027ddf69a54a95e4bbd4f3d8ff45063a784efe7f0ba4311923f5",
+          "revealed": true,
+          "source_digest": "b5c982b244e1a3755975c6af1cd0caf6df52f46dc9b84315efac2cd45831ff7b",
+          "verdict": 3
+        },
+        "player": {
+          "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 0,
+          "finished": false,
+          "handle": "verification-local",
+          "joined": true,
+          "position": 0,
+          "total_attempts": 0
+        }
+      }
+    },
+    {
+      "label": "unreachable",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0xee47d076af73b86c3783366b02dcc56267c5786c3791da6ed97217d16c705388",
+      "submittedAt": "2026-10-02T19:04:19.727Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0.1,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 8.122,
+      "status": "FINALIZED",
+      "finalizedSeconds": 18.278,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is copper. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable"
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 1,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585",
+          "pin_status": 1,
+          "player": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "reasoning_digest": "8578d23c25a8027ddf69a54a95e4bbd4f3d8ff45063a784efe7f0ba4311923f5",
+          "revealed": true,
+          "source_digest": "b5c982b244e1a3755975c6af1cd0caf6df52f46dc9b84315efac2cd45831ff7b",
+          "verdict": 3
+        },
+        "player": {
+          "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 0,
+          "finished": false,
+          "handle": "verification-local",
+          "joined": true,
+          "position": 0,
+          "total_attempts": 0
+        }
+      }
+    },
+    {
+      "label": "unreachable-retry",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x9ac49e92b052d9b7772b2ced71a3b993e97b90dbaead45bcb7ca6c2c1c80818a",
+      "submittedAt": "2026-10-02T19:07:57.110Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0.1,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "status": "FINALIZED",
+      "finalizedSeconds": 10.103,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "outputs": {
+        "0": ""
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 1,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585",
+          "pin_status": 2,
+          "player": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "reasoning_digest": "f1c9e8b95211b55f2ee64b04feaf08443ced349384c4afbd398220f4c7c7b7d4",
+          "revealed": true,
+          "source_digest": "",
+          "verdict": 3
+        },
+        "player": {
+          "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 0,
+          "finished": false,
+          "handle": "verification-local",
+          "joined": true,
+          "position": 0,
+          "total_attempts": 0
+        }
+      }
+    },
+    {
+      "label": "restored",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x6b501925b776007e98e0ad601aabec84e716ced307ae8693f13efaa7406c3fae",
+      "submittedAt": "2026-10-02T19:10:23.711Z",
+      "runtime": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "backend": "Metal",
+        "options": {
+          "num_ctx": 4096,
+          "num_predict": 512,
+          "temperature": 0.1,
+          "num_gpu": 16
+        },
+        "validators": 5
+      },
+      "acceptedSeconds": 32.568,
+      "status": "FINALIZED",
+      "finalizedSeconds": 38.601,
+      "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {
+          "address": "0x20ddBb334395505BF53A142cd769F4545A403593",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": null,
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0xc1a7F3174f487c8eb8505B7872ACB8E711198318",
+          "vote": "idle",
+          "execution": "ERROR"
+        },
+        {
+          "address": "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b",
+          "provider": "ollama",
+          "model": "qwen2.5:7b",
+          "vote": "agree",
+          "execution": "SUCCESS"
+        },
+        {
+          "address": "0x9057a252a07054D55E24F144215820D06e8F6C49",
+          "vote": "idle",
+          "execution": "ERROR"
+        }
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "outputs": {
+        "0": "proof of hunt source fixture the verification color is cobalt. this synthetic document exists only to test source pinning and retry behavior. it carries no instructions for the tribunal. the question asks for the verification color written immediately above. stable context for the pinned source window. stable context for the pinned source window. stable context for the pinned source window. stable",
+        "1": {
+          "reasoning": "the verification color is explicitly stated as cobalt.",
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": "correct"
+        }
+      },
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      },
+      "snapshot": {
+        "commit": {
+          "answer": "cobalt",
+          "chain_version": 1,
+          "cid": 0,
+          "clue_idx": 0,
+          "commitment": "92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585",
+          "pin_status": 0,
+          "player": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "reasoning_digest": "35cadec7649504044df82383b129e063a15c523ed9f7c2554ce8f48875f0b4e8",
+          "revealed": true,
+          "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+          "verdict": 1
+        },
+        "player": {
+          "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+          "attempts_left": 6,
+          "attempts_used": 0,
+          "cleared": 1,
+          "finished": false,
+          "handle": "verification-local",
+          "joined": true,
+          "position": 1,
+          "total_attempts": 1
+        }
+      }
+    }
+  ],
+  "plays": [
+    {
+      "idx": 0,
+      "cid": 0,
+      "answer": "cobalt",
+      "salt": "81ca7fb7436c1d46351e92654cedf927c421c54d7416dba7",
+      "commitment": "92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585"
+    }
+  ],
+  "createdAt": "2026-10-02T18:36:26.369Z",
+  "address": "0x2cb7d37F5f517f32FCE35a2df8CCe738f6e8b914",
+  "race": {
+    "chain_version": 1,
+    "clue_count": 2,
+    "commit_count": 0,
+    "hash_algo": "sha256",
+    "max_attempts_per_clue": 6,
+    "owner": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+    "player_count": 0,
+    "state": 1,
+    "title": "Proof of Hunt - source failure verification",
+    "winner": "",
+    "winner_cid": -1
+  },
+  "failureBaseline": {
+    "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+    "attempts_left": 6,
+    "attempts_used": 0,
+    "cleared": 0,
+    "finished": false,
+    "handle": "verification-local",
+    "joined": true,
+    "position": 0,
+    "total_attempts": 0
+  },
+  "lastCommit": {
+    "answer": "cobalt",
+    "chain_version": 1,
+    "cid": 0,
+    "clue_idx": 0,
+    "commitment": "92a305c268214e8a33c647688e1b7365055fde9ae8fb4a886bfd119805654585",
+    "pin_status": 0,
+    "player": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+    "reasoning_digest": "35cadec7649504044df82383b129e063a15c523ed9f7c2554ce8f48875f0b4e8",
+    "revealed": true,
+    "source_digest": "c5662240c9d9e3dca0e9e5b19430e04cae06cc0e725ef0336efaa1703bc0862d",
+    "verdict": 1
+  },
+  "lastPlayer": {
+    "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+    "attempts_left": 6,
+    "attempts_used": 0,
+    "cleared": 1,
+    "finished": false,
+    "handle": "verification-local",
+    "joined": true,
+    "position": 1,
+    "total_attempts": 1
+  }
+}

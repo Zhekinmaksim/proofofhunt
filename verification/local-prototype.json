@@ -1,0 +1,571 @@
+{
+  "network": "local",
+  "endpoint": "http://localhost:4000/api",
+  "chainId": 61999,
+  "account": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+  "calls": [
+    {
+      "label": "deploy",
+      "functionName": "__init__",
+      "kwargs": {
+        "title": "Proof of Hunt - two-clue prototype"
+      },
+      "hash": "0x0d5d1fbca5181c8d393bf5d8f75fd996b3799afd1ed22ac4b997111cb86cccbc",
+      "submittedAt": "2026-10-02T18:39:48.119Z",
+      "acceptedSeconds": 14.229,
+      "status": "FINALIZED",
+      "finalizedSeconds": 44.28,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "add_clue[0]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "Short and Stout",
+        "riddle": "On the first of April 1998 the IETF published a standard for controlling coffee pots over HTTP. It reserves an error for the case where you ask a teapot to brew. The document says the resulting entity body MAY be short and one other thing. Give that word.",
+        "source_url": "https://www.rfc-editor.org/rfc/rfc2324.txt",
+        "anchor": "any attempt to brew coffee with a teapot",
+        "window_chars": 400,
+        "answer_form": "one word, lowercase",
+        "answer_pattern": "[a-z]{3,12}",
+        "hint": "The joke is a nursery rhyme."
+      },
+      "hash": "0xa441638818a3d2dbce24cbb17118ecb1af458124f551cbe30517c36b45d5f86d",
+      "submittedAt": "2026-10-02T18:40:33.432Z",
+      "acceptedSeconds": 4.12,
+      "status": "FINALIZED",
+      "finalizedSeconds": 8.153,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "add_clue[1]",
+      "functionName": "add_clue",
+      "kwargs": {
+        "title": "By Air",
+        "riddle": "A 1990 memo specifies the transmission of IP datagrams by pigeon. It gives a typical maximum transmission unit, and the unit of measure is not bytes. Give the number only.",
+        "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+        "anchor": "the mtu is variable",
+        "window_chars": 300,
+        "answer_form": "a number, digits only",
+        "answer_pattern": "\\d{1,5}",
+        "hint": "Milligrams. And it is a power of two."
+      },
+      "hash": "0x5fc17c05a7510bff24e3e21947d9d83b0229a1798684f20931053f9825c85ac4",
+      "submittedAt": "2026-10-02T18:40:41.591Z",
+      "acceptedSeconds": 8.097,
+      "status": "FINALIZED",
+      "finalizedSeconds": 14.166,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "pin_clue[0]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 0
+      },
+      "hash": "0x811ce00e546cf18cee05abdb42aec007483085d02454a2c3e99ea103007f3ca5",
+      "submittedAt": "2026-10-02T18:40:55.765Z",
+      "acceptedSeconds": 10.146,
+      "status": "FINALIZED",
+      "finalizedSeconds": 14.179,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "pin_clue[1]",
+      "functionName": "pin_clue",
+      "kwargs": {
+        "idx": 1
+      },
+      "hash": "0x05858cffc49d8d9ed96f94154fc522c7a052c7218490d04eef5290db888c5325",
+      "submittedAt": "2026-10-02T18:41:09.967Z",
+      "acceptedSeconds": 10.123,
+      "status": "FINALIZED",
+      "finalizedSeconds": 16.182,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "open_race",
+      "functionName": "open_race",
+      "kwargs": {},
+      "hash": "0xf0501da14e36b7381502afaca413eb24075efddbcd7a9e44ed12de2b38c66e0f",
+      "submittedAt": "2026-10-02T18:41:26.160Z",
+      "acceptedSeconds": 6.083,
+      "status": "FINALIZED",
+      "finalizedSeconds": 12.15,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "join",
+      "functionName": "join",
+      "kwargs": {
+        "handle": "verification-local"
+      },
+      "hash": "0x17837392029417f3ae5f9e0241738edfec99bf161eb01a7afc8a8e72ff16142b",
+      "submittedAt": "2026-10-02T18:42:01.313Z",
+      "acceptedSeconds": 4.189,
+      "status": "FINALIZED",
+      "finalizedSeconds": 10.282,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "commit[0]",
+      "functionName": "commit",
+      "kwargs": {
+        "clue_idx": 0,
+        "commitment": "b74b4d38960a7ad09290aaff49e4c6e3fcc0db18eaa01c9ee4de39b56538f043"
+      },
+      "hash": "0x2db63483835a93097cfd6f8a71101025d201a51b00231697f9f1a25cf8c76286",
+      "submittedAt": "2026-10-02T18:42:12.647Z",
+      "acceptedSeconds": 6.126,
+      "status": "FINALIZED",
+      "finalizedSeconds": 10.147,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "reveal[0]",
+      "functionName": "reveal",
+      "kwargs": {
+        "cid": 0,
+        "answer": "stout",
+        "salt": "eb03705869d5061d48359a3f0ac95a6e"
+      },
+      "hash": "0xe6ef436517c753e0adae7a219e4e53f7ae5714beed87c8863ff9c85bd77e1519",
+      "submittedAt": "2026-10-02T18:42:22.802Z",
+      "acceptedSeconds": 8.105,
+      "status": "FINALIZED",
+      "finalizedSeconds": 14.18,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "judge[0]",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 0
+      },
+      "hash": "0x73f44c9dcbf9ba35f195a72c5c7cf2df2b3d2b946de533a26e6c6d5548ab9ca5",
+      "submittedAt": "2026-10-02T18:42:36.996Z",
+      "acceptedSeconds": 320.779,
+      "status": "FINALIZED",
+      "finalizedSeconds": 330.89,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "idle"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "commit[1]",
+      "functionName": "commit",
+      "kwargs": {
+        "clue_idx": 1,
+        "commitment": "caf0b9c8a98f8d50611b1590e938d3ff3651ea22aa1ba0cbce40a3806ed21d44"
+      },
+      "hash": "0xf70c0a7fafa9864f61b7952d9666a47eaa3a7f41f83291020334ffdf80747446",
+      "submittedAt": "2026-10-02T18:52:51.656Z",
+      "acceptedSeconds": 69.114,
+      "status": "FINALIZED",
+      "finalizedSeconds": 75.198,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "idle",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "agree",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "reveal[1]",
+      "functionName": "reveal",
+      "kwargs": {
+        "cid": 1,
+        "answer": "256",
+        "salt": "39d9ebfb285e39eea59cf75d87306c0edca23b0f6c2babcc"
+      },
+      "hash": "0xb9b9b8f618c2655d72d0deb883ea13eb3812a88d3baf7c7429411f69792ead6c",
+      "submittedAt": "2026-10-02T18:54:06.872Z",
+      "acceptedSeconds": 6.145,
+      "status": "FINALIZED",
+      "finalizedSeconds": 12.217,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "agree",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "idle",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    },
+    {
+      "label": "judge[1]",
+      "functionName": "judge",
+      "kwargs": {
+        "cid": 1
+      },
+      "hash": "0xd1f8c667dcaff5bb7cf85752fd453c1419ad64941edb78dbc9f5e9d4be7562de",
+      "submittedAt": "2026-10-02T18:54:19.099Z",
+      "acceptedSeconds": 319.487,
+      "status": "FINALIZED",
+      "finalizedSeconds": 329.59,
+      "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+      "execution": "SUCCESS",
+      "stderr": "",
+      "validators": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "votes": {
+        "0x20ddBb334395505BF53A142cd769F4545A403593": "agree",
+        "0x5239Ebfe4c317Bf43F0AB96Aa4A8a38b347c3c3b": "idle",
+        "0x86320e5611Cff0aBEaA635B74Be34C5C47403bcC": "idle",
+        "0x9057a252a07054D55E24F144215820D06e8F6C49": "agree",
+        "0xc1a7F3174f487c8eb8505B7872ACB8E711198318": "agree"
+      },
+      "eqOutputs": "0xcdc6c28000c0c080c5c480c28000",
+      "fee": {
+        "gasUsed": "0x7a1200",
+        "effectiveGasPrice": "0x0",
+        "actualNetworkFeeKnown": false,
+        "note": "Simulator receipt; local inference has no provider invoice."
+      }
+    }
+  ],
+  "plays": [
+    {
+      "idx": 0,
+      "cid": 0,
+      "answer": "stout",
+      "salt": "eb03705869d5061d48359a3f0ac95a6e",
+      "commitment": "b74b4d38960a7ad09290aaff49e4c6e3fcc0db18eaa01c9ee4de39b56538f043",
+      "result": {
+        "answer": "stout",
+        "chain_version": 1,
+        "cid": 0,
+        "clue_idx": 0,
+        "commitment": "b74b4d38960a7ad09290aaff49e4c6e3fcc0db18eaa01c9ee4de39b56538f043",
+        "pin_status": 0,
+        "player": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+        "reasoning_digest": "a8ad5b9267dd34a0aaa040257a8c0031bd41318d68965a92b9ece9a54407d642",
+        "revealed": true,
+        "source_digest": "0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52",
+        "verdict": 1
+      },
+      "player": {
+        "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+        "attempts_left": 6,
+        "attempts_used": 0,
+        "cleared": 1,
+        "finished": false,
+        "handle": "verification-local",
+        "joined": true,
+        "position": 1,
+        "total_attempts": 1
+      }
+    },
+    {
+      "idx": 1,
+      "cid": 1,
+      "answer": "256",
+      "salt": "39d9ebfb285e39eea59cf75d87306c0edca23b0f6c2babcc",
+      "commitment": "caf0b9c8a98f8d50611b1590e938d3ff3651ea22aa1ba0cbce40a3806ed21d44",
+      "result": {
+        "answer": "256",
+        "chain_version": 1,
+        "cid": 1,
+        "clue_idx": 1,
+        "commitment": "caf0b9c8a98f8d50611b1590e938d3ff3651ea22aa1ba0cbce40a3806ed21d44",
+        "pin_status": 0,
+        "player": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+        "reasoning_digest": "ecbb1dde5dda67f90219cfb94506e09b3db8219ec237a956486db1ee7d669e5b",
+        "revealed": true,
+        "source_digest": "bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c",
+        "verdict": 1
+      },
+      "player": {
+        "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+        "attempts_left": 6,
+        "attempts_used": 0,
+        "cleared": 2,
+        "finished": true,
+        "handle": "verification-local",
+        "joined": true,
+        "position": 2,
+        "total_attempts": 2
+      }
+    }
+  ],
+  "createdAt": "2026-10-02T18:39:48.118Z",
+  "address": "0x8CE8e3B9991Bc2FC47e8d6D933085F03d1724580",
+  "race": {
+    "chain_version": 1,
+    "clue_count": 2,
+    "commit_count": 2,
+    "hash_algo": "sha256",
+    "max_attempts_per_clue": 6,
+    "owner": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+    "player_count": 1,
+    "state": 3,
+    "title": "Proof of Hunt - two-clue prototype",
+    "winner": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+    "winner_cid": 1
+  },
+  "leaderboard": [
+    {
+      "addr": "0x78666dD37521d93F2084f5CdEe7c808cC7903302",
+      "cleared": 2,
+      "finished": true,
+      "handle": "verification-local",
+      "last_correct_cid": 1,
+      "position": 2,
+      "total_attempts": 2
+    }
+  ]
+}

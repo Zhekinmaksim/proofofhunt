@@ -1,0 +1,74 @@
+add_clue[0] FINALIZED
+add_clue[1] FINALIZED
+add_clue[2] FINALIZED
+add_clue[3] FINALIZED
+add_clue[4] FINALIZED
+add_clue[5] FINALIZED
+add_clue[6] FINALIZED
+add_clue[7] FINALIZED
+add_clue[8] FINALIZED
+add_clue[9] FINALIZED
+add_clue[10] FINALIZED
+add_clue[11] FINALIZED
+pin_clue[0] FINALIZED
+pin_clue[1] FINALIZED
+pin_clue[2] FINALIZED
+pin_clue[3] FINALIZED
+pin_clue[4] FINALIZED
+pin_clue[5] FINALIZED
+pin_clue[6] 0xa7c2adb0ff05d85966988867d67335d231ebfbcda4947de63ec7738f4e8e6656
+pin_clue[6] PROPOSING
+pin_clue[6] COMMITTING
+pin_clue[6] ACCEPTED
+pin_clue[7] 0xd7cfd91922a4c516bfaa8ab8c3967a8874bb3f5f4d07fe06c051f7a3fce8f9e5
+pin_clue[7] PENDING
+pin_clue[7] PROPOSING
+pin_clue[7] COMMITTING
+pin_clue[7] ACCEPTED
+pin_clue[8] 0x705f5ab4d997784d4f62de5515851ff21da1d2969104e2555e858901298102a5
+pin_clue[8] PENDING
+pin_clue[8] PROPOSING
+pin_clue[8] COMMITTING
+pin_clue[8] ACCEPTED
+pin_clue[9] 0xdf6589d822a87a9ce44b699c1bee6919a00cee7fa915be0dfd2752a04f984e13
+pin_clue[9] PROPOSING
+pin_clue[9] COMMITTING
+pin_clue[9] ACCEPTED
+pin_clue[10] 0x2629eceba3aab4f1cd3ee17b0a06b38e76463769f7bad653708030b70d69fbe7
+pin_clue[10] PENDING
+pin_clue[10] PROPOSING
+pin_clue[10] COMMITTING
+pin_clue[10] ACCEPTED
+pin_clue[11] 0xf570c686c28c94d27d3477c1e372e843447403144ed5cc6a8aec7a24c4532c8c
+pin_clue[11] PENDING
+pin_clue[11] COMMITTING
+pin_clue[11] ACCEPTED
+deploy FINALIZED
+pin_clue[6] FINALIZED
+pin_clue[7] FINALIZED
+pin_clue[8] FINALIZED
+pin_clue[9] ACCEPTED
+pin_clue[9] FINALIZED
+pin_clue[10] ACCEPTED
+pin_clue[10] FINALIZED
+pin_clue[11] ACCEPTED
+pin_clue[11] FINALIZED
+open_race 0x6b24f7fa10a539cc80c5f73a0fe2473c2e354b13acfea8fc7abd6abc46170d5e
+open_race PROPOSING
+open_race COMMITTING
+open_race ACCEPTED
+open_race ACCEPTED
+open_race FINALIZED
+Authored 0x1Bc40819aF0fAED6e789AECc909561FD4F9579CB {
+  chain_version: 1,
+  clue_count: 12,
+  commit_count: 0,
+  hash_algo: 'sha256',
+  max_attempts_per_clue: 6,
+  owner: '0xf18Fd5cd0ff19E855B1018B02b983B069BA05DE3',
+  player_count: 0,
+  state: 1,
+  title: 'Proof of Hunt 01 - Paper Trail',
+  winner: '',
+  winner_cid: -1
+}

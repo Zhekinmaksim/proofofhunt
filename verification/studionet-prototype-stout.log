@@ -1,0 +1,29 @@
+judge[0] 0x7861327c95c2d66be0583efb7a1d84fd914afe57da58f8302424716aaeef3145
+judge[0] PENDING
+judge[0] PROPOSING
+judge[0] COMMITTING
+judge[0] ACCEPTED
+judge[0] FINALIZED
+{
+  answer: 'stout',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: 'ad8006124f7fecf5ab2fd15e45904ee4f09fc45d4005595f1d150939717bc2b4',
+  pin_status: 0,
+  player: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  reasoning_digest: '4b7ca9b04e1fc4435933fcf3ee56b630bf4f227474e57d3f980aa41d8ed7b990',
+  revealed: true,
+  source_digest: '0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52',
+  verdict: 1
+} {
+  addr: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 1,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 1,
+  total_attempts: 1
+}

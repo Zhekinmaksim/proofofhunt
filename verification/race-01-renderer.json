@@ -1,0 +1,134 @@
+[
+  {
+    "idx": 0,
+    "title": "Short and Stout",
+    "source_url": "https://www.rfc-editor.org/rfc/rfc2324.txt",
+    "status": "200",
+    "passed": true,
+    "window": "any attempt to brew coffee with a teapot should result in the error code \"418 i'm a teapot\". the resulting entity body may be short and stout. 3. the \"coffee\" uri scheme because coffee is international, there are international coffee uri schemes. all coffee url schemes are written with url encoding of the utf-8 encoding of the characters that spell the word for \"coffee\" in any of 29 languages, fol",
+    "digest": "0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 1,
+    "title": "By Air",
+    "source_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+    "status": "200",
+    "passed": true,
+    "window": "the mtu is variable, and paradoxically, generally increases with increased carrier age. a typical mtu is 256 milligrams. some datagram padding may be needed. upon receipt, the duct tape is removed and the paper copy of the datagram is optically scanned into a electronically transmittable form. discu",
+    "digest": "bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 2,
+    "title": "Number One",
+    "source_url": "https://www.rfc-editor.org/rfc/rfc1.txt",
+    "status": "200",
+    "passed": true,
+    "window": "title: host software author: steve crocker installation: ucla date: 7 april 1969 network working group request for comment: 1 contents introduction i. a summary of the imp software messages links imp transmission and error checking open questions on the imp software ii. some requirements upon the ho",
+    "digest": "0cd3784a112006b04ff925ad94eef8babbae59c359ae9f23b83caa5c48700d9e",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 3,
+    "title": "Still Served",
+    "source_url": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+    "status": "200",
+    "passed": true,
+    "window": "is a wide-area hypermedia information retrieval initiative aiming to give universal access to a large universe of documents. everything there is online about w3 is linked directly or indirectly to this document, including an executive summary of the project, mailing lists , policy , november's w3 ne",
+    "digest": "031ec8468db196d79cd15648557d6dac0769302f970ad5cec67cfc74385acf7c",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 4,
+    "title": "Nodes and Arcs",
+    "source_url": "https://info.cern.ch/hypertext/WWW/Proposal.html",
+    "status": "200",
+    "passed": true,
+    "window": "the attached document describes in more detail a hypertext project. hypertext is a way to link and access information of various kinds as a web of nodes in which the user can browse at will. it provides a single user-interface to large classes of information (reports, notes, data-bases, computer documentation and on-line help). we propose a simple scheme incorporating servers already available at cern. the project has two phases: firstly we make use of existing software and hardware as well as implementing simple browsers for the user's workstations, based on an analysis of the requirements fo",
+    "digest": "d464822874481c5c06ecf5e706da3152c82e328b5d2d5325f3d6a9360850f8ac",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 5,
+    "title": "Reserved",
+    "source_url": "https://www.iana.org/help/example-domains",
+    "status": "200",
+    "passed": true,
+    "window": "we strongly recommend you do not design applications that require the example domains to have operating http service. further reading iana-managed reserved domains special-use domain names (rfc 6761) reserved top level dns names (rfc 2606) ",
+    "digest": "834b1f46723a74732820eecb39bcacadd7dafbe5a43f43fb86d4fa1e3fcb90d0",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 6,
+    "title": "Closed Ecosystem",
+    "source_url": "https://www.rfc-editor.org/rfc/rfc8259.txt",
+    "status": "200",
+    "passed": true,
+    "window": "closed ecosystem must be encoded using utf-8 [rfc3629]. previous specifications of json have not required the use of utf-8 when transmitting json text. however, the vast majority of json- based software implementations have chosen to use the utf-8 encoding, to the extent that it is the only encoding",
+    "digest": "50c3328037cd55ea7a09c30c05d053fa67efd010633847ccaa58fe896be38862",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 7,
+    "title": "Arbitrarily Defined",
+    "source_url": "https://www.rfc-editor.org/rfc/rfc793.txt",
+    "status": "200",
+    "passed": true,
+    "window": "msl maximum segment lifetime, the time a tcp segment can exist in the internetwork system. arbitrarily defined to be 2 minutes. octet an eight bit byte. options an option field may contain several options, and each option may be several octets in length. the options are used primarily in testing situations; for example, to carry timestamps. both the internet protocol and tcp provide for options fields. packet a package of data with a header which may or may not be logically complete. more often a physical packaging than a logical packaging of data. port the portion of a socket that specifies w",
+    "digest": "6fef1a8a0b1563ad613e3cba12dabdb476591c30f2828d0eab46d13e39c35c23",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 8,
+    "title": "The Standard Everything Copied",
+    "source_url": "https://eips.ethereum.org/EIPS/eip-20",
+    "status": "200",
+    "passed": true,
+    "window": "a standard interface for tokens. abstract the following standard allows for the implementation of a standard api for tokens within smart contracts. this standard provides basic functionality to transfer tokens, as well as allow tokens to be approved so they can be spent by another on-chain third party. motivation a standard interface allows any tokens on ethereum to be re-used by other applications: from wallets to decentralized exchanges. specification token methods notes: the following specifications use syntax from solidity 0.4.17 (or above) callers must handle false from returns (bool success). callers must not assume that false is never returned! name returns the name of the token - e.g. \"mytoken\". optional - this method can be used to improve usability, but interfaces and other contracts must not expect these values to be present. function name() public view returns (string) symbol returns the symbol of the token. e.g. hix. optional - this method can be used to improve usability, but interfaces and other contracts must not expect these values to be present. function symbol() public view returns (string) decimals returns the number of decimals the token uses - e.g. 8, means to divide the token amount by 100000000 to get its user representation. optional - this method can be used to improve usability, but interfaces and other contracts must not expect these values to be present. function decimals() public view returns (uint8) totalsupply returns the total token supply. function totalsupply() public view returns (uint256) balanceof returns the account balance of another account with address _owner. function balanceof(address _owner) public view returns (uint256 balance) transfer transfers _value amount of tokens to address _to, and must fire the transfer event. the function should throw if the message callers account balance does not have enough tokens to spend. note transfers of 0 values must be treated as normal transfers and fire the transfer event. function transfer(address _to, uint256 _value) public returns (bool success) transferfrom transfers _value amount of tokens from address _from to address _to, and must fire the transfer event. the transferfrom method is used for a withdraw workflow, allowing contracts to transfer tokens on your behalf. this can be used for example to allow a contract to transfer tokens on your behalf and/or to charge fees in sub-currencies. the function should throw unless the _from account has deliberately authorized the sender of the message via some mechanism. note transfers of 0 values must be treated as normal transfers and fire the transfer event. function transferfrom(address _from, address _to, uint256 _value) public returns (bool success) approve allows _spender to withdraw from your account multiple times, up to the _value amount. if this function is called again it overwrites the current allowance with _value. note: to prevent attack vectors like the one described here and discussed here, clients shou",
+    "digest": "839c47b4b3f25fc64f62a541c1ca9d6710146895ce9ba6471b943342f79bd0e4",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 9,
+    "title": "Mixed Case",
+    "source_url": "https://eips.ethereum.org/EIPS/eip-55",
+    "status": "200",
+    "passed": true,
+    "window": "in english, convert the address to hex, but if the ith digit is a letter (ie. its one of abcdef) print it in uppercase if the 4*ith bit of the hash of the lowercase hexadecimal address is 1 otherwise print it in lowercase. rationale benefits: backwards compatible with many hex parsers that accept mixed case, allowing it to be easily introduced over time keeps the length at 40 characters on average there will be 15 check bits per address, and the net probability that a randomly generated address if mistyped will accidentally pass a check is 0.0247%. this is a ~50x improvement over icap, but not as good as a 4-byte check code. implementation in javascript: const createkeccakhash = require('keccak') function tochecksumaddress (address) { address = address.tolowercase().replace('0x', '') var hash = createkeccakhash('keccak256').update(address).digest('hex') var ret = '0x' for (var i = 0; i < address.length; i++) { if (parseint(hash[i], 16) >= 8) { ret += address[i].touppercase() } else { ret += address[i] } } return ret } > tochecksumaddress('0xfb6916095ca1df60bb79ce92ce3ea74c37c5d359') '0xfb6916095ca1df60bb79ce92ce3ea74c37c5d359' note that the input to the keccak256 hash is the lowercase hexadecimal string (i.e. the hex address encoded as ascii): var hash = createkeccakhash('keccak256').update(buffer.from(address.tolowercase(), 'ascii')).digest() test cases # all caps 0x52908400098527886e0f7030069857d2e4169ee7 0x8617e340b3d01fa5f11f306f4090fd50e238070d # all lower 0xde709f2102306220921060314715629080e2fb77 0x27b1fdb04752bbc536007a920d24acb045561c26 # normal 0x5aaeb6053f3e94c9b",
+    "digest": "c359f37371deb68ae791abcad311a9a3d01fb990f3702c34c3053fcc32cb8f50",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 10,
+    "title": "Eleven Bits",
+    "source_url": "https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039.mediawiki",
+    "status": "200",
+    "passed": true,
+    "window": "appended to the end of the initial entropy. next, these concatenated bits are split into groups of 11 bits, each encoding a number from 0-2047, serving as an index into a wordlist. finally, we convert these numbers into words and use the joined words as a mnemonic sentence. the following table describes the relation between the initial entropy length (ent), the checksum length (cs), and the length",
+    "digest": "3e0be47d31152551a61a76b654210c8ea8544d289b062190ab1e5b269c614209",
+    "anchor_count": 1,
+    "stderr": ""
+  },
+  {
+    "idx": 11,
+    "title": "Home",
+    "source_url": "https://docs.genlayer.com/developers/intelligent-contracts/storage",
+    "status": "200",
+    "passed": true,
+    "window": "dict[k, v] needs to be replaced with treemap[k, v] int type isn't supported on purpose. you most likely wish to use some fixed-size integer type, such as i32 or u256. if this is not the case and you are sure that you need big integers, you can annotate your field with bigint, which is just an alias for python int  only fully instantiated generic types can be used, so treemap is forbidden, while treemap[str, u256] is not simple examples: class persistentcontract(gl.contract): a: str b: bytes # c:",
+    "digest": "a0270405675fda3289682313f77b578237ae78a68313985393f0ec300cafb7ed",
+    "anchor_count": 1,
+    "stderr": ""
+  }
+]

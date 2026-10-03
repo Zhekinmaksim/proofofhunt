@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import {assess,integer,options} from './monitor_race.mjs';
+const base={protocol_version:2,state:1,clue_count:2,commit_count:0,closes_at:200};
+assert.equal(assess(base,[],100).exitCode,0);
+assert.equal(assess(base,[],200).findings[0].code,'RACE_DEADLINE_EXPIRED');
+assert.equal(assess({...base,protocol_version:1},[],100).exitCode,1);
+const pending={cid:0,clue_idx:1,verdict:3,pin_status:1,revealed:true,judge_deadline:90};
+assert.deepEqual(assess(base,[pending],100).findings.map(x=>x.code),['SOURCE_DRIFTED','COMMIT_DEADLINE_EXPIRED']);
+assert.equal(assess(base,[{...pending,pin_status:2,judge_deadline:150}],100).findings[0].code,'SOURCE_UNREACHABLE');
+assert.equal(assess(base,[{...pending,verdict:4}],100).exitCode,0);
+assert.equal(assess(base,[{...pending,verdict:1}],100).exitCode,0);
+assert.equal(assess(base,[{...pending,verdict:0,revealed:false,reveal_deadline:99,pin_status:0}],100).findings[0].code,'COMMIT_DEADLINE_EXPIRED');
+assert.deepEqual(assess({...base,state:2,winner_cid:1},[pending],100).findings.at(-1).knownBlockerCids,[0]);
+assert.equal(assess({...base,state:2,winner_cid:1},[],100).findings.at(-1).code,'FINALIZATION_REQUIRES_REVIEW');
+assert.equal(assess(base,[],100,false).exitCode,2);
+assert.equal(assess({...base,state:4},[pending],300).exitCode,0);
+assert.equal(assess({...base,state:3},[pending],300).exitCode,0);
+assert.equal(assess(base,[{...pending,verdict:0,pin_status:0,judge_deadline:100}],100).findings[0].code,'COMMIT_DEADLINE_EXPIRED');
+assert.throws(()=>integer(101,10,1,100,'samples'));
+assert.throws(()=>options(['--network']));
+console.log('PASS: monitoring deadline, source, provisional, terminal, scan, and bounds cases');
+
+assert.equal(assess(base,[{...pending,pin_status:0,judge_deadline:150}],100).findings[0].code,'JUDGE_UNDETERMINED');

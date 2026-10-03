@@ -1,0 +1,12 @@
+[00] PASS Short and Stout: status=200, anchors=1, chars=400, answer=True
+[01] PASS By Air: status=200, anchors=1, chars=300, answer=True
+[02] PASS Number One: status=200, anchors=1, chars=300, answer=True
+[03] PASS Still Served: status=200, anchors=1, chars=300, answer=True
+[04] PASS Nodes and Arcs: status=200, anchors=1, chars=600, answer=True
+[05] PASS Reserved: status=200, anchors=1, chars=240, answer=True
+[06] PASS Closed Ecosystem: status=200, anchors=1, chars=300, answer=True
+[07] PASS Arbitrarily Defined: status=200, anchors=1, chars=600, answer=True
+[08] PASS The Standard Everything Copied: status=200, anchors=1, chars=3000, answer=True
+[09] PASS Mixed Case: status=200, anchors=1, chars=1600, answer=True
+[10] PASS Eleven Bits: status=200, anchors=1, chars=400, answer=True
+[11] PASS Home: status=200, anchors=1, chars=500, answer=True

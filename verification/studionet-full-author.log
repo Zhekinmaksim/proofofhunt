@@ -1,0 +1,146 @@
+deploy 0x574b761b09105614212974ba1075f8c9a02b9d1ca286627ab4c64c8e81876ef3
+deploy PENDING
+deploy PROPOSING
+deploy COMMITTING
+deploy ACCEPTED
+add_clue[0] 0x8caf87bbcc6ef0ea32287adfd6fde6b711c434f326cab30602a01ff65bba1d9f
+add_clue[0] PENDING
+add_clue[0] COMMITTING
+add_clue[0] ACCEPTED
+add_clue[1] 0xbfb7519c4427ca4d7bc03c42d5cb403d22bf1f1436913980839ecff4c50fd171
+add_clue[1] PENDING
+add_clue[1] COMMITTING
+add_clue[1] ACCEPTED
+add_clue[2] 0xb0e567ef39167f2ef88a46577f6f370b5ec196e25695eeac475e82ec84843b27
+add_clue[2] PENDING
+add_clue[2] COMMITTING
+add_clue[2] ACCEPTED
+add_clue[3] 0x376c366205a1e9e942fba5bba8994916b6b77976b02d492abe5213b55ea24c83
+add_clue[3] PROPOSING
+add_clue[3] COMMITTING
+add_clue[3] ACCEPTED
+add_clue[4] 0x4b0c9f231d42d3fcd9feb88aca7303525966d289d24311f613398f560d431c75
+add_clue[4] PROPOSING
+add_clue[4] COMMITTING
+add_clue[4] ACCEPTED
+add_clue[5] 0x9b8d4c3292345a3a9ec4fa1ba6dc9785fe8c07775a06ef4ac288b9faa269ce8e
+add_clue[5] PENDING
+add_clue[5] COMMITTING
+add_clue[5] ACCEPTED
+add_clue[6] 0x56b8e6a4e151822da0030a774b71df506a3be429c965c7b09a9a26139ae89ead
+add_clue[6] PENDING
+add_clue[6] COMMITTING
+add_clue[6] ACCEPTED
+add_clue[7] 0x7251f349d7c620bb01bd887163f5c65291951b977308b43c1e8b07c2c61ec2bb
+add_clue[7] PENDING
+add_clue[7] COMMITTING
+add_clue[7] ACCEPTED
+add_clue[8] 0x9bece9bf78e037ccce8dd75e2267dbf4706a5d5e88fcb99975a4e352ccb72d84
+add_clue[8] PENDING
+add_clue[8] PROPOSING
+add_clue[8] REVEALING
+add_clue[8] ACCEPTED
+add_clue[9] 0x558b47f4472138967f4d36009ec5abaee11564df132ac67ba6ae7457b81692a7
+add_clue[9] PENDING
+add_clue[9] COMMITTING
+add_clue[9] ACCEPTED
+add_clue[10] 0x644b69284e106afbac8d8385123ee8a6918f02bf2870174aad56602f5d202d71
+add_clue[10] PENDING
+add_clue[10] PROPOSING
+add_clue[10] ACCEPTED
+add_clue[11] 0xb0976f097f186431cef1236de1a646653514918c095539e4b125afffbf3e6e66
+add_clue[11] PENDING
+add_clue[11] COMMITTING
+add_clue[11] ACCEPTED
+pin_clue[0] 0x4874b8b2226fa0023d7e0044d7a4879b8128abbc3c465a292307726c04b5af02
+pin_clue[0] PENDING
+pin_clue[0] PROPOSING
+pin_clue[0] COMMITTING
+pin_clue[0] ACCEPTED
+pin_clue[1] 0x7d0947ebb97bcdeee8e39da87ec2bd6b1dc99af77250836ac73fe2459fddb28b
+pin_clue[1] PENDING
+pin_clue[1] PROPOSING
+pin_clue[1] COMMITTING
+pin_clue[1] ACCEPTED
+pin_clue[2] 0xcd6a6dbab5e502acd86e053784d869577bc009220f4add7a5ad5c258a59c0c0f
+pin_clue[2] PROPOSING
+pin_clue[2] COMMITTING
+pin_clue[2] ACCEPTED
+pin_clue[3] 0xa0afeac36630bd6817596a4931db9fbe97ddbd5940e600aa3c5bb4ab14c7362e
+pin_clue[3] PENDING
+pin_clue[3] PROPOSING
+pin_clue[3] COMMITTING
+pin_clue[3] ACCEPTED
+pin_clue[4] 0xe3fa5eae19be61154b043d9c8178a2edbaffe30eb30c17e64d640fa948b7be5e
+pin_clue[4] PENDING
+pin_clue[4] PROPOSING
+pin_clue[4] COMMITTING
+pin_clue[4] ACCEPTED
+pin_clue[5] 0x560ac735fdc6627eab59ed32a680b6764b123c7b11f8df8f55aebb280f80cf7e
+pin_clue[5] PENDING
+pin_clue[5] COMMITTING
+pin_clue[5] ACCEPTED
+pin_clue[6] 0xb42dd64b9a9243dd7a78a61153d02e303612aa3ab8166fdef363ae5063df9bd7
+pin_clue[6] PENDING
+pin_clue[6] PROPOSING
+pin_clue[6] COMMITTING
+pin_clue[6] VALIDATORS_TIMEOUT
+pin_clue[6] FINALIZED
+pin_clue[7] 0xd958b9fb0b9bdac043b875ef6226bc1088c3fcad1e8325bf4d8ad123a0494ad4
+pin_clue[7] PROPOSING
+pin_clue[7] COMMITTING
+pin_clue[7] ACCEPTED
+pin_clue[8] 0x99c9707f2a632cca5d1674204bc92764cc945b0e20f4d04b4b0dee8b35c00075
+pin_clue[8] PROPOSING
+pin_clue[8] COMMITTING
+pin_clue[8] ACCEPTED
+pin_clue[9] 0xc4c3d045ce8ff506dea664272b49ae064d1bf0f0a9473ef786d67c0be0cb59f7
+pin_clue[9] PENDING
+pin_clue[9] COMMITTING
+pin_clue[9] ACCEPTED
+pin_clue[10] 0xbd3c7123d913f05a9d75dc19487b787256d244a4ef2ee47e0af4af13fe85df20
+pin_clue[10] PROPOSING
+pin_clue[10] COMMITTING
+pin_clue[10] ACCEPTED
+pin_clue[11] 0x7e45088491fd2156a05743cee19e7b6f43f0ed53181bb20fc30a5c7d8ddc5ae7
+pin_clue[11] PENDING
+pin_clue[11] PROPOSING
+pin_clue[11] COMMITTING
+pin_clue[11] ACCEPTED
+open_race 0x166f0599ccd86eb44cace64d4e136dfd2c30aa2facd5443bb60a25e1718e2039
+open_race PROPOSING
+open_race COMMITTING
+open_race ACCEPTED
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:85
+      if((status!=='FINALIZED' && !(status==='ACCEPTED' && !requireFinal))||row.execution!=='SUCCESS'||consensusFailed) throw Error(`${row.label}: ${status}/${row.execution}: ${row.stderr}`);
+                                                                                                                              ^
+
+Error: open_race: ACCEPTED/ERROR: Traceback (most recent call last):
+  File "/py/libs/_genlayer_runner.py", line 180, in <module>
+    _handle_main()
+    ~~~~~~~~~~~~^^
+  File "/py/libs/_genlayer_runner.py", line 170, in _handle_main
+    _give_result(
+    ~~~~~~~~~~~~^
+    	lambda: meth2call(contract_instance, *cd.get('args', []), **cd.get('kwargs', {}))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/py/libs/_genlayer_runner.py", line 65, in _give_result
+    res = res_fn()
+  File "/py/libs/_genlayer_runner.py", line 171, in <lambda>
+    lambda: meth2call(contract_instance, *cd.get('args', []), **cd.get('kwargs', {}))
+            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/contract.py", line 454, in open_race
+    self._require(c.pinned, "every clue must be pinned before opening")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/contract.py", line 354, in _require
+    raise Exception(why)
+Exception: every clue must be pinned before opening
+
+    at settle (file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:85:127)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async author (file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:118:3)
+    at async file:///Users/zmaxx/Projects/Proofofhunt/scripts/live_race.mjs:177:28
+
+Node.js v20.20.2

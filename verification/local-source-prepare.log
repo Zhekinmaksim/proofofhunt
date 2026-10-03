@@ -1,0 +1,11 @@
+Prepared 0 {
+  addr: '0x78666dD37521d93F2084f5CdEe7c808cC7903302',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-local',
+  joined: true,
+  position: 0,
+  total_attempts: 0
+}

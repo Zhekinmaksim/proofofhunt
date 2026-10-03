@@ -1,0 +1,49 @@
+deploy 0xd34db6d8b3d7aafbae92d763718970ef8bd40a73776f5e276a9c1341af20d20d
+deploy PENDING
+deploy COMMITTING
+deploy ACCEPTED
+add_clue[0] 0x406dc9f592515c24b8627b67ca4723b24aea2ce752a6d81d25d9a0f245e6aa49
+add_clue[0] PENDING
+add_clue[0] COMMITTING
+add_clue[0] ACCEPTED
+add_clue[1] 0x538eaf662732133d5cb25fe399faba60b08efa8e13b69fcd65b9699b0a1343fe
+add_clue[1] PENDING
+add_clue[1] COMMITTING
+add_clue[1] ACCEPTED
+pin_clue[0] 0x92e7807efcc087ce54112aa08c06c3ba8a9ef20dd5d0b23621f04f3c951a6738
+pin_clue[0] PENDING
+pin_clue[0] PROPOSING
+pin_clue[0] COMMITTING
+pin_clue[0] ACCEPTED
+pin_clue[1] 0xe70c24508734f5677407ad71df3feaff55fee147737e9ebaf1b69875521a6d28
+pin_clue[1] PENDING
+pin_clue[1] COMMITTING
+pin_clue[1] ACCEPTED
+open_race 0x47f6ff426e76de2bc609e445804f9cd9304a19cffd6d5dffaed2423b2fc961ec
+open_race PENDING
+open_race PROPOSING
+open_race ACCEPTED
+deploy FINALIZED
+add_clue[0] ACCEPTED
+add_clue[0] FINALIZED
+add_clue[1] ACCEPTED
+add_clue[1] FINALIZED
+pin_clue[0] ACCEPTED
+pin_clue[0] FINALIZED
+pin_clue[1] ACCEPTED
+pin_clue[1] FINALIZED
+open_race ACCEPTED
+open_race FINALIZED
+Authored 0x591DA9c2375e377fB6e7b488b50022dE69f5BDA7 {
+  chain_version: 1,
+  clue_count: 2,
+  commit_count: 0,
+  hash_algo: 'sha256',
+  max_attempts_per_clue: 6,
+  owner: '0x08a35ce9529f640c5c02729CAa643253Db3f5b23',
+  player_count: 0,
+  state: 1,
+  title: 'Proof of Hunt - source failure verification',
+  winner: '',
+  winner_cid: -1
+}

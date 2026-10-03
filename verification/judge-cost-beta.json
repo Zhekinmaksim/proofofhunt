@@ -1,0 +1,51 @@
+{
+  "hash": "0x032ade8b021660e50b69ac33155ab564820a9c27d209d71921045d31cc2ecee0",
+  "acceptedSeconds": 20.485,
+  "finalizedSeconds": 53.602,
+  "fee": {
+    "gasUsed": "0x7a1200",
+    "effectiveGasPrice": "0x0",
+    "actualNetworkFeeKnown": false,
+    "note": "Studio simulator receipt; not a measured production inference invoice."
+  },
+  "protocolVersion": 2,
+  "network": "Studionet",
+  "contract": "0x897F3ffcBDaeC00B3b90dbBf10ba438e5Daa1850",
+  "reportedUsage": [
+    {
+      "model": "policy:prd-gpt-5-4",
+      "inputTokens": 545,
+      "outputTokens": 166,
+      "inputUsdPerMillion": 2.5,
+      "outputUsdPerMillion": 15,
+      "estimatedUsd": 0.0038525
+    },
+    {
+      "model": "openai/gpt-5.4",
+      "inputTokens": 1005,
+      "outputTokens": 58,
+      "inputUsdPerMillion": 2.5,
+      "outputUsdPerMillion": 15,
+      "estimatedUsd": 0.0033825
+    },
+    {
+      "model": "anthropic/claude-sonnet-4.6",
+      "inputTokens": 1094,
+      "outputTokens": 127,
+      "inputUsdPerMillion": 3,
+      "outputUsdPerMillion": 15,
+      "estimatedUsd": 0.005187
+    }
+  ],
+  "pricingSources": [
+    "https://openrouter.ai/openai/gpt-5.4",
+    "https://openrouter.ai/anthropic/claude-sonnet-4.6/pricing"
+  ],
+  "assumptions": [
+    "Uncached public list prices checked 2026-10-03 Asia/Tashkent.",
+    "policy:prd-gpt-5-4 is priced as GPT-5.4; internal routing invoice is unavailable.",
+    "Unreported canceled inference, web rendering, machine cost and subsidies are excluded.",
+    "This is an estimate for reported token usage, not a production invoice."
+  ],
+  "estimatedReportedUsageUsd": 0.012421999999999999
+}

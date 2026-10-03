@@ -1,0 +1,9 @@
+join 0xadcb684a7943fb17c7e4c7ab86be67b004d4d3bb2dc31a2c0f1464fe11a38c4e
+join FINALIZED
+commit 0xc005bd019de84f4f179c62759eab63dc87410ef61880466cb11c597a9542dc21
+commit FINALIZED
+reveal 0x3c01ec0c4eb3bf1451c5844aa5c19ee49a54ef265df862371099329950a2ae35
+reveal FINALIZED
+judge 0x7fd797b583e5588cbca3824838ea4cb8b07485f614fbbb0a5532151200d25c4d
+judge FINALIZED
+PASS provider path: join, commit, reveal, judge FINALIZED; CORRECT position 1

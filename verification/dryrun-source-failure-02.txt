@@ -1,0 +1,20 @@
+
+[00] Controlled Source
+  ok   the expected answer matches the answer pattern  ('cobalt' vs /[a-z]{3,12}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (799 chars)
+  ok   anchor found on the page  ('proof of hunt source fixture')
+  ok   window is long enough to judge against  (400 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+[01] By Air
+  ok   the expected answer matches the answer pattern  ('256' vs /\d{1,5}/)
+  ok   the anchor does not leak the answer
+  ok   source reachable  (3215 chars)
+  ok   anchor found on the page  ('the mtu is variable')
+  ok   window is long enough to judge against  (300 chars)
+  ok   the answer is inside the window
+  ok   anchor is unique on the page  (1 occurrence(s), the first is used)
+
+all 2 clues look ready to pin

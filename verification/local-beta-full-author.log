@@ -1,0 +1,167 @@
+deploy 0x060c48890214bbf139655e04f67513ecef484971e6bc19c018316e99af60d3e2
+deploy PENDING
+deploy COMMITTING
+deploy ACCEPTED
+add_clue[0] 0x06ec89f2f83cef855db1ac474a68e540a71254a138967b5c241ab6c62cc0215a
+add_clue[0] PENDING
+add_clue[0] COMMITTING
+add_clue[0] ACCEPTED
+add_clue[1] 0xb4e491438e9ea1ba582256133ed32639d60f00833d97424c7826c55e2ed25f14
+add_clue[1] PENDING
+add_clue[1] COMMITTING
+add_clue[1] ACCEPTED
+add_clue[2] 0x8c82484c28714972b276e48e773a150a2f9b1033fcc9c4ef8a3663fa3f4a936c
+add_clue[2] PENDING
+add_clue[2] PROPOSING
+add_clue[2] COMMITTING
+add_clue[2] FINALIZED
+add_clue[3] 0x58bacb1b714f424f628fb03aad9c81149ed69b9caec48bbe32d01e6479e77c92
+add_clue[3] PENDING
+add_clue[3] PROPOSING
+add_clue[3] COMMITTING
+add_clue[3] ACCEPTED
+add_clue[4] 0xd362a391e5536194072bd46f414a41053bac61676c1583e2b4d1b4849e6e76bd
+add_clue[4] PENDING
+add_clue[4] PROPOSING
+add_clue[4] COMMITTING
+add_clue[4] ACCEPTED
+add_clue[5] 0xcc586b267c2453df65fc616ed97105cbb1758b1d5c872ab132ba105ad34a1a92
+add_clue[5] PENDING
+add_clue[5] PROPOSING
+add_clue[5] COMMITTING
+add_clue[5] ACCEPTED
+add_clue[6] 0xff963c4637a08bf11698dc1f28bd8d26a73dfacacc0b9d083e147d97ff01c342
+add_clue[6] PENDING
+add_clue[6] PROPOSING
+add_clue[6] ACCEPTED
+add_clue[7] 0x0cd5431b80fb7856864781f372d55c6b7b5db3a8cb616c4ad30e9299b90f8dd6
+add_clue[7] PENDING
+add_clue[7] COMMITTING
+add_clue[7] ACCEPTED
+add_clue[8] 0x470b96bd154555d149e21c528e451313f1c2c29aa15fe2881a4717075881bc42
+add_clue[8] PENDING
+add_clue[8] PROPOSING
+add_clue[8] ACCEPTED
+add_clue[9] 0x5ab48c483b365c8b6f9660f9d76b8e296af84a4c41156594810ca49c1582f410
+add_clue[9] PENDING
+add_clue[9] COMMITTING
+add_clue[9] ACCEPTED
+add_clue[10] 0xfbe131789eef7349b23b7b6f0f8cba34266efc192e8979468e538a5028fd67a3
+add_clue[10] PENDING
+add_clue[10] COMMITTING
+add_clue[10] ACCEPTED
+add_clue[11] 0x7ef2421934006747bdb9d85abc0f2580e42108790c161e23b1101701fc1e0e5a
+add_clue[11] PENDING
+add_clue[11] PROPOSING
+add_clue[11] ACCEPTED
+pin_clue[0] 0xa5db812f5af3c195156822b896b4afe9b35674f277e5ee8f74a8793a48b2d4a5
+pin_clue[0] PENDING
+pin_clue[0] PROPOSING
+pin_clue[0] COMMITTING
+pin_clue[0] ACCEPTED
+pin_clue[1] 0xc794f4bd928a0374f456127f9d17ced0958e35a0cf9d56f122e5bf6dafbfd092
+pin_clue[1] PENDING
+pin_clue[1] PROPOSING
+pin_clue[1] COMMITTING
+pin_clue[1] ACCEPTED
+pin_clue[2] 0x62c32cf3eb96a478405b24579ec212615743e748034d56cbdffb41776f2efddd
+pin_clue[2] PENDING
+pin_clue[2] PROPOSING
+pin_clue[2] COMMITTING
+pin_clue[2] ACCEPTED
+pin_clue[3] 0xf7be266aac8a6c401e90e81727c539edb647cc689858f69b0d851ff029fd0eba
+pin_clue[3] PENDING
+pin_clue[3] PROPOSING
+pin_clue[3] COMMITTING
+pin_clue[3] ACCEPTED
+pin_clue[4] 0xcc6ab4e953002caee8b432992c8ddfcb51631dce125aebd93a08689b1dbcd76a
+pin_clue[4] PENDING
+pin_clue[4] PROPOSING
+pin_clue[4] COMMITTING
+pin_clue[4] ACCEPTED
+pin_clue[5] 0xa8570645d6c4ded9844f7cfcbfd48dde8b558249540241181d671cffc959e5ee
+pin_clue[5] PENDING
+pin_clue[5] PROPOSING
+pin_clue[5] COMMITTING
+pin_clue[5] ACCEPTED
+pin_clue[6] 0xaf69535cdc6e02ab9d7d8d74145a121331492083f6fb0adfd6fd6a8dbe40d3d7
+pin_clue[6] PENDING
+pin_clue[6] PROPOSING
+pin_clue[6] COMMITTING
+pin_clue[6] ACCEPTED
+pin_clue[7] 0xa15cc7049c139b97fd98c49c397682cefd5010d812b247141e90c2c561c98781
+pin_clue[7] PENDING
+pin_clue[7] PROPOSING
+pin_clue[7] COMMITTING
+pin_clue[7] ACCEPTED
+pin_clue[8] 0xe07840ae1ad985ad60a94c83aa1e0a5abd59540af72b6ae23280be15f2da0c39
+pin_clue[8] PENDING
+pin_clue[8] PROPOSING
+pin_clue[8] COMMITTING
+pin_clue[8] ACCEPTED
+pin_clue[9] 0xfc83637e6279ca08d482a19cb87be59ee890bfba918d95217e20ec317326e372
+pin_clue[9] PENDING
+pin_clue[9] PROPOSING
+pin_clue[9] COMMITTING
+pin_clue[9] ACCEPTED
+pin_clue[10] 0x2e999798c04e58ce045923e6f0362f599465d21ea59db1d9bd25b8f0da3b025f
+pin_clue[10] PENDING
+pin_clue[10] PROPOSING
+pin_clue[10] COMMITTING
+pin_clue[10] FINALIZED
+pin_clue[11] 0x1b7f0e2e73127e0e5ef7c1a9e823d4781abd368db39919af868e4f56029e4ae1
+pin_clue[11] PENDING
+pin_clue[11] PROPOSING
+pin_clue[11] COMMITTING
+pin_clue[11] REVEALING
+pin_clue[11] ACCEPTED
+deploy FINALIZED
+add_clue[0] FINALIZED
+add_clue[1] FINALIZED
+add_clue[3] FINALIZED
+add_clue[4] FINALIZED
+add_clue[5] FINALIZED
+add_clue[6] FINALIZED
+add_clue[7] FINALIZED
+add_clue[8] FINALIZED
+add_clue[9] FINALIZED
+add_clue[10] FINALIZED
+add_clue[11] FINALIZED
+pin_clue[0] FINALIZED
+pin_clue[1] FINALIZED
+pin_clue[2] FINALIZED
+pin_clue[3] FINALIZED
+pin_clue[4] FINALIZED
+pin_clue[5] FINALIZED
+pin_clue[6] FINALIZED
+pin_clue[7] FINALIZED
+pin_clue[8] FINALIZED
+pin_clue[9] FINALIZED
+pin_clue[11] ACCEPTED
+pin_clue[11] FINALIZED
+open_race 0x6fb6831385ccc20ec65bb26ec1a5988874663ec0154242dafc76dce620a902bb
+open_race PENDING
+open_race PROPOSING
+open_race COMMITTING
+open_race ACCEPTED
+open_race ACCEPTED
+open_race FINALIZED
+Authored 0x9dA0f355C42f4a4C4D06D165936E78908e9d0f2e {
+  chain_version: 2,
+  closes_at: 1793607631,
+  clue_count: 12,
+  commit_count: 0,
+  hash_algo: 'sha256',
+  judge_seconds: 604800,
+  max_attempts_per_clue: 6,
+  max_commits: 8192,
+  max_players: 128,
+  owner: '0x030C90fF956E412E9546018cEdA28BB2fb0dd341',
+  player_count: 0,
+  protocol_version: 2,
+  reveal_seconds: 86400,
+  state: 1,
+  title: 'Proof of Hunt 01 - Paper Trail',
+  winner: '',
+  winner_cid: -1
+}

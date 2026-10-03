@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-stout-correct.jpg",
+    "title": "Local prototype: stout = CORRECT",
+    "detail": "Real commit 0, pin_status 0; browser-computed commitment and SDK-signed transactions."
+  },
+  {
+    "file": "02-prototype-finished.jpg",
+    "title": "Local prototype: both clues cleared",
+    "detail": "stout then 256; race state 3 (FINAL), winner_cid 1."
+  },
+  {
+    "file": "03-drifted.jpg",
+    "title": "Source changed: UNDETERMINED / DRIFTED",
+    "detail": "Same revealed commit 0; verdict 3, pin_status 1. The model is not asked to judge stale evidence."
+  },
+  {
+    "file": "04-attempts-preserved.jpg",
+    "title": "Failure does not spend an attempt",
+    "detail": "position 0, total_attempts 0, attempts_used 0, attempts_left 6."
+  },
+  {
+    "file": "05-unreachable.jpg",
+    "title": "Source removed: UNDETERMINED / UNREACHABLE",
+    "detail": "Same commit 0; verdict 3, pin_status 2 after the renderer observes HTTP 404."
+  },
+  {
+    "file": "06-restored-correct.jpg",
+    "title": "Original source restored: CORRECT",
+    "detail": "Same commitment and reveal; verdict 1, pin_status 0. No replacement commit required."
+  },
+  {
+    "file": "07-restored-position.jpg",
+    "title": "Recovery advances the player exactly once",
+    "detail": "position 1, cleared 1, total_attempts 1; earlier source failures spent no attempts."
+  },
+  {
+    "file": "08-studionet-revealed.jpg",
+    "title": "Studionet: commit and reveal finalized",
+    "detail": "stout, browser-computed hash; revealed=true, verdict=0 before judging."
+  },
+  {
+    "file": "09-studionet-stout-correct.jpg",
+    "title": "Studionet: stout = CORRECT",
+    "detail": "Position 1 confirmed; GPT-5.4 and Claude Sonnet 4.6 appear in the successful votes."
+  },
+  {
+    "file": "10-studionet-prototype-finished.jpg",
+    "title": "Studionet prototype completed",
+    "detail": "Both clues CORRECT; race FINAL, winner_cid 1. Full consensus mode."
+  },
+  {
+    "file": "11-studionet-drifted.jpg",
+    "title": "Studionet: changed source is DRIFTED",
+    "detail": "Commit 0 remains pending: verdict 3, pin_status 1."
+  },
+  {
+    "file": "12-studionet-attempts-preserved.jpg",
+    "title": "Studionet: attempts preserved",
+    "detail": "position 0, total_attempts 0, attempts_used 0, attempts_left 6."
+  },
+  {
+    "file": "13-studionet-unreachable.jpg",
+    "title": "Studionet: removed source is UNREACHABLE",
+    "detail": "Same commit 0; verdict 3, pin_status 2. Both source failures were free."
+  },
+  {
+    "file": "14-local-full-finished.jpg",
+    "title": "Local full race: all twelve cleared",
+    "detail": "Position 12. Qwen made one wrong ruling; Llama 3.1 8B passed the unchanged final clue."
+  },
+  {
+    "file": "15-studionet-restored.jpg",
+    "title": "Studionet: original source restored",
+    "detail": "Same commit and reveal; verdict 1 (CORRECT), pin_status 0."
+  },
+  {
+    "file": "16-studionet-restored-position.jpg",
+    "title": "Studionet: recovery advances exactly once",
+    "detail": "Position 1, total_attempts 1; both earlier source failures spent no attempt."
+  },
+  {
+    "file": "17-studionet-full-finished.jpg",
+    "title": "Studionet full race: 12 of 12 CORRECT",
+    "detail": "Position 12, total_attempts 12; all final-state answers verified, race FINAL."
+  },
+  {
+    "file": "18-reviewer-play-page.jpg",
+    "title": "A fresh OPEN race for reviewers",
+    "detail": "The play page targets a separate Studionet contract; it prepares calls for manual submission."
+  }
+]

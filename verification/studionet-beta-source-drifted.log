@@ -1,0 +1,31 @@
+drifted 0x386a0cef7c2afc9c56321149fbaa26f9a11782e1bb1017c290e4e9d14d32e000
+drifted PENDING
+drifted ACCEPTED
+drifted FINALIZED
+{
+  answer: 'cobalt',
+  chain_version: 2,
+  cid: 0,
+  clue_idx: 0,
+  commitment: '3f1357e5707114aef0189fffb2a12b5ddbdd7e6ec2ea1ee35c5504d79ea37a48',
+  judge_deadline: 1791620923,
+  pin_status: 1,
+  player: '0x30cf71084B650F87d8329e9179f6387FA958fa38',
+  reasoning_digest: '8578d23c25a8027ddf69a54a95e4bbd4f3d8ff45063a784efe7f0ba4311923f5',
+  reveal_deadline: 1791102523,
+  revealed: true,
+  source_digest: 'b5c982b244e1a3755975c6af1cd0caf6df52f46dc9b84315efac2cd45831ff7b',
+  verdict: 3
+} {
+  addr: '0x30cf71084B650F87d8329e9179f6387FA958fa38',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 0,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  pending_cid: 0,
+  position: 0,
+  total_attempts: 0
+}
+PASS: attempts and position unchanged

@@ -1,0 +1,267 @@
+join 0x07f3fe59ec05952af3309043eb1b0cca3baf6f6507079301835a188b914bd56e
+join PROPOSING
+join COMMITTING
+join ACCEPTED
+commit[0] 0xfa44be2224e6759feebba32bf4630fe815273d426b0ebe7a4c0cb10a230af9ef
+commit[0] PENDING
+commit[0] COMMITTING
+commit[0] ACCEPTED
+reveal[0] 0xfa4cfb31a70b48bd2e9c1d52be3f19e00c7f75969830046dc23d1776d013e2fe
+reveal[0] PENDING
+reveal[0] COMMITTING
+reveal[0] ACCEPTED
+judge[0] 0x9070ab6af6d56b3b169dde1d3f6f96556d3584eec7e2bd319363e4d6ed375316
+judge[0] PENDING
+judge[0] PROPOSING
+judge[0] COMMITTING
+judge[0] ACCEPTED
+Verdict 0 {
+  answer: 'stout',
+  chain_version: 1,
+  cid: 0,
+  clue_idx: 0,
+  commitment: 'c06a13ae991c8a670dd109e0dc29609914a78fc4cbd7e839da50a77662ea351e',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: 'bbea93f024709d70116065e7343fe17526121b49269ea36bddb08c49cd69e154',
+  revealed: true,
+  source_digest: '0e3be639592930d24b05f83ceca75b245b7aab92b3e4b2b5a04cd90428cb2e52',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 1,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 1,
+  total_attempts: 1
+}
+commit[1] 0x7ea06675d3c92735baf60d8022d17ff99e5345f77d800bacb75e9e579bb4db18
+commit[1] PENDING
+commit[1] COMMITTING
+commit[1] ACCEPTED
+reveal[1] 0xb490cd795943ca0dea2202781e0c6c028811139c4580c1eff3cba596d8b615e0
+reveal[1] PENDING
+reveal[1] PROPOSING
+reveal[1] COMMITTING
+reveal[1] ACCEPTED
+judge[1] 0x661bcda24a49714db5083ec175224326f7c2a661f8df8928953e1aeddc98ea73
+judge[1] PENDING
+judge[1] PROPOSING
+judge[1] COMMITTING
+judge[1] ACCEPTED
+Verdict 1 {
+  answer: '256',
+  chain_version: 1,
+  cid: 1,
+  clue_idx: 1,
+  commitment: 'b2570408e8976cc664a1be07e95537f4929d04a2c2635f61d9d4e156afe66526',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: 'bd903a1daff010fb24dfb0f866c277326c116e1d7a596b813d60d866dbec536a',
+  revealed: true,
+  source_digest: 'bab094ae874b63b95948a540af0a1653c2fb9c4bf7d170f593a04428ad6c000c',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 2,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 2,
+  total_attempts: 2
+}
+commit[2] 0x450666383e8f2e0fb8db960d6afcadf3af846bb4fcc06b6849296ce5fb6b7654
+commit[2] PROPOSING
+commit[2] COMMITTING
+commit[2] ACCEPTED
+reveal[2] 0x2bd2df809a243f8a8ca39950bd5d1d09be18981a5a016e55a814beef621531e3
+reveal[2] PENDING
+reveal[2] PROPOSING
+reveal[2] REVEALING
+reveal[2] ACCEPTED
+judge[2] 0x72f7bee7a12e4169a22375ec9360fe8c4d52046ddb1f0b1766bb6bff35052980
+judge[2] PENDING
+judge[2] PROPOSING
+judge[2] COMMITTING
+judge[2] ACCEPTED
+Verdict 2 {
+  answer: 'crocker',
+  chain_version: 1,
+  cid: 2,
+  clue_idx: 2,
+  commitment: '9584595a607c7e034ceaf30bb6fc72ab70e8e7264154f051bbdb53dc0d77cb0a',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: 'af5045134625d281f0f01beec0fa143654dbba8e46a87637ae3c28cedd57ad22',
+  revealed: true,
+  source_digest: '0cd3784a112006b04ff925ad94eef8babbae59c359ae9f23b83caa5c48700d9e',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 3,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 3,
+  total_attempts: 3
+}
+commit[3] 0xce4408ed6b292a0e295c44dbb371612b3328abc8a2d05c7272f0d39ef5a557bf
+commit[3] PENDING
+commit[3] PROPOSING
+commit[3] COMMITTING
+commit[3] ACCEPTED
+reveal[3] 0x0f56e4d4c551b08cd8f6558713b0c53832858debd428aa47a8b7f15d7c27e78a
+reveal[3] PENDING
+reveal[3] PROPOSING
+reveal[3] COMMITTING
+reveal[3] ACCEPTED
+judge[3] 0x9e83e34a2c333526ad731357092e4199227a89e10abd046cd5389222474da8fb
+judge[3] PENDING
+judge[3] PROPOSING
+judge[3] COMMITTING
+judge[3] ACCEPTED
+Verdict 3 {
+  answer: 'hypermedia',
+  chain_version: 1,
+  cid: 3,
+  clue_idx: 3,
+  commitment: '0cc187ec261e2564a0d86eb43935313899709458f86ba73a78972fa6f2055017',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: '9224cbf92c0b9d616176f0ad7db00be604a91d57f3e72654a76db3a8f16551aa',
+  revealed: true,
+  source_digest: '031ec8468db196d79cd15648557d6dac0769302f970ad5cec67cfc74385acf7c',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 4,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 4,
+  total_attempts: 4
+}
+commit[4] 0xb8260131e53d8c9ae8f47be8c2790662946a3f7d77904bec03b806365f17082d
+commit[4] PROPOSING
+commit[4] COMMITTING
+commit[4] ACCEPTED
+reveal[4] 0x5728de3edfbd255aba48cfe89df05c4235fbccfa0c565e0753c2fb9f08dda0a8
+reveal[4] PENDING
+reveal[4] PROPOSING
+reveal[4] ACCEPTED
+judge[4] 0x4bcf1e7cf89409cd45c5905e5b042460e254697b811bb2e6b842bf3bbe3ced7f
+judge[4] PENDING
+judge[4] PROPOSING
+judge[4] COMMITTING
+judge[4] ACCEPTED
+Verdict 4 {
+  answer: 'hypertext',
+  chain_version: 1,
+  cid: 4,
+  clue_idx: 4,
+  commitment: '2ea08b382a3b5c92217b048b87e326aa64540b693621125bc14d6274a68ca4dd',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: 'b699442ae76c45fdcf0e503de8411edb1b66578fef263a4fd2be47b105559c26',
+  revealed: true,
+  source_digest: 'd464822874481c5c06ecf5e706da3152c82e328b5d2d5325f3d6a9360850f8ac',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 5,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 5,
+  total_attempts: 5
+}
+commit[5] 0x049f07657ff7327857e114cd748b31385f7139d6e1c532142cc1f6adf57d36c8
+commit[5] PENDING
+commit[5] COMMITTING
+commit[5] ACCEPTED
+reveal[5] 0x49c7fba2ef851f86bcaac85e54972f35c32b39dd230e45b47d9dab91fad90280
+reveal[5] PENDING
+reveal[5] COMMITTING
+reveal[5] ACCEPTED
+judge[5] 0xdac93eed1ed6b991aafc7e4277e45a62804ca6d857505afbc6ebeb8bc4d7d2c2
+judge[5] PENDING
+judge[5] PROPOSING
+judge[5] COMMITTING
+judge[5] ACCEPTED
+Verdict 5 {
+  answer: '2606',
+  chain_version: 1,
+  cid: 5,
+  clue_idx: 5,
+  commitment: 'b7cde5495091c73099e1d7e450d082cbcbfdb124c14e41b394856559f12f69a3',
+  pin_status: 0,
+  player: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  reasoning_digest: '70ab1624f05dcd07d1707d7928f3f86b96a9a704e160b16af59c2ff374d42bf6',
+  revealed: true,
+  source_digest: '834b1f46723a74732820eecb39bcacadd7dafbe5a43f43fb86d4fa1e3fcb90d0',
+  verdict: 1
+} {
+  addr: '0x8C49314907Eaf4a52E23B35de19d2AA8e8e80444',
+  attempts_left: 6,
+  attempts_used: 0,
+  cleared: 6,
+  finished: false,
+  handle: 'verification-studionet',
+  joined: true,
+  position: 6,
+  total_attempts: 6
+}
+commit[6] 0xb216d5af4ef98a8190157a422d4f9ee3b891c0806e3ef1b4604b21e23c8797c4
+commit[6] PENDING
+commit[6] COMMITTING
+commit[6] ACCEPTED
+reveal[6] 0x35943a248589e783bdf585ff475549b5680b39063a4ceb4234e7ffa60f0e583a
+reveal[6] PENDING
+reveal[6] PROPOSING
+reveal[6] ACCEPTED
+judge[6] 0x374a8e97d6773a50659a636ef81a630c304e19099bcade2512f5adc33407a094
+judge[6] PENDING
+judge[6] PROPOSING
+judge[6] COMMITTING
+GenLayer RPC error (eth_getTransactionByHash): Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:127
+                        throw new UnknownRpcError(err);
+                              ^
+
+UnknownRpcError: An unknown RPC error occurred.
+
+Details: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+Version: viem@2.57.2
+    at withRetry.delay.count.count (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:127:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async attemptRetry (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/promise/withRetry.js:24:30) {
+  details: `Unexpected token '<', "<!DOCTYPE "... is not valid JSON`,
+  docsPath: undefined,
+  metaMessages: undefined,
+  shortMessage: 'An unknown RPC error occurred.',
+  version: '2.57.2',
+  code: -1,
+  [cause]: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+      at JSON.parse (<anonymous>)
+      at parseJSONFromBytes (node:internal/deps/undici/undici:5880:19)
+      at successSteps (node:internal/deps/undici/undici:5861:27)
+      at fullyReadBody (node:internal/deps/undici/undici:4753:9)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async consumeBody (node:internal/deps/undici/undici:5870:7)
+      at async Object.request (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/genlayer-js/dist/index.js:2408:22)
+      at async withRetry.delay.count.count (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/buildRequest.js:30:24)
+      at async attemptRetry (file:///Users/zmaxx/Projects/Proofofhunt/scripts/node_modules/viem/_esm/utils/promise/withRetry.js:24:30)
+}
+
+Node.js v20.20.2
