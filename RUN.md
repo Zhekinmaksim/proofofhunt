@@ -558,6 +558,10 @@ overprint on white paper; a white version is supplied for dark backgrounds.
 page headers and the Remotion mark. The generator also produces an outlined
 `logo-lockup.svg` with no external font dependency, a transparent `mark-512.png`
 and the social card `og.png`.
+The web build gives favicon and Apple icon files content-derived names and
+updates both pages' links. It also serves `/favicon.ico` and `/favicon.svg`
+for default discovery, so a logo change does not depend on a browser's old
+favicon cache.
 It reads the licensed WOFF2 fonts already in `web/fonts/`; the optional
 `POH_FONTS` override can point to equivalent TTF files. No system font
 installation is needed. The social headline is measured to fit its column.
