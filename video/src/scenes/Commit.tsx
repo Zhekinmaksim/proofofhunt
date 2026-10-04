@@ -10,7 +10,7 @@ const FIELDS: [string, string][] = [
   ['answer', 'stout'],
   ['salt', 'f2b59a66…f47d2'],
   ['your address', '0x08a3…5b23'],
-  ['clue', '0'],
+  ['first clue', 'index 0'],
 ];
 
 /**
@@ -49,11 +49,11 @@ export const Commit: React.FC<SceneProps> = ({start}) => (
 
     <div style={{marginTop: 56, display: 'flex', alignItems: 'center', gap: 56}}>
       <Stamp at={onBeat(start, 140)}>
-        <Headline size={132} color={C.purple}>Commit #0</Headline>
+        <Headline size={132} color={C.purple}>First commit</Headline>
       </Stamp>
       <Cut at={160} style={{width: 760}}>
         <Sentence size={40}>
-          Real Studionet prototype: reveal stout, then judge. CORRECT; position 1.
+          Real Studionet prototype: reveal stout, then judge. CORRECT; first clue cleared.
         </Sentence>
       </Cut>
     </div>
