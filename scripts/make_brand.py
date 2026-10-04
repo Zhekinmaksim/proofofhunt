@@ -1,8 +1,8 @@
-"""Generate the route/check H mark, site headers, favicons and social card.
+"""Generate the folded-map waypoint mark, site headers, favicons and social card.
 
-The single silhouette combines Hunt's H with a descending then rising course
-leg: a check made by completing the route. Geometry lives in mark.geometry.json
-and is also imported by the video. Run from the repository root:
+A folded map carries a waypoint cut into the paper. The place to find and the
+mark left by finding it share one solid silhouette. Geometry lives in
+mark.geometry.json and is also imported by the video. Run from the repository root:
 
     pip install -r scripts/requirements-brand.txt
     python3 scripts/make_brand.py
@@ -70,7 +70,7 @@ def mark_svg(color="#d5006d", label=True):
     accessibility = ' role="img" aria-label="Proof of Hunt"' if label else ''
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{GEOMETRY["viewBox"]}" '
             f'width="32" height="32"{accessibility}>'
-            f'<path fill="{color}" d="{GEOMETRY["path"]}"/></svg>\n')
+            f'<path fill="{color}" fill-rule="{GEOMETRY["fillRule"]}" d="{GEOMETRY["path"]}"/></svg>\n')
 
 
 def mark_image(size, bg=None, color="#d5006d", pad=0):
@@ -214,7 +214,7 @@ def write_svgs():
         x += glyph.width * scale + .3
     lockup = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {x:.2f} 32" '
               f'width="{x:.2f}" height="32" role="img" aria-label="Proof of Hunt">'
-              f'<path fill="#d5006d" d="{GEOMETRY["path"]}"/>'
+              f'<path fill="#d5006d" fill-rule="{GEOMETRY["fillRule"]}" d="{GEOMETRY["path"]}"/>'
               f'<path fill="#14140f" d="{" ".join(paths)}"/></svg>\n')
     Path(f"{OUT}/logo-lockup.svg").write_text(lockup)
 
@@ -223,7 +223,7 @@ def write_svgs():
         page = Path(f"web/{name}.html")
         html = page.read_text()
         inline = (f'<svg viewBox="{GEOMETRY["viewBox"]}" aria-hidden="true">'
-                  f'<path fill="#d5006d" d="{GEOMETRY["path"]}"/></svg>')
+                  f'<path fill="#d5006d" fill-rule="{GEOMETRY["fillRule"]}" d="{GEOMETRY["path"]}"/></svg>')
         import re
         html, count = re.subn(r'<svg viewBox="0 0 32 32" aria-hidden="true">.*?</svg>',
                              inline, html, flags=re.S)
@@ -278,7 +278,7 @@ def make_preview(path):
         image.paste(mark, position, mark)
     draw.text((360, 112), "PROOF\nOF HUNT",
               font=font("SofiaSansExtraCondensed", 76, 800), fill=INK, spacing=0)
-    draw.text((61, 332), "HUNT / ROUTE / PROOF",
+    draw.text((61, 332), "MAP / FIND / PROOF",
               font=font("MartianMono", 15, 600), fill=INK_SOFT)
     draw.text((857, 330), "ONE MARK.\nEVERY SCALE.",
               font=font("SofiaSansExtraCondensed", 38, 800), fill=PAPER, spacing=2)

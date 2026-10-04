@@ -13,5 +13,6 @@
   ],
   "clientTests": 14,
   "videoTypescript": "passed",
-  "videoSeconds": "60.011000"
+  "videoSeconds": "60.011000",
+  "cutoutRule": "evenodd"
 }

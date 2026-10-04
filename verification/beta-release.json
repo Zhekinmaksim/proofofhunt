@@ -10,5 +10,5 @@
   "walletTest": "Real EIP-1193 SDK route with isolated Node signer; browser extension approval UI not tested.",
   "ciRun": 37110696396,
   "healthWorkflowRun": 37110749209,
-  "videoSha256": "5d8b3201cb76119ddceb55c5b38fab0e93a544bd97457c1615669ca029b73dd8"
+  "videoSha256": "a1f189126e79cb1ca2e492307e805d330ff0d528ba6942213fb3699c40131243"
 }

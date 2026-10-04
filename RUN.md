@@ -549,10 +549,10 @@ pip install -r scripts/requirements-brand.txt
 python3 scripts/make_brand.py
 ```
 
-The mark combines an H for Hunt with the descending and rising leg of a course,
-which forms a check. Its solid silhouette uses the same geometry at 16px and
-512px. Purple is the course overprint on the site's white paper; a white
-version is supplied for dark backgrounds.
+The mark is a folded map with a waypoint cut into the paper. The solid
+silhouette fits the site's orienteering course and signals where to look for
+an answer. The same geometry is used at 16px and 512px. Purple is the course
+overprint on white paper; a white version is supplied for dark backgrounds.
 
 `web/brand/mark.geometry.json` is the source for the SVG/PNG/ICO exports, both
 page headers and the Remotion mark. The generator also produces an outlined

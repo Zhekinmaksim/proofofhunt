@@ -119,13 +119,13 @@ export const Stamp: React.FC<{
   );
 };
 
-/** The route/check H; shared with every site and brand export. */
+/** The folded-map waypoint; shared with every site and brand export. */
 export const Mark: React.FC<{size: number; color?: string}> = ({
   size,
   color = C.purple,
 }) => (
   <svg width={size} height={size} viewBox={markGeometry.viewBox} aria-hidden="true">
-    <path fill={color} d={markGeometry.path} />
+    <path fill={color} fillRule="evenodd" d={markGeometry.path} />
   </svg>
 );
 
